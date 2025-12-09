@@ -11,7 +11,7 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "La Ley de Senos establece la relación: $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$.",
+    "hint": "La Ley de Senos establece la relación: $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)}$.",
     "explanation": "La Ley de Senos requiere tener al menos una pareja lado-ángulo opuesto para poder establecer la proporción. Se aplica en los casos de Ángulo-Lado-Ángulo (ALA), Ángulo-Ángulo-Lado (AAL) y Lado-Lado-Ángulo (LLA, el caso ambiguo).",
     "explanative_video": null,
     "collapsible_text": null
@@ -28,7 +28,7 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "La fórmula de la Ley de Cosenos es $a^2 = b^2 + c^2 - 2bc \\cos(A)$.",
+    "hint": "La fórmula de la Ley de Cosenos es $a^2 = b^2 + c^2 - 2bc \\\\cos(A)$.",
     "explanation": "Para encontrar un lado ($a$) usando la Ley de Cosenos, se debe conocer el ángulo opuesto a ese lado ($A$) y los otros dos lados ($b$ y $c$), lo que corresponde al caso Lado-Ángulo-Lado (SAS).",
     "explanative_video": null,
     "collapsible_text": null
@@ -38,10 +38,10 @@
     "question": "En un triángulo con lados $a, b, c$ y ángulos opuestos $A, B, C$, ¿cuál de las siguientes expresiones representa correctamente la Ley de Senos?",
     "image": null,
     "options": [
-      { "text": "$\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$", "correct": true },
-      { "text": "$\\frac{a}{\\cos(A)} = \\frac{b}{\\cos(B)} = \\frac{c}{\\cos(C)}$", "correct": false },
-      { "text": "$a^2 = b^2 + c^2 - 2bc \\cos(A)$", "correct": false },
-      { "text": "$a + b + c = 180^{\\circ}$", "correct": false }
+      { "text": "$$\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)} = \\\\frac{c}{\\\\sin(C)}$$", "correct": true },
+      { "text": "$$\\frac{a}{\\\\cos(A)} = \\\\frac{b}{\\\\cos(B)} = \\\\frac{c}{\\\\cos(C)}$$", "correct": false },
+      { "text": "$$a^2 = b^2 + c^2 - 2bc \\\\cos(A)$$", "correct": false },
+      { "text": "$$a + b + c = 180^{\\\\circ}$$", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
@@ -69,7 +69,7 @@
   },
   {
     "id": "GYT00AE",
-    "question": "Considerando la Ley de Cosenos $c^2 = a^2 + b^2 - 2ab \\cos(C)$. Si el ángulo $C$ es obtuso ($90^{\\circ} < C < 180^{\\circ}$), ¿cómo es el valor de $\\cos(C)$?",
+    "question": "Considerando la Ley de Cosenos $c^2 = a^2 + b^2 - 2ab \\\\cos(C)$. Si el ángulo $C$ es obtuso ($90^{\\circ} < C < 180^{\\circ}$), ¿cómo es el valor de $\\\\cos(C)$?",
     "image": null,
     "options": [
       { "text": "Negativo", "correct": true },
@@ -80,7 +80,7 @@
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
     "hint": "Recuerda el signo de las funciones trigonométricas en el segundo cuadrante.",
-    "explanation": "El coseno de un ángulo en el segundo cuadrante (entre $90^{\\circ}$ y $180^{\\circ}$) es negativo. Esto significa que el término $-2ab \\cos(C)$ se convierte en una suma, lo que hace que $c^2$ sea mayor que $a^2 + b^2$.",
+    "explanation": "El coseno de un ángulo en el segundo cuadrante (entre $90^{\\circ}$ y $180^{\\circ}$) es negativo. Esto significa que el término $-2ab \\\\cos(C)$ se convierte en una suma, lo que hace que $c^2$ sea mayor que $a^2 + b^2$.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -96,8 +96,8 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Calcula la altura $h = b \\sin(A)$. Si $h < a < b$, existen dos soluciones. La fórmula que proporciona el lado $a$ si se conociera el ángulo $B$ es $\\sin(B) = \\frac{b \\sin(A)}{a}$.",
-    "explanation": "La altura $h = 15 \\cdot \\sin(30^{\\circ}) = 15 \\cdot 0.5 = 7.5 \\text{ cm}$. Como $h (7.5) < a (10) < b (15)$, se cumple la condición del caso ambiguo LLA para que existan dos posibles triángulos.",
+    "hint": "Calcula la altura $h = b \\\\sin(A)$. Si $h < a < b$, existen dos soluciones. La fórmula que proporciona el lado $a$ si se conociera el ángulo $B$ es $\\\\sin(B) = \\\\frac{b \\\\sin(A)}{a}$.",
+    "explanation": "La altura $h = 15 \\cdot \\\\sin(30^{\\circ}) = 15 \\cdot 0.5 = 7.5 \\text{ cm}$. Como $h (7.5) < a (10) < b (15)$, se cumple la condición del caso ambiguo LLA para que existan dos posibles triángulos.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -113,8 +113,8 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Recuerda que $\\cos(90^{\\circ}) = 0$. La fórmula de la Ley de Cosenos es $a^2 = b^2 + c^2 - 2bc \\cos(A)$.",
-    "explanation": "Si $A=90^{\\circ}$, $\\cos(A)=0$. La fórmula $a^2 = b^2 + c^2 - 2bc \\cos(A)$ se simplifica a $a^2 = b^2 + c^2 - 2bc(0)$, lo que resulta en $a^2 = b^2 + c^2$, que es el Teorema de Pitágoras.",
+    "hint": "Recuerda que $\\\\cos(90^{\\circ}) = 0$. La fórmula de la Ley de Cosenos es $a^2 = b^2 + c^2 - 2bc \\\\cos(A)$.",
+    "explanation": "Si $A=90^{\\circ}$, $\\\\cos(A)=0$. La fórmula $a^2 = b^2 + c^2 - 2bc \\\\cos(A)$ se simplifica a $a^2 = b^2 + c^2 - 2bc(0)$, lo que resulta en $a^2 = b^2 + c^2$, que es el Teorema de Pitágoras.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -147,14 +147,14 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "La altura $h$ es el límite inferior para que exista al menos un triángulo. La fórmula de la altura es $h = b \\sin(A)$.",
+    "hint": "La altura $h$ es el límite inferior para que exista al menos un triángulo. La fórmula de la altura es $h = b \\\\sin(A)$.",
     "explanation": "Si $a=h$, se forma exactamente un triángulo rectángulo. Si $a<h$, el lado $a$ no es lo suficientemente largo para tocar el lado opuesto, por lo que no existe solución (cero triángulos).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00AJ",
-    "question": "Si en un triángulo se conocen los tres lados $a, b, c$, para encontrar el ángulo $A$ usando la Ley de Cosenos, la fórmula despejada para $\\cos(A)$ es $2bc \\cos(A) = b^2 + c^2 - a^2$. La Ley de Cosenos original es $a^2 = b^2 + c^2 - 2bc \\cos(A)$. ¿Qué valor es el que debe tener el ángulo $A$ para que el triángulo sea acutángulo, es decir, que todos sus ángulos sean agudos?",
+    "question": "Si en un triángulo se conocen los tres lados $a, b, c$, para encontrar el ángulo $A$ usando la Ley de Cosenos, la fórmula despejada para $\\\\cos(A)$ es $2bc \\\\cos(A) = b^2 + c^2 - a^2$. La Ley de Cosenos original es $a^2 = b^2 + c^2 - 2bc \\\\cos(A)$. ¿Qué valor es el que debe tener el ángulo $A$ para que el triángulo sea acutángulo, es decir, que todos sus ángulos sean agudos?",
     "image": null,
     "options": [
       { "text": "$\\cos(A) > 0$", "correct": true },
@@ -165,7 +165,7 @@
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
     "hint": "Un ángulo agudo es aquel cuya medida está entre $0^{\\circ}$ y $90^{\\circ}$. Recuerda el signo del coseno en el primer cuadrante.",
-    "explanation": "Un ángulo es agudo si está entre $0^{\\circ}$ y $90^{\\circ}$. En este rango, el valor del coseno es positivo ($\\cos(A) > 0$). Si $\\cos(A)$ fuera negativo, el ángulo sería obtuso.",
+    "explanation": "Un ángulo es agudo si está entre $0^{\\circ}$ y $90^{\\circ}$. En este rango, el valor del coseno es positivo ($\\cos(A) > 0$). Si $\\\\cos(A)$ fuera negativo, el ángulo sería obtuso.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -182,7 +182,7 @@
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
     "hint": "La relación $a/\\sin(A)$ es una constante que se relaciona con un elemento importante del triángulo. Se conoce como la 'fórmula del diámetro'.",
-    "explanation": "La Ley de Senos extendida establece que $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)} = 2R$, donde $R$ es el radio del círculo circunscrito (el círculo que pasa por los tres vértices). Por lo tanto, $2R$ es el diámetro.",
+    "explanation": "La Ley de Senos extendida establece que $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)} = \\\\frac{c}{\\\\sin(C)} = 2R$, donde $R$ es el radio del círculo circunscrito (el círculo que pasa por los tres vértices). Por lo tanto, $2R$ es el diámetro.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -205,18 +205,18 @@
   },
   {
     "id": "GYT00AM",
-    "question": "Para encontrar el lado $c$ de un triángulo $\\Delta ABC$, se utiliza la expresión $c^2 = a^2 + b^2 - 2ab \\cos(C)$. Si el triángulo fuera isósceles con $a=b$, ¿cuál de los siguientes es un resultado equivalente a $c^2$?",
+    "question": "Para encontrar el lado $c$ de un triángulo $\\Delta ABC$, se utiliza la expresión $c^2 = a^2 + b^2 - 2ab \\\\cos(C)$. Si el triángulo fuera isósceles con $a=b$, ¿cuál de los siguientes es un resultado equivalente a $c^2$?",
     "image": null,
     "options": [
-      { "text": "$2a^2(1 - \\cos(C))$", "correct": true },
-      { "text": "$2a^2(1 + \\cos(C))$", "correct": false },
-      { "text": "$a^2(2 - 2 \\cos(C))$", "correct": false },
-      { "text": "$a^2(1 - 2 \\cos(C))$", "correct": false }
+      { "text": "$2a^2(1 - \\\\cos(C))$", "correct": true },
+      { "text": "$2a^2(1 + \\\\cos(C))$", "correct": false },
+      { "text": "$a^2(2 - 2 \\\\cos(C))$", "correct": false },
+      { "text": "$a^2(1 - 2 \\\\cos(C))$", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
     "hint": "Sustituye $b=a$ en la fórmula de la Ley de Cosenos y factoriza el término común $a^2$.",
-    "explanation": "Al sustituir $b=a$: $c^2 = a^2 + a^2 - 2a \\cdot a \\cos(C) = 2a^2 - 2a^2 \\cos(C)$. Factorizando $2a^2$, se obtiene $2a^2(1 - \\cos(C))$.",
+    "explanation": "Al sustituir $b=a$: $c^2 = a^2 + a^2 - 2a \\cdot a \\\\cos(C) = 2a^2 - 2a^2 \\\\cos(C)$. Factorizando $2a^2$, se obtiene $2a^2(1 - \\\\cos(C))$.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -233,7 +233,7 @@
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
     "hint": "La suma de los ángulos internos es $180^{\\circ}$. Calcula el ángulo $A$ y evalúa si tienen un par completo lado-ángulo opuesto conocido.",
-    "explanation": "El ángulo $A = 180^{\\circ} - 40^{\\circ} - 100^{\\circ} = 40^{\\circ}$. Al conocer el ángulo $A$ y el lado opuesto $a = 50 \\text{ m}$, ya tienen un par completo. Adicionalmente, se conoce el ángulo $C=100^{\\circ}$ y el lado $c=80 \\text{ m}$. Se tiene el caso AAL/ALA. Por lo tanto, se aplica directamente la Ley de Senos: $\\frac{b}{\\sin(B)} = \\frac{a}{\\sin(A)}$ o $\\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$.",
+    "explanation": "El ángulo $A = 180^{\\circ} - 40^{\\circ} - 100^{\\circ} = 40^{\\circ}$. Al conocer el ángulo $A$ y el lado opuesto $a = 50 \\text{ m}$, ya tienen un par completo. Adicionalmente, se conoce el ángulo $C=100^{\\circ}$ y el lado $c=80 \\text{ m}$. Se tiene el caso AAL/ALA. Por lo tanto, se aplica directamente la Ley de Senos: $\\\\frac{b}{\\\\sin(B)} = \\\\frac{a}{\\\\sin(A)}$ o $\\\\frac{b}{\\\\sin(B)} = \\\\frac{c}{\\\\sin(C)}$.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -249,7 +249,7 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "El caso es Lado-Ángulo-Lado (SAS). La Ley de Cosenos permite encontrar el lado opuesto al ángulo conocido. La fórmula para calcular el lado $c$ es $c^2 = a^2 + b^2 - 2ab \\cos(C)$.",
+    "hint": "El caso es Lado-Ángulo-Lado (SAS). La Ley de Cosenos permite encontrar el lado opuesto al ángulo conocido. La fórmula para calcular el lado $c$ es $c^2 = a^2 + b^2 - 2ab \\\\cos(C)$.",
     "explanation": "En el caso LAL (SAS), la Ley de Cosenos se utiliza para calcular el lado opuesto al ángulo dado, que en este caso es el lado $c$. Los ángulos $A$ y $B$ requerirían un despeje posterior o el uso de la Ley de Senos.",
     "explanative_video": null,
     "collapsible_text": null
@@ -266,7 +266,7 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "La Ley de Senos proporciona el valor de $\\sin(\\theta)$. Recuerda que $\\sin(\\theta) = \\sin(180^{\\circ} - \\theta)$, lo que genera ambigüedad.",
+    "hint": "La Ley de Senos proporciona el valor de $\\\\sin(\\theta)$. Recuerda que $\\\\sin(\\theta) = \\\\sin(180^{\\circ} - \\\\theta)$, lo que genera ambigüedad.",
     "explanation": "El caso LLA (o SSA) es conocido como el caso ambiguo porque, dependiendo de la relación entre el lado opuesto al ángulo conocido ($a$) y la altura ($h$), el triángulo puede no existir (cero soluciones), ser único (una solución), o tener dos posibles formas (dos soluciones).",
     "explanative_video": null,
     "collapsible_text": null
@@ -283,14 +283,14 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "El caso Ángulo-Ángulo-Ángulo (AAA) permite establecer una escala, pero no las medidas exactas. La Ley de Senos quedaría con la forma $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)} = K$, donde $K$ es una constante desconocida.",
+    "hint": "El caso Ángulo-Ángulo-Ángulo (AAA) permite establecer una escala, pero no las medidas exactas. La Ley de Senos quedaría con la forma $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)} = \\\\frac{c}{\\\\sin(C)} = K$, donde $K$ es una constante desconocida.",
     "explanation": "El conocimiento de los tres ángulos (AAA) solo permite determinar la forma del triángulo (es decir, qué tan 'picudo' o 'achatado' es), ya que define su semejanza, pero no sus dimensiones exactas. No se puede determinar ninguna longitud de lado.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00AR",
-    "question": "Si al utilizar la Ley de Cosenos para encontrar un ángulo $A$ de un triángulo, se obtiene que $\\cos(A) = -0.5$. ¿Cómo es el ángulo $A$?",
+    "question": "Si al utilizar la Ley de Cosenos para encontrar un ángulo $A$ de un triángulo, se obtiene que $\\\\cos(A) = -0.5$. ¿Cómo es el ángulo $A$?",
     "image": null,
     "options": [
       { "text": "Obtuso", "correct": true },
@@ -307,7 +307,7 @@
   },
   {
     "id": "GYT00AS",
-    "question": "En la Ley de Senos, si se conoce el ángulo $A$ y los lados $a$ y $b$, para encontrar el ángulo $B$ se utilizaría la fórmula $\\sin(B) = \\frac{b \\sin(A)}{a}$. Si el resultado de la expresión $\\frac{b \\sin(A)}{a}$ es un número mayor que 1, ¿qué indica esto sobre la existencia del triángulo?",
+    "question": "En la Ley de Senos, si se conoce el ángulo $A$ y los lados $a$ y $b$, para encontrar el ángulo $B$ se utilizaría la fórmula $\\\\sin(B) = \\\\frac{b \\\\sin(A)}{a}$. Si el resultado de la expresión $\\\\frac{b \\\\sin(A)}{a}$ es un número mayor que 1, ¿qué indica esto sobre la existencia del triángulo?",
     "image": null,
     "options": [
       { "text": "El triángulo es imposible de construir (cero soluciones)", "correct": true },
@@ -318,7 +318,7 @@
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
     "hint": "El valor del seno de cualquier ángulo real siempre está entre -1 y 1. La altura del triángulo es mayor que el lado $a$.",
-    "explanation": "Dado que el valor del seno de cualquier ángulo debe ser $\\le 1$, un resultado mayor que 1 indica que los datos proporcionados son inconsistentes, y el lado $a$ no es lo suficientemente largo como para cerrar el triángulo. Por lo tanto, no existe solución (cero triángulos).",
+    "explanation": "Dado que el valor del seno de cualquier ángulo debe ser $\\\\le 1$, un resultado mayor que 1 indica que los datos proporcionados son inconsistentes, y el lado $a$ no es lo suficientemente largo como para cerrar el triángulo. Por lo tanto, no existe solución (cero triángulos).",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -341,7 +341,7 @@
   },
   {
     "id": "GYT00AU",
-    "question": "La Ley de Cosenos, $a^2 = b^2 + c^2 - 2bc \\cos(A)$, demuestra que si el ángulo $A$ es muy cercano a $0^{\\circ}$, el lado $a$ será muy ______; mientras que si el ángulo $A$ es cercano a $180^{\\circ}$, el lado $a$ será muy ______.",
+    "question": "La Ley de Cosenos, $a^2 = b^2 + c^2 - 2bc \\\\cos(A)$, demuestra que si el ángulo $A$ es muy cercano a $0^{\\circ}$, el lado $a$ será muy ______; mientras que si el ángulo $A$ es cercano a $180^{\\circ}$, el lado $a$ será muy ______.",
     "image": null,
     "options": [
       { "text": "Pequeño, Grande", "correct": true },
@@ -351,14 +351,14 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Considera que $\\cos(0^{\\circ}) = 1$ y $\\cos(180^{\\circ}) = -1$. El CEPREDIX recomienda analizar el valor del término $-2bc \\cos(A)$.",
-    "explanation": "Si $A \\to 0^{\\circ}$, $\\cos(A) \\to 1$, entonces $a^2 \\to b^2 + c^2 - 2bc = (b-c)^2$, por lo que $a \\to |b-c|$ (muy pequeño). Si $A \\to 180^{\\circ}$, $\\cos(A) \\to -1$, entonces $a^2 \\to b^2 + c^2 + 2bc = (b+c)^2$, por lo que $a \\to b+c$ (muy grande, casi una línea recta).",
+    "hint": "Considera que $\\\\cos(0^{\\circ}) = 1$ y $\\\\cos(180^{\\circ}) = -1$. El CEPREDIX recomienda analizar el valor del término $-2bc \\\\cos(A)$.",
+    "explanation": "Si $A \\to 0^{\\circ}$, $\\\\cos(A) \\to 1$, entonces $a^2 \\to b^2 + c^2 - 2bc = (b-c)^2$, por lo que $a \\to |b-c|$ (muy pequeño). Si $A \\to 180^{\\circ}$, $\\\\cos(A) \\to -1$, entonces $a^2 \\to b^2 + c^2 + 2bc = (b+c)^2$, por lo que $a \\to b+c$ (muy grande, casi una línea recta).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00AV",
-    "question": "En la Ley de Senos $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$, para encontrar el lado $b$ conociendo el lado $a$ y los ángulos $A$ và $B$, se debe despejar $b$. La Ley de Senos, al basarse en la proporción entre lados y el seno de sus ángulos opuestos, solo puede aplicarse directamente en triángulos ______.",
+    "question": "En la Ley de Senos $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)}$, para encontrar el lado $b$ conociendo el lado $a$ y los ángulos $A$ y $B$, se debe despejar $b$. La Ley de Senos, al basarse en la proporción entre lados y el seno de sus ángulos opuestos, solo puede aplicarse directamente en triángulos ______.",
     "image": null,
     "options": [
       { "text": "Oblicuángulos (o cualquier triángulo)", "correct": true },
@@ -375,7 +375,7 @@
   },
   {
     "id": "GYT00AW",
-    "question": "En un triángulo $\\Delta ABC$, la relación entre las áreas de los triángulos formados por la subdivisión de uno de sus ángulos se rige por la Ley de Senos. Si la Ley de Senos establece $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$, y se tiene la identidad $a \\sin(B) = b \\sin(A)$, esta identidad es equivalente al principio de que el ______ de un ángulo y su lado opuesto es constante.",
+    "question": "En un triángulo $\\Delta ABC$, la relación entre las áreas de los triángulos formados por la subdivisión de uno de sus ángulos se rige por la Ley de Senos. Si la Ley de Senos establece $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)}$, y se tiene la identidad $a \\\\sin(B) = b \\\\sin(A)$, esta identidad es equivalente al principio de que el ______ de un ángulo y su lado opuesto es constante.",
     "image": null,
     "options": [
       { "text": "Cociente", "correct": true },
@@ -409,7 +409,7 @@
   },
   {
     "id": "GYT00AY",
-    "question": "Se tienen dos lados de un triángulo ($a$ y $b$) y un ángulo ($B$) que no es el comprendido entre ellos ni el opuesto a $a$. Para encontrar el lado $c$, se necesita primero encontrar el ángulo $A$ (opuesto a $a$). Si la fórmula para encontrar el lado $c$ es $c = \\sqrt{a^2 + b^2 - 2ab \\cos(C)}$, ¿cuál es el riesgo principal de usar primero la Ley de Senos para encontrar el ángulo $A$ y luego la Ley de Cosenos para encontrar $c$?",
+    "question": "Se tienen dos lados de un triángulo ($a$ y $b$) y un ángulo ($B$) que no es el comprendido entre ellos ni el opuesto a $a$. Para encontrar el lado $c$, se necesita primero encontrar el ángulo $A$ (opuesto a $a$). Si la fórmula para encontrar el lado $c$ es $c = \\\\sqrt{a^2 + b^2 - 2ab \\\\cos(C)}$, ¿cuál es el riesgo principal de usar primero la Ley de Senos para encontrar el ángulo $A$ y luego la Ley de Cosenos para encontrar $c$?",
     "image": null,
     "options": [
       { "text": "Se puede caer en el caso ambiguo (LLA) al usar la Ley de Senos, llevando a dos posibles valores para $c$", "correct": true },
@@ -419,8 +419,8 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Cuando tienes Lado-Lado-Ángulo (LLA), la Ley de Senos puede proporcionar dos valores para el ángulo no opuesto al lado conocido. La Ley de Senos es $\\sin(A) = \\frac{a \\sin(B)}{b}$.",
-    "explanation": "Al usar la Ley de Senos en el caso LLA, se podría obtener un valor para $\\sin(A)$ que corresponde a dos ángulos, $A$ y $180^{\\circ} - A$. Esto lleva a dos posibles soluciones para el triángulo, por lo que el lado $c$ y el ángulo $C$ también tendrían dos valores posibles.",
+    "hint": "Cuando tienes Lado-Lado-Ángulo (LLA), la Ley de Senos puede proporcionar dos valores para el ángulo no opuesto al lado conocido. La Ley de Senos es $\\\\sin(A) = \\\\frac{a \\\\sin(B)}{b}$.",
+    "explanation": "Al usar la Ley de Senos en el caso LLA, se podría obtener un valor para $\\\\sin(A)$ que corresponde a dos ángulos, $A$ y $180^{\\circ} - A$. Esto lleva a dos posibles soluciones para el triángulo, por lo que el lado $c$ y el ángulo $C$ también tendrían dos valores posibles.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -436,14 +436,14 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "En cualquier triángulo, al lado más grande se opone el ángulo más grande. Un triángulo solo puede tener un ángulo obtuso. La Ley de Senos es $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$.",
+    "hint": "En cualquier triángulo, al lado más grande se opone el ángulo más grande. Un triángulo solo puede tener un ángulo obtuso. La Ley de Senos es $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)}$.",
     "explanation": "Un triángulo no puede tener más de un ángulo obtuso, ya que la suma de sus ángulos es $180^{\\circ}$. Si $A$ es obtuso, $B$ y $C$ deben ser agudos. Además, como $A$ es el ángulo más grande (opuesto al lado $a$, que es el más grande), $B$ y $C$ deben ser menores que $A$ y, por ende, agudos.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00BA",
-    "question": "Un consultor del CEPREDIX explica a un aspirante que la Ley de Cosenos se puede escribir para el ángulo $B$ como $b^2 = a^2 + c^2 - 2ac \\cos(B)$. Si los tres lados del triángulo son conocidos ($a=3, b=4, c=5$ unidades) y se busca el ángulo $B$, ¿por qué es mejor usar la Ley de Cosenos en lugar de la Ley de Senos después de calcular el ángulo $A$ o $C$?",
+    "question": "Un consultor del CEPREDIX explica a un aspirante que la Ley de Cosenos se puede escribir para el ángulo $B$ como $b^2 = a^2 + c^2 - 2ac \\\\cos(B)$. Si los tres lados del triángulo son conocidos ($a=3, b=4, c=5$ unidades) y se busca el ángulo $B$, ¿por qué es mejor usar la Ley de Cosenos en lugar de la Ley de Senos después de calcular el ángulo $A$ o $C$?",
     "image": null,
     "options": [
       { "text": "La Ley de Cosenos evita el caso ambiguo (doble solución) para el ángulo buscado", "correct": true },
@@ -453,14 +453,14 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "La Ley de Senos proporciona $\\sin(\\theta)$ cuyo valor es compartido por $\\theta$ y $180^{\\circ} - \\theta$. El triángulo con lados 3, 4 y 5 es rectángulo, pero el principio aplica a cualquier triángulo.",
-    "explanation": "La Ley de Cosenos, al arrojar el valor de $\\cos(B)$, elimina la ambigüedad del caso LLA. Si $\\cos(B)$ es positivo, $B$ es agudo; si es negativo, $B$ es obtuso; si es cero, $B$ es recto. Al usar la Ley de Senos para encontrar un ángulo, si la solución es aguda, siempre existe la posibilidad de que la solución obtusa ($180^{\\circ} - B$) también sea válida.",
+    "hint": "La Ley de Senos proporciona $\\\\sin(\\theta)$ cuyo valor es compartido por $\\\\theta$ y $180^{\\circ} - \\\\theta$. El triángulo con lados 3, 4 y 5 es rectángulo, pero el principio aplica a cualquier triángulo.",
+    "explanation": "La Ley de Cosenos, al arrojar el valor de $\\\\cos(B)$, elimina la ambigüedad del caso LLA. Si $\\\\cos(B)$ es positivo, $B$ es agudo; si es negativo, $B$ es obtuso; si es cero, $B$ es recto. Al usar la Ley de Senos para encontrar un ángulo, si la solución es aguda, siempre existe la posibilidad de que la solución obtusa ($180^{\\circ} - B$) también sea válida.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00BB",
-    "question": "La Ley de Senos establece $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)} = \\frac{c}{\\sin(C)}$. ¿Cuáles de las siguientes combinaciones de ángulos $A$ y $B$ y lados $a$ y $b$ cumplen la condición para la existencia de un triángulo, en el caso ambiguo LLA?",
+    "question": "La Ley de Senos establece $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)} = \\\\frac{c}{\\\\sin(C)}$. ¿Cuáles de las siguientes combinaciones de ángulos $A$ y $B$ y lados $a$ y $b$ cumplen la condición para la existencia de un triángulo, en el caso ambiguo LLA?",
     "image": null,
     "options": [
       { "text": "$a=15, b=20, A=30^{\\circ}$ ($h < a < b$)", "correct": true },
@@ -470,8 +470,8 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "La altura $h = b \\sin(A)$. Solo existe el caso ambiguo (dos soluciones) si la altura $h < a < b$.",
-    "explanation": "La altura $h = 20 \\cdot \\sin(30^{\\circ}) = 20 \\cdot 0.5 = 10$. El caso ambiguo ocurre si $10 < a < 20$. Con $a=15$, la condición se cumple y existen dos soluciones. Las otras opciones representan cero, una, o una única solución no ambigua.",
+    "hint": "La altura $h = b \\\\sin(A)$. Solo existe el caso ambiguo (dos soluciones) si la altura $h < a < b$.",
+    "explanation": "La altura $h = 20 \\cdot \\\\sin(30^{\\circ}) = 20 \\cdot 0.5 = 10$. El caso ambiguo ocurre si $10 < a < 20$. Con $a=15$, la condición se cumple y existen dos soluciones. Las otras opciones representan cero, una, o una única solución no ambigua.",
     "explanative_video": null,
     "collapsible_text": null
   },
@@ -511,7 +511,7 @@
   },
   {
     "id": "GYT00BE",
-    "question": "Si la Ley de Cosenos es $c^2 = a^2 + b^2 - 2ab \\cos(C)$, y se conoce que en un triángulo se cumple la desigualdad $c^2 > a^2 + b^2$, ¿cuál de las siguientes afirmaciones es necesariamente cierta sobre el triángulo?",
+    "question": "Si la Ley de Cosenos es $c^2 = a^2 + b^2 - 2ab \\\\cos(C)$, y se conoce que en un triángulo se cumple la desigualdad $c^2 > a^2 + b^2$, ¿cuál de las siguientes afirmaciones es necesariamente cierta sobre el triángulo?",
     "image": null,
     "options": [
       { "text": "El ángulo $C$ es obtuso ($C > 90^{\\circ}$)", "correct": true },
@@ -521,14 +521,14 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Para que $c^2$ sea mayor que $a^2 + b^2$, el término $-2ab \\cos(C)$ debe ser positivo. Analiza el signo de $\\cos(C)$.",
-    "explanation": "Para que $c^2 > a^2 + b^2$, el término $-2ab \\cos(C)$ debe ser $> 0$. Dado que $a, b > 0$ y $2$ es positivo, esto solo ocurre si $\\cos(C)$ es negativo, pues $(-)(+) \\cdot \\cos(C) > 0$. Un coseno negativo en un triángulo implica que el ángulo $C$ se encuentra en el segundo cuadrante, por lo tanto, es obtuso ($90^{\\circ} < C < 180^{\\circ}$).",
+    "hint": "Para que $c^2$ sea mayor que $a^2 + b^2$, el término $-2ab \\\\cos(C)$ debe ser positivo. Analiza el signo de $\\\\cos(C)$.",
+    "explanation": "Para que $c^2 > a^2 + b^2$, el término $-2ab \\\\cos(C)$ debe ser $> 0$. Dado que $a, b > 0$ y $2$ es positivo, esto solo ocurre si $\\\\cos(C)$ es negativo, pues $(-)(+) \\cdot \\\\cos(C) > 0$. Un coseno negativo en un triángulo implica que el ángulo $C$ se encuentra en el segundo cuadrante, por lo tanto, es obtuso ($90^{\\circ} < C < 180^{\\circ}$).",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00BF",
-    "question": "Considere la Ley de Senos $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$. En el caso LLA, si el lado $a$ es mayor que el lado $b$ ($a > b$), y se conoce el ángulo $A$ (opuesto a $a$), ¿por qué el caso ambiguo (dos soluciones) no es posible?",
+    "question": "Considere la Ley de Senos $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)}$. En el caso LLA, si el lado $a$ es mayor que el lado $b$ ($a > b$), y se conoce el ángulo $A$ (opuesto a $a$), ¿por qué el caso ambiguo (dos soluciones) no es posible?",
     "image": null,
     "options": [
       { "text": "Si $a > b$, entonces $A > B$, y un triángulo no puede tener dos ángulos obtusos", "correct": true },
@@ -551,18 +551,18 @@
       { "text": "Los cosenos de los tres ángulos ($A, B, C$) deben ser positivos", "correct": true },
       { "text": "La Ley de Senos no puede ser aplicada", "correct": false },
       { "text": "Los ángulos deben ser menores que $30^{\\circ}$", "correct": false },
-      { "text": "El término $2bc \\cos(A)$ debe ser cero para todos los ángulos", "correct": false }
+      { "text": "El término $2bc \\\\cos(A)$ debe ser cero para todos los ángulos", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Despeja $\\cos(A)$ de la Ley de Cosenos: $a^2 = b^2 + c^2 - 2bc \\cos(A)$. La fórmula despejada para el coseno de $A$ es $\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$.",
-    "explanation": "Un triángulo es acutángulo si sus tres ángulos son agudos (menores de $90^{\\circ}$). Si un ángulo $A < 90^{\\circ}$, entonces $\\cos(A) > 0$. Para que $\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$ sea positivo, el numerador ($b^2 + c^2 - a^2$) debe ser positivo, lo que implica $b^2 + c^2 > a^2$. Esta condición se debe cumplir para los tres ángulos para que el triángulo sea acutángulo.",
+    "hint": "Despeja $\\\\cos(A)$ de la Ley de Cosenos: $a^2 = b^2 + c^2 - 2bc \\\\cos(A)$. La fórmula despejada para el coseno de $A$ es $\\\\cos(A) = \\\\frac{b^2 + c^2 - a^2}{2bc}$.",
+    "explanation": "Un triángulo es acutángulo si sus tres ángulos son agudos (menores de $90^{\\circ}$). Si un ángulo $A < 90^{\\circ}$, entonces $\\\\cos(A) > 0$. Para que $\\\\cos(A) = \\\\frac{b^2 + c^2 - a^2}{2bc}$ sea positivo, el numerador ($b^2 + c^2 - a^2$) debe ser positivo, lo que implica $b^2 + c^2 > a^2$. Esta condición se debe cumplir para los tres ángulos para que el triángulo sea acutángulo.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00BH",
-    "question": "En un triángulo $\\Delta ABC$, se sabe que $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$. Se quiere aplicar la Ley de Senos en una geometría no euclidiana (por ejemplo, en la superficie de una esfera, donde la suma de ángulos no es $180^{\\circ}$). Si en esta nueva geometría, los lados $a$ y $b$ se miden en ángulos (e.g., $a = 2R \\cdot \\alpha$), ¿qué principio de la Ley de Senos es el que se mantiene como invariante?",
+    "question": "En un triángulo $\\Delta ABC$, se sabe que $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)}$. Se quiere aplicar la Ley de Senos en una geometría no euclidiana (por ejemplo, en la superficie de una esfera, donde la suma de ángulos no es $180^{\\circ}$). Si en esta nueva geometría, los lados $a$ y $b$ se miden en ángulos (e.g., $a = 2R \\cdot \\\\alpha$), ¿qué principio de la Ley de Senos es el que se mantiene como invariante?",
     "image": null,
     "options": [
       { "text": "La proporcionalidad entre el lado y la función trigonométrica del ángulo opuesto", "correct": true },
@@ -572,14 +572,14 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "La Ley de Senos Esférica, por ejemplo, es $\\frac{\\sin(a)}{\\sin(A)} = \\frac{\\sin(b)}{\\sin(B)}$. Se mantiene la idea de la relación proporcional.",
+    "hint": "La Ley de Senos Esférica, por ejemplo, es $\\\\frac{\\\\sin(a)}{\\\\sin(A)} = \\\\frac{\\\\sin(b)}{\\\\sin(B)}$. Se mantiene la idea de la relación proporcional.",
     "explanation": "El principio fundamental de la Ley de Senos, incluso en geometrías curvas (no euclidianas), es que existe una relación de proporcionalidad entre una medida del lado y alguna función (a menudo el seno) del ángulo opuesto. La forma exacta de la ley puede cambiar, pero el concepto de proporcionalidad es invariante.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00BI",
-    "question": "En la Ley de Senos $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$, si el triángulo es isósceles con $a=b$, se debe cumplir que los ángulos opuestos $A$ y $B$ son ______ ($A=B$). Por lo tanto, si $A$ es agudo, $B$ es también agudo; si $A$ es recto, $B$ es también recto. No obstante, si $A$ fuera obtuso, se violaría el postulado de que la suma de ángulos internos es ______.",
+    "question": "En la Ley de Senos $\\\\frac{a}{\\\\sin(A)} = \\\\frac{b}{\\\\sin(B)}$, si el triángulo es isósceles con $a=b$, se debe cumplir que los ángulos opuestos $A$ y $B$ son ______ ($A=B$). Por lo tanto, si $A$ es agudo, $B$ es también agudo; si $A$ es recto, $B$ es también recto. No obstante, si $A$ fuera obtuso, se violaría el postulado de que la suma de ángulos internos es ______.",
     "image": null,
     "options": [
       { "text": "Iguales, $180^{\\circ}$", "correct": true },
@@ -590,13 +590,13 @@
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
     "hint": "Recuerda que a lados iguales se oponen ángulos iguales. Considera qué pasaría si en un triángulo $A=B=100^{\\circ}$.",
-    "explanation": "En un triángulo isósceles, a lados iguales se oponen ángulos iguales. Si $A=B$, entonces $\\sin(A)=\\sin(B)$, lo que verifica la ley. Si $A$ y $B$ fueran obtusos (e.g., $100^{\\circ}$ cada uno), su suma ya sería $200^{\\circ}$, excediendo los $180^{\\circ}$ de la suma de los ángulos internos, lo que es imposible en la geometría euclidiana.",
+    "explanation": "En un triángulo isósceles, a lados iguales se oponen ángulos iguales. Si $A=B$, entonces $\\\\sin(A)=\\\\sin(B)$, lo que verifica la ley. Si $A$ y $B$ fueran obtusos (e.g., $100^{\\circ}$ cada uno), su suma ya sería $200^{\\circ}$, excediendo los $180^{\\circ}$ de la suma de los ángulos internos, lo que es imposible en la geometría euclidiana.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "GYT00BJ",
-    "question": "El CEPREDIX plantea un problema de navegación donde se busca la distancia ($c$) entre dos boyas, conociendo la distancia desde un faro a cada boya ($a$ y $b$) y el ángulo ($C$) formado en el faro. La Ley de Cosenos a utilizar es $c^2 = a^2 + b^2 - 2ab \\cos(C)$. Si los lados $a$ y $b$ son constantes y el ángulo $C$ aumenta de $0^{\\circ}$ a $180^{\\circ}$, ¿cómo se comporta la distancia $c$?",
+    "question": "El CEPREDIX plantea un problema de navegación donde se busca la distancia ($c$) entre dos boyas, conociendo la distancia desde un faro a cada boya ($a$ y $b$) y el ángulo ($C$) formado en el faro. La Ley de Cosenos a utilizar es $c^2 = a^2 + b^2 - 2ab \\\\cos(C)$. Si los lados $a$ y $b$ son constantes y el ángulo $C$ aumenta de $0^{\\circ}$ a $180^{\\circ}$, ¿cómo se comporta la distancia $c$?",
     "image": null,
     "options": [
       { "text": "Aumenta monótonamente", "correct": true },
@@ -606,515 +606,9 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Analiza cómo se comporta la función $\\cos(C)$ en el intervalo $C \\in [0^{\\circ}, 180^{\\circ}]$ y cómo afecta el término $ -2ab \\cos(C)$ a $c^2$.",
-    "explanation": "En el intervalo $C \\in [0^{\\circ}, 180^{\\circ}]$, el $\\cos(C)$ disminuye monótonamente de $1$ a $-1$. A medida que $\\cos(C)$ se hace más pequeño (más negativo), el término restado ($-2ab \\cos(C)$) se convierte en una suma más grande. Por lo tanto, $c^2$ y, en consecuencia, $c$ (la distancia), aumentan de forma monótona a medida que el ángulo $C$ se abre.",
+    "hint": "Analiza cómo se comporta la función $\\\\cos(C)$ en el intervalo $C \\in [0^{\\circ}, 180^{\\circ}]$ y cómo afecta el término $ -2ab \\\\cos(C)$ a $c^2$.",
+    "explanation": "En el intervalo $C \\in [0^{\\circ}, 180^{\\circ}]$, el $\\\\cos(C)$ disminuye monótonamente de $1$ a $-1$. A medida que $\\\\cos(C)$ se hace más pequeño (más negativo), el término restado ($-2ab \\\\cos(C)$) se convierte en una suma más grande. Por lo tanto, $c^2$ y, en consecuencia, $c$ (la distancia), aumentan de forma monótona a medida que el ángulo $C$ se abre.",
     "explanative_video": null,
     "collapsible_text": null
-  },
-  {
-    "id": "GYT00BK",
-    "question": "En un triángulo $\\Delta ABC$, si los lados $a = 4 \\text{ cm}$ y $b = 5 \\text{ cm}$ forman un ángulo $C = 60^{\\circ}$, ¿cuál es la longitud del lado $c$?",
-    "image": null,
-    "options": [
-      { "text": "$\\sqrt{21} \\text{ cm}$", "correct": true },
-      { "text": "$\\sqrt{41} \\text{ cm}$", "correct": false },
-      { "text": "$2\\sqrt{5} \\text{ cm}$", "correct": false },
-      { "text": "$5 \\text{ cm}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa la Ley de Cosenos: $a^2 = b^2 + c^2 - 2bc \\cos(A)$. Despeja el lado $c$ de la ecuación correspondiente.",
-    "explanation": "La Ley de Cosenos para $c$ es $c^2 = a^2 + b^2 - 2ab \\cos(C)$. Sustituyendo: $c^2 = 4^2 + 5^2 - 2(4)(5)\\cos(60^{\\circ}) = 16 + 25 - 40(1/2) = 41 - 20 = 21$. Por lo tanto, $c = \\sqrt{21} \\text{ cm}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BL",
-    "question": "En un triángulo $\\Delta ABC$, se conocen el lado $a = 6 \\text{ m}$, el lado $b = 8 \\text{ m}$ y el ángulo $A = 30^{\\circ}$. ¿Cuál es el valor exacto de $\\sin(B)$?",
-    "image": null,
-    "options": [
-      { "text": "$\\frac{2}{3}$", "correct": true },
-      { "text": "$\\frac{3}{4}$", "correct": false },
-      { "text": "$\\frac{4}{3}$", "correct": false },
-      { "text": "$\\frac{1}{2}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Aplica la Ley de Senos en la forma: $\\frac{\\sin(B)}{b} = \\frac{\\sin(A)}{a}$. Despeja $\\sin(B)$.",
-    "explanation": "Usando la Ley de Senos: $\\frac{\\sin(B)}{8} = \\frac{\\sin(30^{\\circ})}{6}$. $\\sin(B) = \\frac{8 \\cdot (1/2)}{6} = \\frac{4}{6} = \\frac{2}{3}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BM",
-    "question": "Se tiene un triángulo isósceles $\\Delta ABC$ con lados $b = 10 \\text{ m}$ y $c = 10 \\text{ m}$. Si el ángulo entre ellos es $A = 120^{\\circ}$, ¿cuál es la longitud del lado $a$?",
-    "image": null,
-    "options": [
-      { "text": "$10\\sqrt{3} \\text{ m}$", "correct": true },
-      { "text": "$10 \\text{ m}$", "correct": false },
-      { "text": "$10\\sqrt{2} \\text{ m}$", "correct": false },
-      { "text": "$20 \\text{ m}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "La Ley de Cosenos se aplica como $a^2 = b^2 + c^2 - 2bc \\cos(A)$. Recuerda que $\\cos(120^{\\circ}) = -1/2$.",
-    "explanation": "Sustituyendo en la Ley de Cosenos: $a^2 = 10^2 + 10^2 - 2(10)(10)\\cos(120^{\\circ}) = 100 + 100 - 200(-1/2) = 200 + 100 = 300$. Por lo tanto, $a = \\sqrt{300} = \\sqrt{100 \\cdot 3} = 10\\sqrt{3} \\text{ m}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BN",
-    "question": "Si en un triángulo $\\Delta ABC$ se conocen los ángulos $A = 45^{\\circ}$ y $C = 90^{\\circ}$, y el lado $a = 2\\sqrt{2} \\text{ km}$. ¿Cuál es la longitud del lado $c$?",
-    "image": null,
-    "options": [
-      { "text": "$4 \\text{ km}$", "correct": true },
-      { "text": "$2 \\text{ km}$", "correct": false },
-      { "text": "$2\\sqrt{2} \\text{ km}$", "correct": false },
-      { "text": "$8 \\text{ km}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "En un triángulo, la suma de los ángulos es $180^{\\circ}$. Usa la Ley de Senos: $\\frac{a}{\\sin(A)} = \\frac{c}{\\sin(C)}$.",
-    "explanation": "El ángulo $B = 180^{\\circ} - 90^{\\circ} - 45^{\\circ} = 45^{\\circ}$. Aplicando la Ley de Senos: $\\frac{c}{\\sin(90^{\\circ})} = \\frac{2\\sqrt{2}}{\\sin(45^{\\circ})}$. $c = \\frac{2\\sqrt{2} \\cdot 1}{\\sqrt{2}/2} = 2\\sqrt{2} \\cdot \\frac{2}{\\sqrt{2}} = 4 \\text{ km}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BO",
-    "question": "Dado un triángulo con lados $a=3, b=4, c=5$ unidades. ¿Cuál es el valor del $\\cos(A)$?",
-    "image": null,
-    "options": [
-      { "text": "$0.8$", "correct": true },
-      { "text": "$0.6$", "correct": false },
-      { "text": "$0$", "correct": false },
-      { "text": "$1$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa la Ley de Cosenos despejada para $\\cos(A)$: $2bc \\cos(A) = b^2 + c^2 - a^2$.",
-    "explanation": "Aplicando la Ley de Cosenos para $\\cos(A)$: $\\cos(A) = \\frac{4^2 + 5^2 - 3^2}{2(4)(5)} = \\frac{16 + 25 - 9}{40} = \\frac{32}{40} = \\frac{4}{5} = 0.8$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BP",
-    "question": "En un triángulo $\\Delta ABC$, si $a = 12 \\text{ cm}$ y $c = 15 \\text{ cm}$ y el ángulo $B = 105^{\\circ}$. Usando $\\cos(105^{\\circ}) \\approx -0.2588$, ¿cuál es el valor aproximado del lado $b$?",
-    "image": null,
-    "options": [
-      { "text": "$21.50 \\text{ cm}$", "correct": true },
-      { "text": "$18.66 \\text{ cm}$", "correct": false },
-      { "text": "$19.20 \\text{ cm}$", "correct": false },
-      { "text": "$22.36 \\text{ cm}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "La Ley de Cosenos para $b$ es $b^2 = a^2 + c^2 - 2ac \\cos(B)$. Calcula el valor de $b^2$ y luego saca la raíz cuadrada.",
-    "explanation": "Sustituyendo: $b^2 = 12^2 + 15^2 - 2(12)(15)(-0.2588) = 144 + 225 - 360(-0.2588) = 369 + 93.168 = 462.168$. $b = \\sqrt{462.168} \\approx 21.50 \\text{ cm}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BQ",
-    "question": "Se conoce un triángulo $\\Delta ABC$ con $A = 50^{\\circ}$, lado $a = 10$ y lado $c = 13$. Usando $\\sin(50^{\\circ}) \\approx 0.7660$, ¿cuál es el valor aproximado de $\\sin(C)$?",
-    "image": null,
-    "options": [
-      { "text": "$0.9958$", "correct": true },
-      { "text": "$0.59$", "correct": false },
-      { "text": "$1.20$", "correct": false },
-      { "text": "$0.7660$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa la Ley de Senos en la forma: $\\frac{\\sin(C)}{c} = \\frac{\\sin(A)}{a}$. Despeja $\\sin(C)$.",
-    "explanation": "Aplicando la Ley de Senos: $\\sin(C) = \\frac{c \\sin(A)}{a} = \\frac{13 \\cdot 0.7660}{10} = \\frac{9.958}{10} = 0.9958$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BR",
-    "question": "Son expresiones matemáticas que representan la Ley de Cosenos para calcular los ángulos de un triángulo con lados $a, b, c$ y ángulos opuestos $A, B, C$: \\nI. $\\cos(A) = \\frac{b^2 + c^2 - a^2}{2bc}$ \\nII. $\\cos(B) = \\frac{a^2 + c^2 - b^2}{2ac}$ \\nIII. $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$ \\nIV. $\\cos(C) = \\frac{a^2 + b^2 - c^2}{2ab}$",
-    "image": null,
-    "options": [
-      { "text": "I, II y IV", "correct": true },
-      { "text": "I y III", "correct": false },
-      { "text": "II y IV", "correct": false },
-      { "text": "Todas", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "La Ley de Cosenos relaciona el cuadrado de un lado con la suma de los cuadrados de los otros dos y el coseno del ángulo opuesto. La expresión III corresponde a la Ley de Senos.",
-    "explanation": "Las expresiones I, II y IV son las formas despejadas de la Ley de Cosenos que se utilizan para calcular el coseno de cada ángulo cuando se conocen los tres lados. La expresión III es la Ley de Senos.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BS",
-    "question": "El teorema de Pitágoras es un caso especial de la Ley de Cosenos que se aplica cuando el ángulo opuesto al lado buscado es ______ (A) y el valor de su coseno es ______ (B).",
-    "image": null,
-    "options": [
-      { "text": "Recto, Cero", "correct": true },
-      { "text": "Agudo, Positivo", "correct": false },
-      { "text": "Obtuso, Negativo", "correct": false },
-      { "text": "Cero, Indefinido", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Recuerda que si $A=90^{\\circ}$, la fórmula $a^2 = b^2 + c^2 - 2bc \\cos(A)$ debe simplificarse a $a^2 = b^2 + c^2$.",
-    "explanation": "Si el ángulo $A$ es recto ($90^{\\circ}$), $\\cos(A) = 0$. Al sustituir en la Ley de Cosenos, el término $-2bc \\cos(A)$ se anula, resultando en el Teorema de Pitágoras $a^2 = b^2 + c^2$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BT",
-    "question": "En la Ley de Senos, la proporción $\\frac{a}{\\sin(A)}$ es igual a $2R$, donde $R$ es el ______ (A) del círculo ______ (B) del triángulo.",
-    "image": null,
-    "options": [
-      { "text": "Radio, Circunscrito", "correct": true },
-      { "text": "Diámetro, Inscrito", "correct": false },
-      { "text": "Radio, Inscrito", "correct": false },
-      { "text": "Diámetro, Circunscrito", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "El círculo circunscrito es el que pasa por los vértices del triángulo. Su diámetro es $2R$.",
-    "explanation": "La extensión de la Ley de Senos establece que la razón constante es igual al diámetro ($2R$) del círculo circunscrito (el que pasa por los tres vértices) al triángulo. Por lo tanto, $R$ es el radio.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BU",
-    "question": "En el caso LLA (Lado-Lado-Ángulo) de la Ley de Senos, si se cumple la relación $a \\sin(B) < b$, pero $a \\ge b$, se tendrá una solución ______ (A) porque el lado $a$ es el ______ (B).",
-    "image": null,
-    "options": [
-      { "text": "Única, Mayor o igual", "correct": true },
-      { "text": "Ambigua, Menor", "correct": false },
-      { "text": "Imposible, Menor", "correct": false },
-      { "text": "Doble, Mayor", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "El caso ambiguo (doble solución) sólo se da cuando el lado opuesto al ángulo conocido es más pequeño que el otro lado conocido ($a < b$).",
-    "explanation": "La ambigüedad (dos soluciones) solo ocurre si la altura $h < a < b$. Si el lado $a$ es mayor o igual que el lado $b$ ($a \\ge b$), solo puede haber una solución, ya que la solución obtusa para el ángulo $B$ es imposible (la suma de los ángulos excedería $180^{\\circ}$).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BV",
-    "question": "Relaciona correctamente el caso de información de un triángulo (LLL: Lado-Lado-Lado, LAL: Lado-Ángulo-Lado, LLA: Lado-Lado-Ángulo) con la ley trigonométrica más adecuada para el cálculo inicial de un dato desconocido (lado o ángulo). \\nA) LLL \\nB) LAL \\nC) LLA \\nI) Ley de Senos (Caso Ambiguo) \\nII) Ley de Cosenos",
-    "image": null,
-    "options": [
-      { "text": "A-II; B-II; C-I", "correct": true },
-      { "text": "A-I; B-II; C-I", "correct": false },
-      { "text": "A-II; B-I; C-II", "correct": false },
-      { "text": "A-I; B-I; C-II", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "La Ley de Cosenos se usa cuando no se conoce ningún par completo lado-ángulo opuesto. La Ley de Senos se usa para el caso ambiguo.",
-    "explanation": "LLL y LAL no tienen un par completo lado-ángulo opuesto conocido, por lo que inician con la Ley de Cosenos. LLA inicia con la Ley de Senos para encontrar el ángulo opuesto al segundo lado conocido.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BW",
-    "question": "Calcula la longitud del lado $b$ en un triángulo $\\Delta ABC$ si $A=55^{\\circ}, B=75^{\\circ}$ y $a=8 \\text{ m}$. Usa $\\sin(55^{\\circ}) \\approx 0.8192$ y $\\sin(75^{\\circ}) \\approx 0.9659$.",
-    "image": null,
-    "options": [
-      { "text": "$9.43 \\text{ m}$", "correct": true },
-      { "text": "$6.70 \\text{ m}$", "correct": false },
-      { "text": "$10.25 \\text{ m}$", "correct": false },
-      { "text": "$8.90 \\text{ m}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa la Ley de Senos: $\\frac{b}{\\sin(B)} = \\frac{a}{\\sin(A)}$. Despeja el lado $b$.",
-    "explanation": "Aplicando la Ley de Senos: $b = \\frac{a \\sin(B)}{\\sin(A)} = \\frac{8 \\cdot 0.9659}{0.8192} = \\frac{7.7272}{0.8192} \\approx 9.432 \\text{ m}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BX",
-    "question": "Si en un triángulo $\\Delta XYZ$ se tiene $x=9$ unidades, $z=12$ unidades y el ángulo $Y=135^{\\circ}$. ¿Cuál es el valor exacto de $y^2$?",
-    "image": null,
-    "options": [
-      { "text": "$225 + 108\\sqrt{2}$", "correct": true },
-      { "text": "$225 - 108\\sqrt{2}$", "correct": false },
-      { "text": "$300$", "correct": false },
-      { "text": "$225 + 216\\sqrt{2}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa la Ley de Cosenos: $y^2 = x^2 + z^2 - 2xz \\cos(Y)$. Recuerda que $\\cos(135^{\\circ}) = -\\frac{\\sqrt{2}}{2}$.",
-    "explanation": "Sustituyendo: $y^2 = 9^2 + 12^2 - 2(9)(12)(-\\frac{\\sqrt{2}}{2}) = 81 + 144 - 216(-\\frac{\\sqrt{2}}{2}) = 225 + 108\\sqrt{2}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BY",
-    "question": "En un triángulo $\\Delta DEF$ con lados $d=15, e=18, f=20$ unidades. ¿Qué valor resulta de la expresión $e^2+f^2-d^2$?",
-    "image": null,
-    "options": [
-      { "text": "$479$", "correct": true },
-      { "text": "$15$", "correct": false },
-      { "text": "$180$", "correct": false },
-      { "text": "$540$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Realiza la sustitución de los valores de los lados en la expresión y calcula el resultado numérico.",
-    "explanation": "La expresión es $18^2 + 20^2 - 15^2 = 324 + 400 - 225 = 724 - 225 = 499$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00BZ",
-    "question": "En un triángulo $\\Delta ABC$ con $a=10 \\text{ km}$ y $b=10 \\text{ km}$, si el ángulo $C=45^{\\circ}$, ¿cuál es la expresión exacta para el lado $c$?",
-    "image": null,
-    "options": [
-      { "text": "$10 \\sqrt{2 - \\sqrt{2}} \\text{ km}$", "correct": true },
-      { "text": "$10 \\sqrt{2} \\text{ km}$", "correct": false },
-      { "text": "$10 \\sqrt{2 + \\sqrt{2}} \\text{ km}$", "correct": false },
-      { "text": "$10 \\sqrt{4 - \\sqrt{2}} \\text{ km}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa la Ley de Cosenos: $c^2 = a^2 + b^2 - 2ab \\cos(C)$. Factoriza y recuerda que $\\cos(45^{\\circ}) = \\frac{\\sqrt{2}}{2}$.",
-    "explanation": "$c^2 = 10^2 + 10^2 - 2(10)(10)(\\frac{\\sqrt{2}}{2}) = 200 - 100\\sqrt{2} = 100(2 - \\sqrt{2})$. Por lo tanto, $c = \\sqrt{100(2 - \\sqrt{2})} = 10\\sqrt{2 - \\sqrt{2}} \\text{ km}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CA",
-    "question": "Para un triángulo $\\Delta PQR$, si se tiene el ángulo $Q=100^{\\circ}$, lado $q=5$ y lado $r=3$. Usando $\\sin(100^{\\circ}) \\approx 0.9848$, ¿cuál es el valor aproximado de $\\sin(R)$?",
-    "image": null,
-    "options": [
-      { "text": "$0.5909$", "correct": true },
-      { "text": "$1.641$", "correct": false },
-      { "text": "$0.5878$", "correct": false },
-      { "text": "$0.7660$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Aplica la Ley de Senos en la forma: $\\frac{\\sin(R)}{r} = \\frac{\\sin(Q)}{q}$. Despeja $\\sin(R)$.",
-    "explanation": "Usando la Ley de Senos: $\\sin(R) = \\frac{r \\sin(Q)}{q} = \\frac{3 \\cdot 0.9848}{5} = \\frac{2.9544}{5} \\approx 0.5909$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CB",
-    "question": "En un triángulo $\\Delta KLM$ con lados $k=2, l=3, m=4$ unidades. ¿Cuál es el valor del $\\cos(M)$?",
-    "image": null,
-    "options": [
-      { "text": "$-\\frac{1}{4}$", "correct": true },
-      { "text": "$\\frac{1}{4}$", "correct": false },
-      { "text": "$-\\frac{1}{2}$", "correct": false },
-      { "text": "$\\frac{1}{2}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa la Ley de Cosenos despejada para $\\cos(M)$: $\\cos(M) = \\frac{k^2 + l^2 - m^2}{2kl}$.",
-    "explanation": "Sustituyendo en la fórmula de la Ley de Cosenos: $\\cos(M) = \\frac{2^2 + 3^2 - 4^2}{2(2)(3)} = \\frac{4 + 9 - 16}{12} = \\frac{-3}{12} = -\\frac{1}{4}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CC",
-    "question": "En un triángulo $\\Delta STU$, se tiene $S=30^{\\circ}, T=105^{\\circ}$ y el lado $u=5 \\text{ cm}$. Usando $\\sin(105^{\\circ}) \\approx 0.9659$, ¿cuál es el valor aproximado del lado $s$?",
-    "image": null,
-    "options": [
-      { "text": "$3.54 \\text{ cm}$", "correct": true },
-      { "text": "$2.5 \\text{ cm}$", "correct": false },
-      { "text": "$4.5 \\text{ cm}$", "correct": false },
-      { "text": "$5.18 \\text{ cm}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Calcula el ángulo $U$ primero ($180^{\\circ} - S - T$). Luego usa la Ley de Senos: $\\frac{s}{\\sin(S)} = \\frac{u}{\\sin(U)}$.",
-    "explanation": "El ángulo $U = 180^{\\circ} - 30^{\\circ} - 105^{\\circ} = 45^{\\circ}$. Aplicando la Ley de Senos: $s = \\frac{u \\sin(S)}{\\sin(U)} = \\frac{5 \\cdot \\sin(30^{\\circ})}{\\sin(45^{\\circ})} = \\frac{5 \\cdot 0.5}{\\sqrt{2}/2} = \\frac{2.5}{0.7071} \\approx 3.535 \\text{ cm}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CD",
-    "question": "Sea un triángulo $\\Delta ABC$ con ángulo $A=30^{\\circ}$ y lado $b=10$ unidades. ¿Cuáles de los siguientes valores para el lado $a$ NO resultan en el caso ambiguo (dos soluciones) LLA?",
-    "image": null,
-    "options": [
-      { "text": "$a=5$ (una solución: $a=h$) y $a=12$ (una solución: $a>b$)", "correct": true },
-      { "text": "$a=7$ (dos soluciones: $h < a < b$)", "correct": false },
-      { "text": "$a=10$ (una solución: $a=b$)", "correct": false },
-      { "text": "$a=4$ (cero soluciones: $a<h$) y $a=6$ (dos soluciones: $h < a < b$)", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "La altura $h = b \\sin(A)$. $h = 10 \\cdot \\sin(30^{\\circ}) = 5$. El caso ambiguo es si $h < a < b$, es decir, $5 < a < 10$. Las opciones que no cumplen esta condición son las que no son ambiguas.",
-    "explanation": "La altura $h=5$. El caso ambiguo ocurre para $5 < a < 10$. Las condiciones que NO son ambiguas son: $a < 5$ (cero soluciones), $a = 5$ (una solución), y $a \\ge 10$ (una solución). La opción correcta incluye $a=5$ (una) y $a=12$ (una).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CE",
-    "question": "Si se aplica la Ley de Cosenos a los tres lados ($a, b, c$) de un triángulo, y todos los valores de $\\cos(A), \\cos(B), \\cos(C)$ son mayores que cero, el triángulo es ______ (A) y todos sus ángulos son ______ (B).",
-    "image": null,
-    "options": [
-      { "text": "Acutángulo, Agudos", "correct": true },
-      { "text": "Rectángulo, $90^{\\circ}$", "correct": false },
-      { "text": "Obtusángulo, Obtusos", "correct": false },
-      { "text": "Rectángulo, Cero", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Un ángulo es agudo si está entre $0^{\\circ}$ y $90^{\\circ}$. ¿Cuál es el signo del coseno en ese rango?",
-    "explanation": "Si $\\cos(\\theta) > 0$, el ángulo $\\theta$ es agudo ($0^{\\circ} < \\theta < 90^{\\circ}$). Un triángulo en el que todos sus ángulos son agudos se denomina acutángulo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CF",
-    "question": "La Ley de Senos $\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}$ es una ______ (A) entre un lado y el ______ (B) de su ángulo opuesto.",
-    "image": null,
-    "options": [
-      { "text": "Proporción, Seno", "correct": true },
-      { "text": "Suma, Coseno", "correct": false },
-      { "text": "Diferencia, Tangente", "correct": false },
-      { "text": "Multiplicación, Ángulo", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "La Ley de Senos es una igualdad de razones.",
-    "explanation": "La Ley de Senos establece una proporción o igualdad de razones, donde el numerador es un lado y el denominador es el seno de su ángulo opuesto.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CG",
-    "question": "La fórmula $b^2 = a^2 + c^2 - 2ac \\cos(B)$ se usa para calcular el lado $b$ si se conocen los lados $a, c$ y el ángulo ______ (A) entre ellos. El ángulo $B$ es el ______ (B) al lado $b$.",
-    "image": null,
-    "options": [
-      { "text": "Comprendido, Opuesto", "correct": true },
-      { "text": "Opuesto, Adyacente", "correct": false },
-      { "text": "Recto, Adyacente", "correct": false },
-      { "text": "Adyacente, Comprendido", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "En el caso LAL (Lado-Ángulo-Lado), el ángulo conocido está entre los dos lados. La Ley de Cosenos encuentra el lado opuesto a ese ángulo.",
-    "explanation": "La Ley de Cosenos se aplica en el caso Lado-Ángulo-Lado, donde el ángulo $B$ es el ángulo comprendido entre los lados $a$ y $c$. El lado $b$ es el lado opuesto a este ángulo.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CH",
-    "question": "Relaciona el caso de resolución de triángulos con el número máximo de soluciones que se pueden obtener: \\nA) LLL (Lado-Lado-Lado) \\nB) ALA (Ángulo-Lado-Ángulo) \\nC) LLA (Lado-Lado-Ángulo) \\nI) Una solución \\nII) Cero o dos soluciones",
-    "image": null,
-    "options": [
-      { "text": "A-I; B-I; C-II", "correct": true },
-      { "text": "A-I; B-II; C-I", "correct": false },
-      { "text": "A-II; B-I; C-I", "correct": false },
-      { "text": "A-II; B-II; C-I", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "El único caso que permite múltiples soluciones (cero o dos) es el caso ambiguo.",
-    "explanation": "LLL y ALA siempre definen un único triángulo. LLA es el caso ambiguo, donde la solución puede ser cero, una o dos, dependiendo de la relación entre el lado opuesto al ángulo conocido y la altura.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CI",
-    "question": "En un triángulo $\\Delta JKL$, si los lados son $j=5, k=7, l=8$ unidades. ¿Cuál es la expresión que permite calcular el $\\cos(J)$?",
-    "image": null,
-    "options": [
-      { "text": "$\\frac{7^2 + 8^2 - 5^2}{2(7)(8)}$", "correct": true },
-      { "text": "$\\frac{5^2 + 7^2 - 8^2}{2(5)(7)}$", "correct": false },
-      { "text": "$\\frac{7^2 + 5^2 - 8^2}{2(7)(5)}$", "correct": false },
-      { "text": "$\\frac{5^2 + 8^2 - 7^2}{2(5)(8)}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "La Ley de Cosenos despejada para $\\cos(J)$ es $\\cos(J) = \\frac{k^2 + l^2 - j^2}{2kl}$. El lado $j$ debe ser el que se resta en el numerador.",
-    "explanation": "Para calcular $\\cos(J)$, se suman los cuadrados de los lados adyacentes ($k^2 + l^2$), se resta el cuadrado del lado opuesto ($-j^2$) y se divide entre el doble producto de los lados adyacentes ($2kl$).",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CJ",
-    "question": "En un triángulo $\\Delta ABC$, se tienen $A=10^{\\circ}, C=150^{\\circ}$ y lado $a=2 \\text{ m}$. Usando $\\sin(20^{\\circ}) \\approx 0.3420$, ¿cuál es el valor aproximado de $\\sin(B)$?",
-    "image": null,
-    "options": [
-      { "text": "$0.3420$", "correct": true },
-      { "text": "$0.5000$", "correct": false },
-      { "text": "$0.7660$", "correct": false },
-      { "text": "$0.6428$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "El ángulo $B$ es $180^{\\circ} - (A + C)$. Una vez que conoces $B$, el valor de $\\sin(B)$ es directo.",
-    "explanation": "El ángulo $B = 180^{\\circ} - 10^{\\circ} - 150^{\\circ} = 20^{\\circ}$. El valor de $\\sin(B)$ es $\\sin(20^{\\circ}) \\approx 0.3420$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CK",
-    "question": "Calcula el lado $a$ en $\\Delta ABC$ si $b=6, c=4$ unidades y $A=105^{\\circ}$. Usa $\\cos(105^{\\circ}) \\approx -0.2588$.",
-    "image": null,
-    "options": [
-      { "text": "$8.03$ unidades", "correct": true },
-      { "text": "$7.21$ unidades", "correct": false },
-      { "text": "$7.42$ unidades", "correct": false },
-      { "text": "$6.93$ unidades", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa la Ley de Cosenos para el lado $a$: $a^2 = b^2 + c^2 - 2bc \\cos(A)$.",
-    "explanation": "Sustituyendo: $a^2 = 6^2 + 4^2 - 2(6)(4)(-0.2588) = 36 + 16 - 48(-0.2588) = 52 + 12.4224 = 64.4224$. $a = \\sqrt{64.4224} \\approx 8.026$ unidades.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CL",
-    "question": "En $\\Delta XYZ$, $X=40^{\\circ}, Y=60^{\\circ}$ y el lado $z=10 \\text{ m}$. Usa $\\sin(40^{\\circ}) \\approx 0.6428$ y $\\sin(80^{\\circ}) \\approx 0.9848$. ¿Cuál es la longitud aproximada del lado $x$?",
-    "image": null,
-    "options": [
-      { "text": "$6.53 \\text{ m}$", "correct": true },
-      { "text": "$7.66 \\text{ m}$", "correct": false },
-      { "text": "$9.85 \\text{ m}$", "correct": false },
-      { "text": "$5.00 \\text{ m}$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Calcula el ángulo $Z$ primero. Luego usa la Ley de Senos: $\\frac{x}{\\sin(X)} = \\frac{z}{\\sin(Z)}$.",
-    "explanation": "El ángulo $Z = 180^{\\circ} - 40^{\\circ} - 60^{\\circ} = 80^{\\circ}$. Aplicando la Ley de Senos: $x = \\frac{z \\sin(X)}{\\sin(Z)} = \\frac{10 \\cdot 0.6428}{0.9848} \\approx 6.527 \\text{ m}$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CM",
-    "question": "En un triángulo $\\Delta ABC$ con lados $a=7, b=11, c=15$ unidades. ¿Qué valor numérico resulta de la expresión $2ac \\cos(B)$?",
-    "image": null,
-    "options": [
-      { "text": "$153$", "correct": true },
-      { "text": "$121$", "correct": false },
-      { "text": "$225$", "correct": false },
-      { "text": "$74$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Usa el despeje de la Ley de Cosenos: $b^2 = a^2 + c^2 - 2ac \\cos(B)$. Por lo tanto, $2ac \\cos(B) = a^2 + c^2 - b^2$.",
-    "explanation": "La expresión $2ac \\cos(B)$ es igual a $a^2 + c^2 - b^2$. Sustituyendo: $7^2 + 15^2 - 11^2 = 49 + 225 - 121 = 153$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "GYT00CN",
-    "question": "En un triángulo $\\Delta PQR$, si $P=115^{\\circ}$, lado $p=25$ y lado $q=10$. Usa $\\sin(115^{\\circ}) \\approx 0.9063$. ¿Cuál es el valor aproximado de $\\sin(Q)$?",
-    "image": null,
-    "options": [
-      { "text": "$0.3625$", "correct": true },
-      { "text": "$0.9063$", "correct": false },
-      { "text": "$0.4000$", "correct": false },
-      { "text": "$2.2658$", "correct": false }
-    ],
-    "uni_tags": ["GENERAL", "EXANI", "UNAM", "IPN", "UAM"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Aplica la Ley de Senos: $\\frac{\\sin(Q)}{q} = \\frac{\\sin(P)}{p}$.",
-    "explanation": "Usando la Ley de Sen
+  }
+]

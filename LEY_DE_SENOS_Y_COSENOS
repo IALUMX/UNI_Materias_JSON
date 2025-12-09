@@ -192,9 +192,9 @@
     "image": null,
     "options": [
       { "text": "A-I; B-II; C-I", "correct": true },
-      { "text": "A-I; B-II; C-I", "correct": false },
-      { "text": "A-II; B-I; C-II", "correct": false },
-      { "text": "A-I; B-I; C-II", "correct": false }
+      { "text": "A-I; B-I; C-II", "correct": false },
+      { "text": "A-II; B-II; C-I", "correct": false },
+      { "text": "A-II; B-I; C-II", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
@@ -568,7 +568,7 @@
       { "text": "El $\\cos(A)$ es negativo, haciendo que el término $-2bc \\cos(A)$ sea positivo, y $a$ resulta ser el lado más largo del triángulo.", "correct": true },
       { "text": "El $\\cos(A)$ es positivo, lo que reduce el valor de $a$ para que sea menor que el lado $b$ y $c$.", "correct": false },
       { "text": "El $\\cos(A)$ es cero, simplificando la ley al Teorema de Pitágoras.", "correct": false },
-      { "text": "El $\\cos(A)$ es nulo, impidiendo el uso de la Ley de Cosenos.", "correct": false }
+      { "text": "El $\\cos(A)$ es nula, impidiendo el uso de la Ley de Cosenos.", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],

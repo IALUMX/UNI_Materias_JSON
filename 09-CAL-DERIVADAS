@@ -1,0 +1,2586 @@
+[
+  {
+    "id": "CAL09AA",
+    "question": "Calcula la derivada de la función $f(x) = 7x^4 - 2x^3 + 5x + 9$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = 28x^3 - 6x^2 + 5$", "correct": true },
+      { "text": "$f'(x) = 7x^3 - 2x^2 + 5$", "correct": false },
+      { "text": "$f'(x) = 28x^4 - 6x^3 + 5x$", "correct": false },
+      { "text": "$f'(x) = 4x^3 - 3x^2 + 5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la potencia: $\\frac{d}{dx}(ax^n) = anx^{n-1}$. La derivada de una constante es cero.",
+    "explanation": "Derivando cada término: $\\frac{d}{dx}(7x^4) = 28x^3$; $\\frac{d}{dx}(-2x^3) = -6x^2$; $\\frac{d}{dx}(5x) = 5$; $\\frac{d}{dx}(9) = 0$. Sumando, $f'(x) = 28x^3 - 6x^2 + 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AB",
+    "question": "Un estudiante del CEPREDIX resuelve la derivada de la función $y = 3x^2 - 10x + 1$. ¿Cuál es el resultado de $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$6x - 10$", "correct": true },
+      { "text": "$3x - 10$", "correct": false },
+      { "text": "$6x^2 - 10$", "correct": false },
+      { "text": "$3x - 10x^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la potencia a cada término variable. Recuerda que la derivada de $x$ es $1$.",
+    "explanation": "Derivando término por término: $\\frac{d}{dx}(3x^2) = 6x$; $\\frac{d}{dx}(-10x) = -10$. La derivada de 1 es 0. El resultado es $6x - 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AC",
+    "question": "Encuentra la derivada de la función $g(x) = 1 + 2x - 4x^5$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = 2 - 20x^4$", "correct": true },
+      { "text": "$g'(x) = 2x^2 - 20x^4$", "correct": false },
+      { "text": "$g'(x) = 2 - 4x^4$", "correct": false },
+      { "text": "$g'(x) = 20x^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de una constante más la derivada de $x$ es $\\frac{d}{dx}(C + ax) = a$.",
+    "explanation": "La derivada de 1 es 0; la derivada de $2x$ es 2; la derivada de $-4x^5$ es $-20x^4$. Sumando los resultados se obtiene $2 - 20x^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AD",
+    "question": "Deriva la expresión $h(x) = -3x^4 + 6x^2 - x + 10$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = -12x^3 + 12x - 1$", "correct": true },
+      { "text": "$h'(x) = -12x^3 + 12x$", "correct": false },
+      { "text": "$h'(x) = -x^3 + x - 1$", "correct": false },
+      { "text": "$h'(x) = -12x^4 + 12x^2 - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda que la derivada de $-x$ es $-1$.",
+    "explanation": "Derivando cada término: $\\frac{d}{dx}(-3x^4) = -12x^3$; $\\frac{d}{dx}(6x^2) = 12x$; $\\frac{d}{dx}(-x) = -1$; $\\frac{d}{dx}(10) = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AE",
+    "question": "Si $f(x) = \\frac{1}{2}x^6 - 3x + 8$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$3x^5 - 3$", "correct": true },
+      { "text": "$6x^5 - 3$", "correct": false },
+      { "text": "$3x^6 - 3x$", "correct": false },
+      { "text": "$x^5 - 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El coeficiente $\\frac{1}{2}$ multiplica el exponente 6: $\\frac{1}{2} \\cdot 6 = 3$.",
+    "explanation": "La derivada de $\\frac{1}{2}x^6$ es $\\frac{1}{2}(6x^5) = 3x^5$. La derivada de $-3x$ es $-3$. La derivada de 8 es 0. Resultado: $3x^5 - 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AF",
+    "question": "Calcula la derivada de $y = 5x^7 - \\frac{3}{2}x^2 + \\pi$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{dy}{dx} = 35x^6 - 3x$", "correct": true },
+      { "text": "$\\frac{dy}{dx} = 5x^6 - 3x + \\pi$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = 35x^6 - 3$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = 7x^6 - 2x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda que $\\pi$ es una constante, por lo tanto su derivada es cero.",
+    "explanation": "Derivando: $\\frac{d}{dx}(5x^7) = 35x^6$; $\\frac{d}{dx}(-\\frac{3}{2}x^2) = -\\frac{3}{2}(2x) = -3x$; $\\frac{d}{dx}(\\pi) = 0$. Resultado: $35x^6 - 3x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AG",
+    "question": "Si $y = 12x^3 - 6x + 2$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$36x^2 - 6$", "correct": true },
+      { "text": "$12x^2 - 6$", "correct": false },
+      { "text": "$36x^3 - 6$", "correct": false },
+      { "text": "$24x^2 + 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica el coeficiente por el exponente y reduce el exponente en una unidad.",
+    "explanation": "Derivando: $\\frac{d}{dx}(12x^3) = 12 \\cdot 3x^{3-1} = 36x^2$; $\\frac{d}{dx}(-6x) = -6$; $\\frac{d}{dx}(2) = 0$. Resultado: $36x^2 - 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AH",
+    "question": "Calcula la derivada de $f(x) = 8x^3 + 2x^2 - 5x$.",
+    "image": null,
+    "options": [
+      { "text": "$24x^2 + 4x - 5$", "correct": true },
+      { "text": "$24x^3 + 4x - 5$", "correct": false },
+      { "text": "$8x^2 + 2x - 5$", "correct": false },
+      { "text": "$4x^2 + 2x - 5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $8x^3$ es $8 \\cdot 3x^2 = 24x^2$.",
+    "explanation": "Aplicando la regla de la potencia a todos los términos: $f'(x) = 24x^2 + 4x - 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AI",
+    "question": "Si $y = 15 - 3x + 4x^4$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$16x^3 - 3$", "correct": true },
+      { "text": "$4x^3 - 3$", "correct": false },
+      { "text": "$15 - 3 + 16x^3$", "correct": false },
+      { "text": "$12x^3 - 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reordena la función como $y = 4x^4 - 3x + 15$ antes de derivar.",
+    "explanation": "Derivando: $\\frac{d}{dx}(15) = 0$; $\\frac{d}{dx}(-3x) = -3$; $\\frac{d}{dx}(4x^4) = 16x^3$. Resultado: $16x^3 - 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AJ",
+    "question": "Calcula la derivada de $f(x) = 9x - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = 9$", "correct": true },
+      { "text": "$f'(x) = 9x$", "correct": false },
+      { "text": "$f'(x) = 1$", "correct": false },
+      { "text": "$f'(x) = 9x - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $ax + b$ es $a$.",
+    "explanation": "La derivada de $9x$ es $9$ y la derivada de $-1$ es $0$. Resultado: $9$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AK",
+    "question": "Encuentra la derivada de la función $f(x) = 5 \\sqrt{x}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{5}{2 \\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = 5x^{-1/2}$", "correct": false },
+      { "text": "$f'(x) = 5 \\sqrt{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2 \\sqrt{x}}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función como $f(x) = 5x^{1/2}$. Recuerda que $\\frac{d}{dx}(x^n) = nx^{n-1}$.",
+    "explanation": "$f(x) = 5x^{1/2}$. La derivada es $f'(x) = 5 \\cdot \\frac{1}{2} x^{1/2 - 1} = \\frac{5}{2} x^{-1/2} = \\frac{5}{2 \\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AL",
+    "question": "Calcula la derivada de $y = \\sqrt[3]{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{3} x^{-1/3}$", "correct": true },
+      { "text": "$\\frac{3}{2} x^{3/2}$", "correct": false },
+      { "text": "$2 \\sqrt[3]{x}$", "correct": false },
+      { "text": "$x^{-1/3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función como $y = x^{2/3}$. Si tienes $y = x^n$, entonces $\\frac{dy}{dx} = nx^{n-1}$.",
+    "explanation": "Como $y = x^{2/3}$, la derivada es $\\frac{dy}{dx} = \\frac{2}{3} x^{2/3 - 1} = \\frac{2}{3} x^{-1/3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AM",
+    "question": "Deriva la función $f(x) = x^{4/3}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{4}{3} x^{1/3}$", "correct": true },
+      { "text": "$f'(x) = \\frac{3}{4} x^{7/4}$", "correct": false },
+      { "text": "$f'(x) = x^{1/3}$", "correct": false },
+      { "text": "$f'(x) = \\frac{4}{3} x^{4/3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la potencia: $n-1 = \\frac{4}{3} - 1$.",
+    "explanation": "$f'(x) = \\frac{4}{3} x^{4/3 - 1} = \\frac{4}{3} x^{1/3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AN",
+    "question": "Un aspirante del CEPREDIX debe derivar la función $y = 3 \\sqrt[4]{x^5}$. ¿Cuál es el resultado de $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{15}{4} x^{1/4}$", "correct": true },
+      { "text": "$\\frac{5}{4} x^{1/4}$", "correct": false },
+      { "text": "$3 \\sqrt[4]{x}$", "correct": false },
+      { "text": "$\\frac{15}{4} x^{-1/4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función como $y = 3x^{5/4}$. Multiplica el coeficiente por el exponente $3 \\cdot \\frac{5}{4}$.",
+    "explanation": "$y = 3x^{5/4}$. La derivada es $\\frac{dy}{dx} = 3 \\cdot \\frac{5}{4} x^{5/4 - 1} = \\frac{15}{4} x^{1/4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AO",
+    "question": "Calcula la derivada de $f(x) = \\frac{1}{4} x^{1/2} + 2x$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{8} x^{-1/2} + 2$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{2} x^{-1/2} + 2$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{8} x^{1/2} + 2$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{4} x^{-1/2} + 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Para la primera parte, $\\frac{1}{4} \\cdot \\frac{1}{2} = \\frac{1}{8}$.",
+    "explanation": "Derivando: $\\frac{d}{dx}(\\frac{1}{4} x^{1/2}) = \\frac{1}{4} \\cdot \\frac{1}{2} x^{1/2 - 1} = \\frac{1}{8} x^{-1/2}$. $\\frac{d}{dx}(2x) = 2$. El resultado es $\\frac{1}{8} x^{-1/2} + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AP",
+    "question": "Si $y = 7x + \\sqrt[5]{x}$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$7 + \\frac{1}{5} x^{-4/5}$", "correct": true },
+      { "text": "$7 + \\frac{5}{x^{4/5}}$", "correct": false },
+      { "text": "$\\frac{1}{5} x^{-4/5}$", "correct": false },
+      { "text": "$7 + \\sqrt[4]{x^5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe el término con raíz como $x^{1/5}$. El exponente resultante es $1/5 - 1 = -4/5$.",
+    "explanation": "$y = 7x + x^{1/5}$. La derivada es $\\frac{dy}{dx} = 7 + \\frac{1}{5} x^{1/5 - 1} = 7 + \\frac{1}{5} x^{-4/5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AQ",
+    "question": "Calcula la derivada de $f(x) = \\frac{2}{3} x^{3/2} - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = x^{1/2}$", "correct": true },
+      { "text": "$f'(x) = x^{3/2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{3}{2} x^{1/2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2}{3} x^{1/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El coeficiente $\\frac{2}{3}$ por el exponente $\\frac{3}{2}$ es 1.",
+    "explanation": "$f'(x) = \\frac{2}{3} \\cdot \\frac{3}{2} x^{3/2 - 1} = 1 \\cdot x^{1/2} = x^{1/2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AR",
+    "question": "Deriva la función $y = 6 \\sqrt{x^3} + 4x$.",
+    "image": null,
+    "options": [
+      { "text": "$9 x^{1/2} + 4$", "correct": true },
+      { "text": "$6 x^{1/2} + 4$", "correct": false },
+      { "text": "$9 x^{3/2} + 4$", "correct": false },
+      { "text": "$4 x^{-1/2} + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $y = 6x^{3/2} + 4x$. El término $6x^{3/2}$ deriva a $6 \\cdot \\frac{3}{2} x^{1/2}$.",
+    "explanation": "El primer término deriva a $9x^{1/2}$. El segundo a 4. Resultado: $9x^{1/2} + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AS",
+    "question": "Si $g(x) = 2x - 3 \\sqrt[3]{x}$, ¿cuál es $g'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$2 - x^{-2/3}$", "correct": true },
+      { "text": "$2 - 3x^{-2/3}$", "correct": false },
+      { "text": "$2 - 3x^{1/3}$", "correct": false },
+      { "text": "$2 + x^{-2/3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $g(x) = 2x - 3x^{1/3}$. Multiplica $-3 \\cdot \\frac{1}{3} = -1$.",
+    "explanation": "$g'(x) = 2 - 3 \\cdot \\frac{1}{3} x^{1/3 - 1} = 2 - x^{-2/3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AT",
+    "question": "Encuentra la derivada de $y = 4\\sqrt{x} + \\frac{1}{2}x^2$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{\\sqrt{x}} + x$", "correct": true },
+      { "text": "$4\\sqrt{x} + x$", "correct": false },
+      { "text": "$\\frac{2}{\\sqrt{x}} + x^2$", "correct": false },
+      { "text": "$2x^{-1/2} + 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $y = 4x^{1/2} + \\frac{1}{2}x^2$. Simplifica el resultado en la forma de raíz.",
+    "explanation": "Derivando el primer término: $4 \\cdot \\frac{1}{2} x^{-1/2} = 2x^{-1/2} = \\frac{2}{\\sqrt{x}}$. Derivando el segundo término: $\\frac{1}{2} \\cdot 2x = x$. Resultado: $\\frac{2}{\\sqrt{x}} + x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AU",
+    "question": "Calcula la derivada de la función $f(x) = \\frac{4}{x^3}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -\\frac{12}{x^4}$", "correct": true },
+      { "text": "$f'(x) = \\frac{12}{x^4}$", "correct": false },
+      { "text": "$f'(x) = -12x^{-2}$", "correct": false },
+      { "text": "$f'(x) = 4x^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función como $f(x) = 4x^{-3}$. Multiplica $4 \\cdot (-3) = -12$.",
+    "explanation": "Como $f(x) = 4x^{-3}$, la derivada es $f'(x) = 4(-3)x^{-3-1} = -12x^{-4} = -\\frac{12}{x^4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AV",
+    "question": "Un profesor del CEPREDIX pide a sus estudiantes derivar $y = \\frac{1}{x} + x^2$. ¿Cuál es el resultado?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{dy}{dx} = -\\frac{1}{x^2} + 2x$", "correct": true },
+      { "text": "$\\frac{dy}{dx} = 1 + 2x$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = -x^2 + 2x$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = -\\frac{1}{x} + 2x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\frac{1}{x}$ como $x^{-1}$. Su derivada es $(-1)x^{-2}$.",
+    "explanation": "$y = x^{-1} + x^2$. La derivada es $\\frac{dy}{dx} = (-1)x^{-1-1} + 2x = -x^{-2} + 2x = -\\frac{1}{x^2} + 2x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AW",
+    "question": "Deriva la función $g(t) = \\frac{5}{t^2} + \\frac{t}{2}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(t) = -\\frac{10}{t^3} + \\frac{1}{2}$", "correct": true },
+      { "text": "$g'(t) = -\\frac{5}{t^3} + 2$", "correct": false },
+      { "text": "$g'(t) = 10t^{-3} + \\frac{1}{2}$", "correct": false },
+      { "text": "$g'(t) = -10t^{-3} + t$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe el primer término como $5t^{-2}$ y el segundo como $\\frac{1}{2}t$.",
+    "explanation": "$g(t) = 5t^{-2} + \\frac{1}{2}t$. La derivada es $g'(t) = 5(-2)t^{-3} + \\frac{1}{2} = -10t^{-3} + \\frac{1}{2} = -\\frac{10}{t^3} + \\frac{1}{2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AX",
+    "question": "¿Cuál es la derivada de $f(x) = \\frac{2}{\\sqrt{x}}$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -x^{-3/2}$", "correct": false },
+      { "text": "$f'(x) = 2x^{-1/2}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{1}{\\sqrt{x^3}}$", "correct": true },
+      { "text": "$f'(x) = -2x^{-3/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función como $f(x) = 2x^{-1/2}$. Multiplica $2 \\cdot (-\\frac{1}{2}) = -1$.",
+    "explanation": "$f(x) = 2x^{-1/2}$. Entonces $f'(x) = 2(-\\frac{1}{2})x^{-3/2} = -x^{-3/2} = -\\frac{1}{\\sqrt{x^3}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AY",
+    "question": "Si $y = 3x^2 + \\frac{1}{x^2}$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$6x - \\frac{2}{x^3}$", "correct": true },
+      { "text": "$6x + \\frac{2}{x^3}$", "correct": false },
+      { "text": "$6x - 2x^{-1}$", "correct": false },
+      { "text": "$3x - 2x^{-3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\frac{1}{x^2}$ como $x^{-2}$. Su derivada es $-2x^{-3}$.",
+    "explanation": "$y = 3x^2 + x^{-2}$. $\\frac{dy}{dx} = 6x + (-2)x^{-3} = 6x - 2x^{-3} = 6x - \\frac{2}{x^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09AZ",
+    "question": "Deriva la función $h(x) = -\\frac{3}{x^5}$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = \\frac{15}{x^6}$", "correct": true },
+      { "text": "$h'(x) = -15x^{-6}$", "correct": false },
+      { "text": "$h'(x) = -15x^{-4}$", "correct": false },
+      { "text": "$h'(x) = \\frac{15}{x^4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $h(x) = -3x^{-5}$. El producto de coeficientes es $(-3) \\cdot (-5) = 15$.",
+    "explanation": "$h'(x) = -3(-5)x^{-5-1} = 15x^{-6} = \\frac{15}{x^6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BA",
+    "question": "Si $f(x) = \\frac{x^4 - x^2}{x}$, simplifica primero y luego calcula la derivada $f'(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$3x^2 - 1$", "correct": true },
+      { "text": "$4x^3 - 2x$", "correct": false },
+      { "text": "$x^2 - 1$", "correct": false },
+      { "text": "$2x^2 - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Simplificando: $f(x) = x^3 - x$. Luego deriva.",
+    "explanation": "Simplificando la expresión: $f(x) = \\frac{x^4}{x} - \\frac{x^2}{x} = x^3 - x$. Derivando: $f'(x) = 3x^2 - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BB",
+    "question": "Calcula la derivada de $y = \\frac{6}{x^{-3}}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{dy}{dx} = 18x^2$", "correct": true },
+      { "text": "$\\frac{dy}{dx} = 24x^3$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = -18x^{-4}$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = 6x^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función utilizando propiedades de exponentes: $\\frac{1}{x^{-n}} = x^n$.",
+    "explanation": "La función se reescribe como $y = 6x^3$. La derivada es $\\frac{dy}{dx} = 6 \\cdot 3x^{3-1} = 18x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BC",
+    "question": "Encuentra la derivada de la función $f(x) = \\frac{x^3 - 5x^2 + 1}{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = 1 - \\frac{2}{x^3}$", "correct": true },
+      { "text": "$f'(x) = 1 + \\frac{2}{x^3}$", "correct": false },
+      { "text": "$f'(x) = 3x - 5 - 2x^{-3}$", "correct": false },
+      { "text": "$f'(x) = x - 5 + x^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide cada término del numerador por el denominador primero: $f(x) = x - 5 + x^{-2}$.",
+    "explanation": "Simplificando: $f(x) = \\frac{x^3}{x^2} - \\frac{5x^2}{x^2} + \\frac{1}{x^2} = x - 5 + x^{-2}$. Derivando: $f'(x) = 1 + 0 + (-2)x^{-3} = 1 - 2x^{-3} = 1 - \\frac{2}{x^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BD",
+    "question": "Deriva la función $y = \\frac{3}{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{dy}{dx} = -\\frac{6}{x^3}$", "correct": true },
+      { "text": "$\\frac{dy}{dx} = 6x^{-3}$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = -\\frac{3}{x^3}$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = 6x^{-1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función como $y = 3x^{-2}$. El exponente resultante es $-2 - 1 = -3$.",
+    "explanation": "Derivando: $\\frac{dy}{dx} = 3(-2)x^{-2-1} = -6x^{-3} = -\\frac{6}{x^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BE",
+    "question": "Si $f(x) = \\frac{5}{x} - 2x$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{5}{x^2} - 2$", "correct": true },
+      { "text": "$5x^{-2} - 2$", "correct": false },
+      { "text": "$\\frac{5}{x^2} - 2$", "correct": false },
+      { "text": "$-5x^2 - 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\frac{5}{x}$ como $5x^{-1}$. Su derivada es $5(-1)x^{-2}$.",
+    "explanation": "$f'(x) = -5x^{-2} - 2 = -\\frac{5}{x^2} - 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BF",
+    "question": "Calcula la derivada de $y = 2x^2 + \\frac{4}{x^{1/2}}$.",
+    "image": null,
+    "options": [
+      { "text": "$4x - 2x^{-3/2}$", "correct": true },
+      { "text": "$4x + 4x^{-3/2}$", "correct": false },
+      { "text": "$2x - 2x^{-1/2}$", "correct": false },
+      { "text": "$4x + 2x^{-3/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe el segundo término como $4x^{-1/2}$. El producto de coeficientes es $4 \\cdot (-\\frac{1}{2}) = -2$.",
+    "explanation": "$y = 2x^2 + 4x^{-1/2}$. $\\frac{dy}{dx} = 4x + 4(-\\frac{1}{2})x^{-1/2 - 1} = 4x - 2x^{-3/2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BG",
+    "question": "Si $h(t) = \\frac{2}{3t^4}$, ¿cuál es $h'(t)$?",
+    "image": null,
+    "options": [
+      { "text": "$h'(t) = -\\frac{8}{3t^5}$", "correct": true },
+      { "text": "$h'(t) = -\\frac{2}{3t^5}$", "correct": false },
+      { "text": "$h'(t) = -8t^{-5}$", "correct": false },
+      { "text": "$h'(t) = -\\frac{8}{3} t^{-3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función como $h(t) = \\frac{2}{3} t^{-4}$. Multiplica $\\frac{2}{3} \\cdot (-4) = -\\frac{8}{3}$.",
+    "explanation": "$h'(t) = \\frac{2}{3}(-4)t^{-4-1} = -\\frac{8}{3} t^{-5} = -\\frac{8}{3t^5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BH",
+    "question": "Un estudiante del CEPREDIX debe derivar $f(x) = x^2 - \\frac{7}{x}$. ¿Cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$2x + \\frac{7}{x^2}$", "correct": true },
+      { "text": "$2x - \\frac{7}{x^2}$", "correct": false },
+      { "text": "$x - 7x^{-2}$", "correct": false },
+      { "text": "$2x + 7x^{-1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $-\\frac{7}{x}$ como $-7x^{-1}$. Su derivada es $(-7)(-1)x^{-2}$.",
+    "explanation": "$f(x) = x^2 - 7x^{-1}$. Derivando: $f'(x) = 2x - 7(-1)x^{-2} = 2x + 7x^{-2} = 2x + \\frac{7}{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BI",
+    "question": "Calcula la derivada de $y = \\frac{1}{2x^3}$.",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{3}{2x^4}$", "correct": true },
+      { "text": "$\\frac{3}{2x^4}$", "correct": false },
+      { "text": "$-\\frac{1}{6x^2}$", "correct": false },
+      { "text": "$-3x^{-4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe la función como $y = \\frac{1}{2} x^{-3}$. Multiplica el coeficiente por el exponente $\\frac{1}{2} \\cdot (-3) = -\\frac{3}{2}$.",
+    "explanation": "Derivando: $\\frac{dy}{dx} = \\frac{1}{2}(-3)x^{-3-1} = -\\frac{3}{2} x^{-4} = -\\frac{3}{2x^4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BJ",
+    "question": "Encuentra la derivada de $f(x) = \\frac{x^5 + 2x^3}{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$3x^2 + 2$", "correct": true },
+      { "text": "$5x^4 + 6x^2$", "correct": false },
+      { "text": "$x^2 + 2$", "correct": false },
+      { "text": "$3x^3 + 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Simplifica primero: $f(x) = x^3 + 2x$.",
+    "explanation": "Simplificando: $f(x) = x^{5-2} + 2x^{3-2} = x^3 + 2x$. Derivando: $f'(x) = 3x^2 + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BK",
+    "question": "Calcula la derivada de $f(x) = (3x - 1)^4$.",
+    "image": null,
+    "options": [
+      { "text": "$12(3x - 1)^3$", "correct": true },
+      { "text": "$4(3x - 1)^3$", "correct": false },
+      { "text": "$12x(3x - 1)^3$", "correct": false },
+      { "text": "$4(3x)^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla de la cadena para $y = u^n$: $\\frac{dy}{dx} = n u^{n-1} \\frac{du}{dx}$. Identifica $u = 3x - 1$.",
+    "explanation": "Aquí $u = 3x - 1$, $\\frac{du}{dx} = 3$. Aplicando la regla: $f'(x) = 4(3x - 1)^{4-1} \\cdot 3 = 12(3x - 1)^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BL",
+    "question": "Deriva la función $y = (5x^2 + 2)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$30x(5x^2 + 2)^2$", "correct": true },
+      { "text": "$3(5x^2 + 2)^2$", "correct": false },
+      { "text": "$15x(5x^2 + 2)^2$", "correct": false },
+      { "text": "$30(5x^2 + 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de la función interna $u = 5x^2 + 2$ es $10x$. Multiplica el exponente 3 por este resultado.",
+    "explanation": "Aplicando la regla de la cadena: $\\frac{dy}{dx} = 3(5x^2 + 2)^{3-1} \\cdot \\frac{d}{dx}(5x^2 + 2) = 3(5x^2 + 2)^2 (10x) = 30x(5x^2 + 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BM",
+    "question": "Encuentra la derivada de $g(x) = \\sqrt{2x + 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = \\frac{1}{\\sqrt{2x + 1}}$", "correct": true },
+      { "text": "$g'(x) = \\frac{1}{2\\sqrt{2x + 1}}$", "correct": false },
+      { "text": "$g'(x) = 2x + 1$", "correct": false },
+      { "text": "$g'(x) = 2(2x + 1)^{-1/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $g(x) = (2x + 1)^{1/2}$. La derivada de la función interna $u=2x+1$ es 2.",
+    "explanation": "$g'(x) = \\frac{1}{2}(2x + 1)^{-1/2} \\cdot 2 = (2x + 1)^{-1/2} = \\frac{1}{\\sqrt{2x + 1}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BN",
+    "question": "Un estudiante del CEPREDIX calcula la derivada de la expresión $h(x) = (1 - 4x)^5$. ¿Cuál es $h'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$-20(1 - 4x)^4$", "correct": true },
+      { "text": "$5(1 - 4x)^4$", "correct": false },
+      { "text": "$-4(1 - 4x)^4$", "correct": false },
+      { "text": "$-20x(1 - 4x)^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de la función interna $u = 1 - 4x$ es $-4$. Multiplica $5 \\cdot (-4)$.",
+    "explanation": "Aplicando la regla de la cadena: $h'(x) = 5(1 - 4x)^{5-1} \\cdot \\frac{d}{dx}(1 - 4x) = 5(1 - 4x)^4 (-4) = -20(1 - 4x)^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BO",
+    "question": "Deriva la función $y = (x^3 - x + 1)^2$.",
+    "image": null,
+    "options": [
+      { "text": "$2(3x^2 - 1)(x^3 - x + 1)$", "correct": true },
+      { "text": "$2(x^3 - x + 1)$", "correct": false },
+      { "text": "$2(3x^2 - 1)$", "correct": false },
+      { "text": "$2x(x^3 - x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de la función interna $u = x^3 - x + 1$ es $3x^2 - 1$.",
+    "explanation": "Aplicando la regla de la cadena: $\\frac{dy}{dx} = 2(x^3 - x + 1)^1 \\cdot (3x^2 - 1) = 2(3x^2 - 1)(x^3 - x + 1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BP",
+    "question": "Calcula la derivada de $f(x) = (2x - 3)^{-1}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -2(2x - 3)^{-2}$", "correct": true },
+      { "text": "$f'(x) = -(2x - 3)^{-2}$", "correct": false },
+      { "text": "$f'(x) = -1(2x - 3)^{-1}$", "correct": false },
+      { "text": "$f'(x) = 2(2x - 3)^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la cadena: $(-1)u^{-2} \\frac{du}{dx}$. La derivada de $u=2x-3$ es 2.",
+    "explanation": "$f'(x) = -1(2x - 3)^{-1 - 1} \\cdot (2) = -2(2x - 3)^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BQ",
+    "question": "Si $y = 5 (x^2 + 3x)^3$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$15(2x + 3)(x^2 + 3x)^2$", "correct": true },
+      { "text": "$15(x^2 + 3x)^2$", "correct": false },
+      { "text": "$5(2x + 3)(x^2 + 3x)^2$", "correct": false },
+      { "text": "$30x(x^2 + 3x)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El coeficiente es 5. Multiplica $5 \\cdot 3$ y por la derivada interna $\\frac{d}{dx}(x^2 + 3x) = 2x + 3$.",
+    "explanation": "Regla de la cadena: $\\frac{dy}{dx} = 5 \\cdot 3(x^2 + 3x)^2 \\cdot (2x + 3) = 15(2x + 3)(x^2 + 3x)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BR",
+    "question": "Deriva la función $g(x) = 10 \\sqrt{x^2 - 5}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = \\frac{10x}{\\sqrt{x^2 - 5}}$", "correct": true },
+      { "text": "$g'(x) = \\frac{5x}{\\sqrt{x^2 - 5}}$", "correct": false },
+      { "text": "$g'(x) = 10x(x^2 - 5)^{-1/2}$", "correct": false },
+      { "text": "$g'(x) = 10x^2 (x^2 - 5)^{-1/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $g(x) = 10(x^2 - 5)^{1/2}$. La derivada interna es $2x$.",
+    "explanation": "$g'(x) = 10 \\cdot \\frac{1}{2} (x^2 - 5)^{-1/2} \\cdot (2x) = 10x (x^2 - 5)^{-1/2} = \\frac{10x}{\\sqrt{x^2 - 5}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BS",
+    "question": "Encuentra la derivada de $f(x) = (x^2 + 1)^3 (2x - 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$(x^2 + 1)^2 (14x^2 - 6x + 2)$", "correct": true },
+      { "text": "$3(x^2 + 1)^2 (2x - 1)$", "correct": false },
+      { "text": "$6x(x^2 + 1)^2 (2x - 1) + 2(x^2 + 1)^3$", "correct": false },
+      { "text": "$6x(x^2 + 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto $\\frac{d}{dx}(uv) = u'v + uv'$. Identifica $u = (x^2 + 1)^3$ y $v = 2x - 1$.",
+    "explanation": "Derivadas: $u' = 3(x^2 + 1)^2 (2x) = 6x(x^2 + 1)^2$; $v' = 2$. Aplicando $u'v + uv'$: $6x(x^2 + 1)^2 (2x - 1) + (x^2 + 1)^3 (2)$. Factorizando $(x^2 + 1)^2$: $(x^2 + 1)^2 [6x(2x - 1) + 2(x^2 + 1)] = (x^2 + 1)^2 [12x^2 - 6x + 2x^2 + 2] = (x^2 + 1)^2 (14x^2 - 6x + 2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BT",
+    "question": "Calcula la derivada de $y = (x + 1)(x - 2)$.",
+    "image": null,
+    "options": [
+      { "text": "$2x - 1$", "correct": true },
+      { "text": "$x^2 - x - 2$", "correct": false },
+      { "text": "$2x + 1$", "correct": false },
+      { "text": "$x - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica primero y luego deriva: $y = x^2 - x - 2$. O usa la regla del producto $\\frac{d}{dx}(uv) = u'v + uv'$.",
+    "explanation": "Usando multiplicación: $y = x^2 - 2x + x - 2 = x^2 - x - 2$. $\\frac{dy}{dx} = 2x - 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BU",
+    "question": "Deriva la función $f(x) = x^2 \\sqrt{x}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{5}{2} x^{3/2}$", "correct": true },
+      { "text": "$f'(x) = 2x + \\frac{1}{2 \\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{5}{2} x^{1/2}$", "correct": false },
+      { "text": "$f'(x) = 2x \\sqrt{x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma los exponentes primero: $x^2 \\sqrt{x} = x^2 x^{1/2} = x^{5/2}$.",
+    "explanation": "Simplificando: $f(x) = x^{5/2}$. Derivando: $f'(x) = \\frac{5}{2} x^{5/2 - 1} = \\frac{5}{2} x^{3/2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BV",
+    "question": "Si $y = (x^2 + 3)(x - 1)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$3x^2 - 2x + 3$", "correct": true },
+      { "text": "$2x(x - 1) + (x^2 + 3)$", "correct": false },
+      { "text": "$3x^2 + 3$", "correct": false },
+      { "text": "$x^3 - x^2 + 3x - 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto. $u = x^2 + 3 \\implies u' = 2x$. $v = x - 1 \\implies v' = 1$.",
+    "explanation": "$\\frac{dy}{dx} = (2x)(x - 1) + (x^2 + 3)(1) = 2x^2 - 2x + x^2 + 3 = 3x^2 - 2x + 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BW",
+    "question": "Calcula la derivada de $h(x) = x \\cdot (4x^2 + 5)$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = 12x^2 + 5$", "correct": true },
+      { "text": "$h'(x) = 4x^2 + 5$", "correct": false },
+      { "text": "$h'(x) = 8x^2 + 5$", "correct": false },
+      { "text": "$h'(x) = 4x^3 + 5x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica primero: $h(x) = 4x^3 + 5x$.",
+    "explanation": "Simplificando: $h(x) = 4x^3 + 5x$. Derivando: $h'(x) = 12x^2 + 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BX",
+    "question": "Un estudiante del CEPREDIX debe derivar $f(x) = \\frac{x - 3}{x + 5}$. ¿Cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{8}{(x + 5)^2}$", "correct": true },
+      { "text": "$f'(x) = \\frac{-2}{(x + 5)^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2x + 2}{(x + 5)^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{(x + 5)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente $\\frac{d}{dx}(\\frac{u}{v}) = \\frac{u'v - uv'}{v^2}$. Identifica $u=x-3$ y $v=x+5$.",
+    "explanation": "Derivadas: $u'=1$, $v'=1$. $f'(x) = \\frac{(1)(x+5) - (x-3)(1)}{(x+5)^2} = \\frac{x+5 - x+3}{(x+5)^2} = \\frac{8}{(x + 5)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BY",
+    "question": "Calcula la derivada de $y = \\sin(4x)$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{dy}{dx} = 4 \\cos(4x)$", "correct": true },
+      { "text": "$\\frac{dy}{dx} = \\cos(4x)$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = -4 \\cos(4x)$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = 4 \\sin(4x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\sin(u)$ es $\\cos(u) \\cdot u'$. La derivada de la función interna $u=4x$ es 4.",
+    "explanation": "Aplicando la regla de la cadena: $\\frac{dy}{dx} = \\cos(4x) \\cdot \\frac{d}{dx}(4x) = 4 \\cos(4x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09BZ",
+    "question": "Deriva la función $g(x) = \\frac{2x}{x - 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = \\frac{-2}{(x - 1)^2}$", "correct": true },
+      { "text": "$g'(x) = \\frac{2x - 2}{(x - 1)^2}$", "correct": false },
+      { "text": "$g'(x) = \\frac{2}{(x - 1)^2}$", "correct": false },
+      { "text": "$g'(x) = 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente. $u=2x \\implies u'=2$. $v=x-1 \\implies v'=1$.",
+    "explanation": "$g'(x) = \\frac{(2)(x-1) - (2x)(1)}{(x-1)^2} = \\frac{2x - 2 - 2x}{(x-1)^2} = \\frac{-2}{(x - 1)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CA",
+    "question": "Calcula la derivada de $y = \\cos(x^2 + 5)$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{dy}{dx} = -2x \\sin(x^2 + 5)$", "correct": true },
+      { "text": "$\\frac{dy}{dx} = \\sin(x^2 + 5)$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = 2x \\sin(x^2 + 5)$", "correct": false },
+      { "text": "$\\frac{dy}{dx} = -\\sin(x^2 + 5)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\cos(u)$ es $-\\sin(u) \\cdot u'$. La derivada de la función interna $u=x^2+5$ es $2x$.",
+    "explanation": "Aplicando la regla de la cadena: $\\frac{dy}{dx} = -\\sin(x^2 + 5) \\cdot \\frac{d}{dx}(x^2 + 5) = -2x \\sin(x^2 + 5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CB",
+    "question": "Deriva la función $f(x) = \\frac{1}{x^2 + 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -\\frac{2x}{(x^2 + 1)^2}$", "correct": true },
+      { "text": "$f'(x) = -2x(x^2 + 1)^{-2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2x}{x^2 + 1}$", "correct": false },
+      { "text": "$f'(x) = 2x(x^2 + 1)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $f(x) = (x^2 + 1)^{-1}$. Usa la regla de la cadena: $(-1)u^{-2} u'$.",
+    "explanation": "$f'(x) = -1(x^2 + 1)^{-2} \\cdot (2x) = -2x(x^2 + 1)^{-2} = -\\frac{2x}{(x^2 + 1)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CC",
+    "question": "Si $g(x) = 3 \\sin(x) - 2 \\cos(x)$, ¿cuál es $g'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$3 \\cos(x) + 2 \\sin(x)$", "correct": true },
+      { "text": "$3 \\cos(x) - 2 \\sin(x)$", "correct": false },
+      { "text": "$-3 \\cos(x) + 2 \\sin(x)$", "correct": false },
+      { "text": "$3 \\sin(x) + 2 \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Recuerda que $\\frac{d}{dx}(\\sin x) = \\cos x$ y $\\frac{d}{dx}(\\cos x) = -\\sin x$.",
+    "explanation": "Derivando término por término: $3 \\cos(x) - 2(-\\sin(x)) = 3 \\cos(x) + 2 \\sin(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CD",
+    "question": "Calcula la derivada de $y = x^2 \\cos(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$2x \\cos(x) - x^2 \\sin(x)$", "correct": true },
+      { "text": "$2x \\sin(x) + x^2 \\cos(x)$", "correct": false },
+      { "text": "$2x \\cos(x) + x^2 \\sin(x)$", "correct": false },
+      { "text": "$x^2 \\sin(x) - 2x \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto $u'v + uv'$. $u=x^2 \\implies u'=2x$. $v=\\cos x \\implies v'=-\\sin x$.",
+    "explanation": "$\\frac{dy}{dx} = (2x)(\\cos x) + (x^2)(-\\sin x) = 2x \\cos(x) - x^2 \\sin(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CE",
+    "question": "Deriva la función $f(x) = \\frac{\\sin x}{x}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{x \\cos x - \\sin x}{x^2}$", "correct": true },
+      { "text": "$f'(x) = \\frac{\\cos x}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{x \\sin x - \\cos x}{x^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{\\cos x - x \\sin x}{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente $\\frac{u'v - uv'}{v^2}$. $u=\\sin x \\implies u'=\\cos x$. $v=x \\implies v'=1$.",
+    "explanation": "$f'(x) = \\frac{(\\cos x)(x) - (\\sin x)(1)}{x^2} = \\frac{x \\cos x - \\sin x}{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CF",
+    "question": "Calcula la derivada de $y = \\tan(3x)$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\sec^2(3x)$", "correct": true },
+      { "text": "$\\sec^2(3x)$", "correct": false },
+      { "text": "$3 \\tan^2(3x)$", "correct": false },
+      { "text": "$-3 \\sec^2(3x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\tan(u)$ es $\\sec^2(u) \\cdot u'$. La derivada de la función interna $u=3x$ es 3.",
+    "explanation": "Aplicando la regla de la cadena: $\\frac{dy}{dx} = \\sec^2(3x) \\cdot \\frac{d}{dx}(3x) = 3 \\sec^2(3x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CG",
+    "question": "Un estudiante del CEPREDIX debe derivar $h(x) = 2 \\cos(x) + x^3$. ¿Cuál es $h'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$3x^2 - 2 \\sin(x)$", "correct": true },
+      { "text": "$2 \\sin(x) + 3x^2$", "correct": false },
+      { "text": "$3x^2 - 2 \\cos(x)$", "correct": false },
+      { "text": "$3x^2 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $2 \\cos(x)$ es $2(-\\sin x) = -2 \\sin x$.",
+    "explanation": "Derivando: $h'(x) = 2(-\\sin x) + 3x^2 = 3x^2 - 2 \\sin(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CH",
+    "question": "Calcula la derivada de $y = \\sin(\\frac{x}{2})$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{2} \\cos(\\frac{x}{2})$", "correct": true },
+      { "text": "$\\cos(\\frac{x}{2})$", "correct": false },
+      { "text": "$2 \\cos(\\frac{x}{2})$", "correct": false },
+      { "text": "$-\\frac{1}{2} \\cos(\\frac{x}{2})$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de la función interna $u = \\frac{x}{2}$ es $\\frac{1}{2}$.",
+    "explanation": "Aplicando la regla de la cadena: $\\frac{dy}{dx} = \\cos(\\frac{x}{2}) \\cdot \\frac{d}{dx}(\\frac{x}{2}) = \\frac{1}{2} \\cos(\\frac{x}{2})$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CI",
+    "question": "Deriva la función $f(x) = x^3 \\sin(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$3x^2 \\sin(x) + x^3 \\cos(x)$", "correct": true },
+      { "text": "$3x^2 \\cos(x)$", "correct": false },
+      { "text": "$3x^2 \\sin(x) - x^3 \\cos(x)$", "correct": false },
+      { "text": "$x^3 \\cos(x) - 3x^2 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto. $u=x^3 \\implies u'=3x^2$. $v=\\sin x \\implies v'=\\cos x$.",
+    "explanation": "$f'(x) = (3x^2)(\\sin x) + (x^3)(\\cos x) = 3x^2 \\sin(x) + x^3 \\cos(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CJ",
+    "question": "Si $y = 5 \\cos(2x)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$-10 \\sin(2x)$", "correct": true },
+      { "text": "$10 \\sin(2x)$", "correct": false },
+      { "text": "$5 \\sin(2x)$", "correct": false },
+      { "text": "$-5 \\sin(2x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $5 \\cos(u)$ es $5(-\\sin u) u'$. La derivada interna es 2.",
+    "explanation": "Aplicando la regla de la cadena: $\\frac{dy}{dx} = 5[-\\sin(2x)] \\cdot (2) = -10 \\sin(2x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CK",
+    "question": "Calcula la derivada de $y = 6x^2 \\sin(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$12x \\sin(x) + 6x^2 \\cos(x)$", "correct": true },
+      { "text": "$12x \\cos(x)$", "correct": false },
+      { "text": "$6x^2 \\cos(x) - 12x \\sin(x)$", "correct": false },
+      { "text": "$6x^2 \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto. $u=6x^2 \\implies u'=12x$.",
+    "explanation": "$\\frac{dy}{dx} = (12x)(\\sin x) + (6x^2)(\\cos x) = 12x \\sin(x) + 6x^2 \\cos(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CL",
+    "question": "Deriva la función $f(x) = 5 \\tan(x) - 2x^4$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\sec^2(x) - 8x^3$", "correct": true },
+      { "text": "$5 \\sec(x) - 8x^3$", "correct": false },
+      { "text": "$5 \\tan^2(x) - 8x^3$", "correct": false },
+      { "text": "$-5 \\sec^2(x) - 8x^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\tan x$ es $\\sec^2 x$.",
+    "explanation": "Derivando: $f'(x) = 5 \\sec^2(x) - 8x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CM",
+    "question": "Calcula la derivada de $y = \\frac{1}{x} + \\sin x$.",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{1}{x^2} + \\cos x$", "correct": true },
+      { "text": "$-x^{-2} + \\sin x$", "correct": false },
+      { "text": "$\\frac{1}{x^2} - \\cos x$", "correct": false },
+      { "text": "$\\ln x + \\cos x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\frac{1}{x}$ como $x^{-1}$.",
+    "explanation": "$y = x^{-1} + \\sin x$. $\\frac{dy}{dx} = -1x^{-2} + \\cos x = -\\frac{1}{x^2} + \\cos x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CN",
+    "question": "Si $g(x) = 2x^4 \\cos(x)$, ¿cuál es $g'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$8x^3 \\cos(x) - 2x^4 \\sin(x)$", "correct": true },
+      { "text": "$8x^3 \\sin(x) + 2x^4 \\cos(x)$", "correct": false },
+      { "text": "$2x^4 \\sin(x) - 8x^3 \\cos(x)$", "correct": false },
+      { "text": "$8x^3 \\cos(x) + 2x^4 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto. $u=2x^4 \\implies u'=8x^3$. $v=\\cos x \\implies v'=-\\sin x$.",
+    "explanation": "$g'(x) = (8x^3)(\\cos x) + (2x^4)(-\\sin x) = 8x^3 \\cos(x) - 2x^4 \\sin(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CO",
+    "question": "Deriva la función $f(x) = \\frac{x^2}{x + 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{x^2 + 2x}{(x + 1)^2}$", "correct": true },
+      { "text": "$f'(x) = \\frac{2x}{x + 1}$", "correct": false },
+      { "text": "$f'(x) = \\frac{x^2 - 2x}{(x + 1)^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2x^2 + 2x}{(x + 1)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente. $u=x^2 \\implies u'=2x$. $v=x+1 \\implies v'=1$. $u'v - uv' = 2x(x+1) - x^2(1)$.",
+    "explanation": "$f'(x) = \\frac{2x(x+1) - x^2(1)}{(x+1)^2} = \\frac{2x^2 + 2x - x^2}{(x+1)^2} = \\frac{x^2 + 2x}{(x + 1)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CP",
+    "question": "Calcula la derivada de $y = \\frac{x^3 + 1}{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$1 - \\frac{2}{x^3}$", "correct": true },
+      { "text": "$x - 2x^{-3}$", "correct": false },
+      { "text": "$\\frac{x^3 - 2}{x^3}$", "correct": false },
+      { "text": "$3x^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Simplifica primero: $y = x + x^{-2}$.",
+    "explanation": "$y = \\frac{x^3}{x^2} + \\frac{1}{x^2} = x + x^{-2}$. $\\frac{dy}{dx} = 1 - 2x^{-3} = 1 - \\frac{2}{x^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CQ",
+    "question": "Deriva la función $h(x) = 5 \\sqrt{x} (x + 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = \\frac{15}{2} \\sqrt{x} + \\frac{5}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$h'(x) = 5 \\frac{x+1}{2\\sqrt{x}}$", "correct": false },
+      { "text": "$h'(x) = \\frac{15}{2} x^{3/2} + 5x^{1/2}$", "correct": false },
+      { "text": "$h'(x) = \\frac{5}{2} x^{-1/2} (x + 1)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto. $u=5x^{1/2} \\implies u'=\\frac{5}{2}x^{-1/2}$.",
+    "explanation": "$h'(x) = (\\frac{5}{2}x^{-1/2})(x + 1) + (5x^{1/2})(1) = \\frac{5}{2}x^{1/2} + \\frac{5}{2}x^{-1/2} + 5x^{1/2} = \\frac{15}{2}x^{1/2} + \\frac{5}{2}x^{-1/2} = \\frac{15}{2} \\sqrt{x} + \\frac{5}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CR",
+    "question": "Si $y = 3x^2 (x^3 - 4)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$15x^4 - 24x$", "correct": true },
+      { "text": "$6x(x^3 - 4) + 3x^2(3x^2)$", "correct": false },
+      { "text": "$9x^4 - 12x^2$", "correct": false },
+      { "text": "$15x^4 + 24x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica primero: $y = 3x^5 - 12x^2$.",
+    "explanation": "Simplificando: $y = 3x^5 - 12x^2$. $\\frac{dy}{dx} = 15x^4 - 24x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CS",
+    "question": "Un aspirante del CEPREDIX resuelve la derivada de $f(x) = \\frac{x^2}{2x + 1}$. ¿Cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{2x^2 + 2x}{(2x + 1)^2}$", "correct": true },
+      { "text": "$f'(x) = \\frac{4x^2 + 2x - 2x^2}{(2x + 1)^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2x}{2x + 1}$", "correct": false },
+      { "text": "$f'(x) = \\frac{2x^2 + x}{(2x + 1)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente. $u=x^2 \\implies u'=2x$. $v=2x+1 \\implies v'=2$. $u'v - uv' = 2x(2x+1) - x^2(2)$.",
+    "explanation": "$f'(x) = \\frac{2x(2x + 1) - x^2(2)}{(2x + 1)^2} = \\frac{4x^2 + 2x - 2x^2}{(2x + 1)^2} = \\frac{2x^2 + 2x}{(2x + 1)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CT",
+    "question": "Calcula la derivada de $y = \\frac{x - 1}{x + 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2}{(x + 1)^2}$", "correct": true },
+      { "text": "$1$", "correct": false },
+      { "text": "$\\frac{2x}{(x + 1)^2}$", "correct": false },
+      { "text": "$-\\frac{2}{(x + 1)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente. $u'v - uv' = 1(x+1) - (x-1)(1)$.",
+    "explanation": "$\\frac{dy}{dx} = \\frac{(1)(x+1) - (x-1)(1)}{(x+1)^2} = \\frac{x+1 - x+1}{(x+1)^2} = \\frac{2}{(x + 1)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CU",
+    "question": "Deriva la función $f(x) = 5 \\sin(x^3)$.",
+    "image": null,
+    "options": [
+      { "text": "$15x^2 \\cos(x^3)$", "correct": true },
+      { "text": "$5 \\cos(x^3)$", "correct": false },
+      { "text": "$15x^2 \\sin(x^3)$", "correct": false },
+      { "text": "$5 \\cos(x^2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $5 \\sin(u)$ es $5 \\cos(u) \\cdot u'$. La derivada de la función interna $u=x^3$ es $3x^2$.",
+    "explanation": "$f'(x) = 5 \\cos(x^3) \\cdot (3x^2) = 15x^2 \\cos(x^3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CV",
+    "question": "Si $y = \\cos(x) + \\sin(x)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$-\\sin(x) + \\cos(x)$", "correct": true },
+      { "text": "$\\sin(x) - \\cos(x)$", "correct": false },
+      { "text": "$-\\cos(x) + \\sin(x)$", "correct": false },
+      { "text": "$-(\\sin(x) + \\cos(x))$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva término por término.",
+    "explanation": "La derivada de $\\cos x$ es $-\\sin x$, y la derivada de $\\sin x$ es $\\cos x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CW",
+    "question": "Encuentra la derivada de la función $g(x) = \\tan(5x)$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\sec^2(5x)$", "correct": true },
+      { "text": "$5 \\tan^2(5x)$", "correct": false },
+      { "text": "$\\sec^2(5x)$", "correct": false },
+      { "text": "$-5 \\sec^2(5x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\tan(u)$ es $\\sec^2(u) \\cdot u'$. La derivada interna es 5.",
+    "explanation": "$g'(x) = \\sec^2(5x) \\cdot 5 = 5 \\sec^2(5x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CX",
+    "question": "Calcula la derivada de $y = 3 \\cos(x) + 7 \\sin(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$7 \\cos(x) - 3 \\sin(x)$", "correct": true },
+      { "text": "$3 \\sin(x) + 7 \\cos(x)$", "correct": false },
+      { "text": "$-3 \\sin(x) - 7 \\cos(x)$", "correct": false },
+      { "text": "$7 \\sin(x) - 3 \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $3 \\cos x$ es $-3 \\sin x$. La derivada de $7 \\sin x$ es $7 \\cos x$.",
+    "explanation": "Derivando: $\\frac{dy}{dx} = 3(-\\sin x) + 7(\\cos x) = -3 \\sin(x) + 7 \\cos(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CY",
+    "question": "Deriva la función $f(x) = \\sin(\\sqrt{x})$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{\\cos(\\sqrt{x})}{2\\sqrt{x}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{\\cos(\\sqrt{x})}{\\sqrt{x}}$", "correct": false },
+      { "text": "$f'(x) = \\cos(\\sqrt{x})$", "correct": false },
+      { "text": "$f'(x) = 2\\sqrt{x} \\cos(\\sqrt{x})$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de la función interna $u=\\sqrt{x}$ es $\\frac{1}{2\\sqrt{x}}$.",
+    "explanation": "Regla de la cadena: $f'(x) = \\cos(\\sqrt{x}) \\cdot \\frac{d}{dx}(x^{1/2}) = \\cos(\\sqrt{x}) \\cdot \\frac{1}{2} x^{-1/2} = \\frac{\\cos(\\sqrt{x})}{2\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09CZ",
+    "question": "Si $h(x) = 5 \\cos(\\frac{x}{3})$, ¿cuál es $h'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = -\\frac{5}{3} \\sin(\\frac{x}{3})$", "correct": true },
+      { "text": "$h'(x) = -5 \\sin(\\frac{x}{3})$", "correct": false },
+      { "text": "$h'(x) = \\frac{5}{3} \\sin(\\frac{x}{3})$", "correct": false },
+      { "text": "$h'(x) = -\\frac{1}{3} \\sin(\\frac{x}{3})$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de la función interna $u = x/3$ es $1/3$. Multiplica el coeficiente 5 por este resultado.",
+    "explanation": "Regla de la cadena: $h'(x) = 5[-\\sin(\\frac{x}{3})] \\cdot \\frac{1}{3} = -\\frac{5}{3} \\sin(\\frac{x}{3})$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DA",
+    "question": "Calcula la derivada de $f(x) = \\frac{1}{2} \\sin(6x)$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\cos(6x)$", "correct": true },
+      { "text": "$6 \\cos(6x)$", "correct": false },
+      { "text": "$\\frac{1}{2} \\cos(6x)$", "correct": false },
+      { "text": "$-3 \\cos(6x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada interna es 6. Multiplica $\\frac{1}{2} \\cdot 6 = 3$.",
+    "explanation": "$f'(x) = \\frac{1}{2} \\cos(6x) \\cdot (6) = 3 \\cos(6x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DB",
+    "question": "Un estudiante del CEPREDIX debe derivar $y = x \\tan(x)$. ¿Cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\tan(x) + x \\sec^2(x)$", "correct": true },
+      { "text": "$x \\sec^2(x)$", "correct": false },
+      { "text": "$\\tan(x) - x \\sec^2(x)$", "correct": false },
+      { "text": "$\\sec^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto. $u=x \\implies u'=1$. $v=\\tan x \\implies v'=\\sec^2 x$.",
+    "explanation": "$\\frac{dy}{dx} = (1)(\\tan x) + (x)(\\sec^2 x) = \\tan(x) + x \\sec^2(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DC",
+    "question": "Si $f(x) = 2x - \\cot(x)$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$2 + \\csc^2(x)$", "correct": true },
+      { "text": "$2 - \\csc^2(x)$", "correct": false },
+      { "text": "$2 + \\sec^2(x)$", "correct": false },
+      { "text": "$2 - \\tan^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\cot x$ es $-\\csc^2 x$.",
+    "explanation": "$f'(x) = 2 - (-\\csc^2 x) = 2 + \\csc^2(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DD",
+    "question": "Calcula la derivada de $y = \\frac{\\cos x}{x}$.",
+    "image": null,
+    "options": [
+      { "text": "$-\\frac{x \\sin x + \\cos x}{x^2}$", "correct": true },
+      { "text": "$\\frac{x \\sin x - \\cos x}{x^2}$", "correct": false },
+      { "text": "$-\\frac{\\sin x}{x}$", "correct": false },
+      { "text": "$\\frac{-\\sin x}{2x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente. $u=\\cos x \\implies u'=-\\sin x$. $u'v - uv' = -\\sin x(x) - \\cos x(1)$.",
+    "explanation": "$\\frac{dy}{dx} = \\frac{(-\\sin x)(x) - (\\cos x)(1)}{x^2} = \\frac{-x \\sin x - \\cos x}{x^2} = -\\frac{x \\sin x + \\cos x}{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DE",
+    "question": "Encuentra la derivada de la función $f(x) = 3x^2 + 5 \\sin(x) - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$6x + 5 \\cos(x)$", "correct": true },
+      { "text": "$3x + 5 \\cos(x)$", "correct": false },
+      { "text": "$6x - 5 \\cos(x)$", "correct": false },
+      { "text": "$6x + 5 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada de $3x^2$ es $6x$. Derivada de $5 \\sin x$ es $5 \\cos x$.",
+    "explanation": "$f'(x) = 6x + 5 \\cos(x) - 0 = 6x + 5 \\cos(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DF",
+    "question": "Calcula la derivada de $y = (x^2 + 1) \\sin x$.",
+    "image": null,
+    "options": [
+      { "text": "$2x \\sin x + (x^2 + 1) \\cos x$", "correct": true },
+      { "text": "$2x \\cos x$", "correct": false },
+      { "text": "$2x \\sin x - (x^2 + 1) \\cos x$", "correct": false },
+      { "text": "$2x + \\cos x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto. $u'v + uv'$.",
+    "explanation": "$\\frac{dy}{dx} = (2x)(\\sin x) + (x^2 + 1)(\\cos x) = 2x \\sin x + (x^2 + 1) \\cos x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DG",
+    "question": "Deriva la función $f(x) = \\cos^2(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -2 \\sin(x) \\cos(x)$", "correct": true },
+      { "text": "$f'(x) = 2 \\cos(x)$", "correct": false },
+      { "text": "$f'(x) = -\\sin^2(x)$", "correct": false },
+      { "text": "$f'(x) = -2 \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $f(x) = (\\cos x)^2$. Regla de la cadena: $2u u'$. $u=\\cos x \\implies u'=-\\sin x$.",
+    "explanation": "$f'(x) = 2(\\cos x)^1 \\cdot (-\\sin x) = -2 \\sin(x) \\cos(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DH",
+    "question": "Calcula la derivada de $y = \\frac{1}{\\cos x}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{\\sin x}{\\cos^2 x}$", "correct": true },
+      { "text": "$-\\frac{\\sin x}{\\cos^2 x}$", "correct": false },
+      { "text": "$\\tan x$", "correct": false },
+      { "text": "$\\sin x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente o reescribe como $y = (\\cos x)^{-1}$. La derivada de $u^{-1}$ es $-1 u^{-2} u'$.",
+    "explanation": "Usando la regla de la cadena: $\\frac{dy}{dx} = -1(\\cos x)^{-2} (-\\sin x) = \\frac{\\sin x}{\\cos^2 x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DI",
+    "question": "Si $f(x) = \\sin(x) \\cos(x)$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\cos^2(x) - \\sin^2(x)$", "correct": true },
+      { "text": "$2 \\sin(x) \\cos(x)$", "correct": false },
+      { "text": "$-\\sin(x) \\cos(x)$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del producto. $u'v + uv'$.",
+    "explanation": "$f'(x) = (\\cos x)(\\cos x) + (\\sin x)(-\\sin x) = \\cos^2(x) - \\sin^2(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DJ",
+    "question": "Deriva la función $y = 3 \\sec(x) + 4 \\csc(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\sec(x) \\tan(x) - 4 \\csc(x) \\cot(x)$", "correct": true },
+      { "text": "$3 \\tan^2(x) + 4 \\cot^2(x)$", "correct": false },
+      { "text": "$3 \\sec(x) \\tan(x) + 4 \\csc(x) \\cot(x)$", "correct": false },
+      { "text": "$-3 \\sec(x) \\tan(x) - 4 \\csc(x) \\cot(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\sec x$ es $\\sec x \\tan x$. La derivada de $\\csc x$ es $-\\csc x \\cot x$.",
+    "explanation": "$\\frac{dy}{dx} = 3(\\sec x \\tan x) + 4(-\\csc x \\cot x) = 3 \\sec(x) \\tan(x) - 4 \\csc(x) \\cot(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DK",
+    "question": "Encuentra la derivada de $f(x) = 8x^2 \\sqrt{x} - 3$.",
+    "image": null,
+    "options": [
+      { "text": "$20 x^{3/2}$", "correct": true },
+      { "text": "$16x \\sqrt{x}$", "correct": false },
+      { "text": "$40 x^{3/2} - 3$", "correct": false },
+      { "text": "$8x^{3/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma los exponentes primero: $8x^2 \\sqrt{x} = 8x^{5/2}$.",
+    "explanation": "$f(x) = 8x^{5/2}$. $f'(x) = 8 \\cdot \\frac{5}{2} x^{5/2 - 1} = 20 x^{3/2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DL",
+    "question": "Calcula la derivada de $y = \\frac{x^2 - 1}{x^2 + 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{4x}{(x^2 + 1)^2}$", "correct": true },
+      { "text": "$\\frac{4x^3}{(x^2 + 1)^2}$", "correct": false },
+      { "text": "$\\frac{2x}{(x^2 + 1)^2}$", "correct": false },
+      { "text": "$1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla del cociente. $u=x^2-1 \\implies u'=2x$. $v=x^2+1 \\implies v'=2x$. $u'v - uv' = 2x(x^2+1) - (x^2-1)(2x)$.",
+    "explanation": "$\\frac{dy}{dx} = \\frac{2x(x^2+1) - 2x(x^2-1)}{(x^2+1)^2} = \\frac{2x^3 + 2x - 2x^3 + 2x}{(x^2+1)^2} = \\frac{4x}{(x^2 + 1)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DM",
+    "question": "Si $g(x) = (3x + 2)^5$, ¿cuál es $g'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$15(3x + 2)^4$", "correct": true },
+      { "text": "$5(3x + 2)^4$", "correct": false },
+      { "text": "$15x(3x + 2)^4$", "correct": false },
+      { "text": "$15(3x + 2)^5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena. Multiplica $5 \\cdot 3 = 15$.",
+    "explanation": "$g'(x) = 5(3x + 2)^4 \\cdot (3) = 15(3x + 2)^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DN",
+    "question": "Un estudiante del CEPREDIX debe derivar $f(x) = 2x^5 \\cdot (x^2 - 3)$. ¿Cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$14x^6 - 30x^4$", "correct": true },
+      { "text": "$14x^6 - 6x$", "correct": false },
+      { "text": "$10x^4(x^2 - 3) + 4x^5$", "correct": false },
+      { "text": "$12x^6 - 30x^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica primero: $f(x) = 2x^7 - 6x^5$.",
+    "explanation": "Simplificando: $f(x) = 2x^7 - 6x^5$. Derivando: $f'(x) = 14x^6 - 30x^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DO",
+    "question": "Calcula la derivada de $y = 3 \\sqrt[3]{x} + 2x$.",
+    "image": null,
+    "options": [
+      { "text": "$x^{-2/3} + 2$", "correct": true },
+      { "text": "$3x^{-2/3} + 2$", "correct": false },
+      { "text": "$\\frac{1}{\\sqrt[3]{x^2}} + 2$", "correct": false },
+      { "text": "$3x^{1/3} + 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $3\\sqrt[3]{x}$ como $3x^{1/3}$. Multiplica $3 \\cdot \\frac{1}{3} = 1$.",
+    "explanation": "Derivando: $\\frac{dy}{dx} = 3(\\frac{1}{3})x^{1/3 - 1} + 2 = x^{-2/3} + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DP",
+    "question": "Deriva la función $h(x) = 6x^2 - \\frac{2}{x^3}$.",
+    "image": null,
+    "options": [
+      { "text": "$12x + 6x^{-4}$", "correct": true },
+      { "text": "$12x - 6x^{-4}$", "correct": false },
+      { "text": "$12x + \\frac{6}{x^4}$", "correct": false },
+      { "text": "$6x + 6x^{-4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $-\\frac{2}{x^3}$ como $-2x^{-3}$.",
+    "explanation": "$h'(x) = 12x - 2(-3)x^{-4} = 12x + 6x^{-4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DQ",
+    "question": "Si $f(x) = 5 \\sin(x^2)$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$10x \\cos(x^2)$", "correct": true },
+      { "text": "$5 \\cos(x^2)$", "correct": false },
+      { "text": "$-10x \\sin(x^2)$", "correct": false },
+      { "text": "$5x^2 \\cos(x^2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada interna es $2x$. Multiplica $5 \\cdot 2x$.",
+    "explanation": "$f'(x) = 5 \\cos(x^2) \\cdot (2x) = 10x \\cos(x^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DR",
+    "question": "Calcula la derivada de $y = (x + 2)^5$.",
+    "image": null,
+    "options": [
+      { "text": "$5(x + 2)^4$", "correct": true },
+      { "text": "$5x(x + 2)^4$", "correct": false },
+      { "text": "$5(x + 2)^5$", "correct": false },
+      { "text": "$4(x + 2)^4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena. La derivada interna es 1.",
+    "explanation": "$\\frac{dy}{dx} = 5(x + 2)^4 \\cdot (1) = 5(x + 2)^4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DS",
+    "question": "Un profesor del CEPREDIX establece la función $V(r) = \\frac{4}{3} \\pi r^3$. ¿Cuál es la derivada de $V$ respecto a $r$ ($\\frac{dV}{dr}$)?",
+    "image": null,
+    "options": [
+      { "text": "$4 \\pi r^2$", "correct": true },
+      { "text": "$3 \\pi r^2$", "correct": false },
+      { "text": "$\\pi r^2$", "correct": false },
+      { "text": "$\\frac{4}{3} \\pi r^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada de la potencia: $3 \\cdot \\frac{4}{3} = 4$.",
+    "explanation": "$\\frac{dV}{dr} = \\frac{4}{3} \\pi \\cdot 3r^{3-1} = 4 \\pi r^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DT",
+    "question": "Deriva la función $y = 7x^{1/7}$.",
+    "image": null,
+    "options": [
+      { "text": "$x^{-6/7}$", "correct": true },
+      { "text": "$7x^{6/7}$", "correct": false },
+      { "text": "$\\frac{1}{7} x^{-6/7}$", "correct": false },
+      { "text": "$x^{1/7}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica $7 \\cdot \\frac{1}{7} = 1$.",
+    "explanation": "$\\frac{dy}{dx} = 7 \\cdot \\frac{1}{7} x^{1/7 - 1} = 1 \\cdot x^{-6/7} = x^{-6/7}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DU",
+    "question": "Si $f(x) = (x^2 - 1) \\cos(x)$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$2x \\cos(x) - (x^2 - 1) \\sin(x)$", "correct": true },
+      { "text": "$2x \\sin(x) + (x^2 - 1) \\cos(x)$", "correct": false },
+      { "text": "$2x \\cos(x) + (x^2 - 1) \\sin(x)$", "correct": false },
+      { "text": "$2x \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del producto. $u=x^2-1 \\implies u'=2x$. $v=\\cos x \\implies v'=-\\sin x$.",
+    "explanation": "$f'(x) = (2x)(\\cos x) + (x^2 - 1)(-\\sin x) = 2x \\cos(x) - (x^2 - 1) \\sin(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DV",
+    "question": "Calcula la derivada de $y = \\frac{1}{3}x^9 - 2x^2 + 7$.",
+    "image": null,
+    "options": [
+      { "text": "$3x^8 - 4x$", "correct": true },
+      { "text": "$9x^8 - 4x$", "correct": false },
+      { "text": "$3x^9 - 4x$", "correct": false },
+      { "text": "$\\frac{1}{3}x^8 - 4x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada de $x^9$ es $9x^8$. Multiplica $\\frac{1}{3} \\cdot 9 = 3$.",
+    "explanation": "$\\frac{dy}{dx} = \\frac{1}{3}(9x^8) - 4x + 0 = 3x^8 - 4x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DW",
+    "question": "Deriva la función $f(x) = \\frac{5}{x^4} - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -20x^{-5}$", "correct": true },
+      { "text": "$f'(x) = 20x^{-5}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{20}{x^5} - 1$", "correct": false },
+      { "text": "$f'(x) = 5x^{-3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\frac{5}{x^4}$ como $5x^{-4}$. Multiplica $5 \\cdot (-4) = -20$.",
+    "explanation": "$f'(x) = 5(-4)x^{-5} - 0 = -20x^{-5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DX",
+    "question": "Calcula la derivada de $y = 8 \\sqrt[4]{x}$.",
+    "image": null,
+    "options": [
+      { "text": "$2x^{-3/4}$", "correct": true },
+      { "text": "$\\frac{8}{4} x^{-3/4}$", "correct": false },
+      { "text": "$2x^{3/4}$", "correct": false },
+      { "text": "$8x^{-3/4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $8 \\sqrt[4]{x}$ como $8x^{1/4}$. Multiplica $8 \\cdot \\frac{1}{4} = 2$.",
+    "explanation": "$\\frac{dy}{dx} = 8 \\cdot \\frac{1}{4} x^{1/4 - 1} = 2x^{-3/4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DY",
+    "question": "Un equipo del CEPREDIX resuelve la derivada de $f(x) = \\frac{x^3 + 2x^2}{x}$. ¿Cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$2x + 2$", "correct": true },
+      { "text": "$3x^2 + 4x$", "correct": false },
+      { "text": "$x^2 + 2x$", "correct": false },
+      { "text": "$2x - 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Simplifica primero: $f(x) = x^2 + 2x$.",
+    "explanation": "Simplificando: $f(x) = x^2 + 2x$. Derivando: $f'(x) = 2x + 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09DZ",
+    "question": "Si $y = 3 \\cos(5x)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$-15 \\sin(5x)$", "correct": true },
+      { "text": "$15 \\sin(5x)$", "correct": false },
+      { "text": "$-3 \\sin(5x)$", "correct": false },
+      { "text": "$-5 \\sin(5x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $3 \\cos(u)$ es $3(-\\sin u) u'$. Derivada interna $u'=5$.",
+    "explanation": "$\\frac{dy}{dx} = 3[-\\sin(5x)] \\cdot (5) = -15 \\sin(5x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EA",
+    "question": "Deriva la función $f(x) = 2x^2 \\sin(2x)$.",
+    "image": null,
+    "options": [
+      { "text": "$4x \\sin(2x) + 4x^2 \\cos(2x)$", "correct": true },
+      { "text": "$4x \\cos(2x)$", "correct": false },
+      { "text": "$4x \\sin(2x) + 2x^2 \\cos(2x)$", "correct": false },
+      { "text": "$8x^2 \\cos(2x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del producto y de la cadena. $u=2x^2 \\implies u'=4x$. $v=\\sin(2x) \\implies v'=2\\cos(2x)$.",
+    "explanation": "$f'(x) = (4x)(\\sin 2x) + (2x^2)(2 \\cos 2x) = 4x \\sin(2x) + 4x^2 \\cos(2x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EB",
+    "question": "Si $y = \\frac{4}{x^{1/2}} + 3x$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$-2x^{-3/2} + 3$", "correct": true },
+      { "text": "$4x^{-3/2} + 3$", "correct": false },
+      { "text": "$-2x^{-1/2} + 3$", "correct": false },
+      { "text": "$-2x^{3/2} + 3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\frac{4}{x^{1/2}}$ como $4x^{-1/2}$. Multiplica $4 \\cdot (-1/2) = -2$.",
+    "explanation": "$y = 4x^{-1/2} + 3x$. $\\frac{dy}{dx} = 4(-\\frac{1}{2})x^{-1/2 - 1} + 3 = -2x^{-3/2} + 3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EC",
+    "question": "Deriva la función $h(x) = (3x^4 - 2)^3$.",
+    "image": null,
+    "options": [
+      { "text": "$36x^3 (3x^4 - 2)^2$", "correct": true },
+      { "text": "$3(3x^4 - 2)^2$", "correct": false },
+      { "text": "$12x^3 (3x^4 - 2)^2$", "correct": false },
+      { "text": "$36x^4 (3x^4 - 2)^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena. La derivada interna es $12x^3$. Multiplica $3 \\cdot 12x^3 = 36x^3$.",
+    "explanation": "$h'(x) = 3(3x^4 - 2)^2 \\cdot (12x^3) = 36x^3 (3x^4 - 2)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09ED",
+    "question": "Si $f(x) = \\frac{5x}{x^2 + 1}$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{5 - 5x^2}{(x^2 + 1)^2}$", "correct": true },
+      { "text": "$f'(x) = \\frac{5x^2 + 5}{(x^2 + 1)^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{5}{2x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{5(1 - x^2)}{x^2 + 1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del cociente: $u=5x \\implies u'=5$. $v=x^2+1 \\implies v'=2x$. $u'v - uv' = 5(x^2+1) - 5x(2x)$.",
+    "explanation": "$f'(x) = \\frac{5(x^2+1) - 5x(2x)}{(x^2+1)^2} = \\frac{5x^2 + 5 - 10x^2}{(x^2+1)^2} = \\frac{5 - 5x^2}{(x^2 + 1)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EE",
+    "question": "Un estudiante del CEPREDIX debe derivar $y = 7x^3 - 4x + 10 \\cos(x)$. ¿Cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$21x^2 - 4 - 10 \\sin(x)$", "correct": true },
+      { "text": "$21x^2 - 4 + 10 \\sin(x)$", "correct": false },
+      { "text": "$7x^2 - 4 - 10 \\sin(x)$", "correct": false },
+      { "text": "$21x^2 - 10 \\sin(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $10 \\cos x$ es $10(-\\sin x)$.",
+    "explanation": "Derivando: $\\frac{dy}{dx} = 21x^2 - 4 + 10(-\\sin x) = 21x^2 - 4 - 10 \\sin(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EF",
+    "question": "Calcula la derivada de $f(x) = 2 \\sqrt{x} (x^2 - 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$5x^{3/2} - x^{-1/2}$", "correct": true },
+      { "text": "$2x^{3/2} + x^{-1/2}$", "correct": false },
+      { "text": "$2x^{-1/2} (x^2 - 1)$", "correct": false },
+      { "text": "$5x^{1/2} - 2x^{-1/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica primero: $f(x) = 2x^{5/2} - 2x^{1/2}$.",
+    "explanation": "Derivando: $f'(x) = 2(\\frac{5}{2})x^{3/2} - 2(\\frac{1}{2})x^{-1/2} = 5x^{3/2} - x^{-1/2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EG",
+    "question": "Si $y = \\frac{4}{x}$, ¿cuál es la segunda derivada ($\\frac{d^2y}{dx^2}$)?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{8}{x^3}$", "correct": true },
+      { "text": "$-\\frac{4}{x^2}$", "correct": false },
+      { "text": "$4x^{-2}$", "correct": false },
+      { "text": "$-\\frac{8}{x^3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $y' = -4x^{-2}$. Segunda derivada: $(-4)(-2)x^{-3}$.",
+    "explanation": "Primera derivada: $y' = 4(-1)x^{-2} = -4x^{-2}$. Segunda derivada: $y'' = -4(-2)x^{-3} = 8x^{-3} = \\frac{8}{x^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EH",
+    "question": "Deriva la función $f(x) = 15x^3 - x^2 + x - 1$.",
+    "image": null,
+    "options": [
+      { "text": "$45x^2 - 2x + 1$", "correct": true },
+      { "text": "$15x^2 - 2x + 1$", "correct": false },
+      { "text": "$45x^3 - 2x^2 + 1$", "correct": false },
+      { "text": "$30x - 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $15x^3$ es $45x^2$.",
+    "explanation": "$f'(x) = 45x^2 - 2x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EI",
+    "question": "Calcula la derivada de $y = 3 \\tan(x) + 4x$.",
+    "image": null,
+    "options": [
+      { "text": "$3 \\sec^2(x) + 4$", "correct": true },
+      { "text": "$3 \\sec^2(x) + 4x$", "correct": false },
+      { "text": "$\\sec^2(x) + 4$", "correct": false },
+      { "text": "$3 \\tan^2(x) + 4$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada de $3 \\tan x$ es $3 \\sec^2 x$.",
+    "explanation": "$\\frac{dy}{dx} = 3 \\sec^2(x) + 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EJ",
+    "question": "Un estudiante del CEPREDIX calcula la derivada de $f(x) = \\sqrt{x^2 + 9}$. ¿Cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{x}{\\sqrt{x^2 + 9}}$", "correct": true },
+      { "text": "$f'(x) = \\frac{2x}{\\sqrt{x^2 + 9}}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2\\sqrt{x^2 + 9}}$", "correct": false },
+      { "text": "$f'(x) = 2x(x^2 + 9)^{-1/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $f(x) = (x^2 + 9)^{1/2}$. Derivada interna $u'=2x$. $\\frac{1}{2} u^{-1/2} u'$.",
+    "explanation": "$f'(x) = \\frac{1}{2}(x^2 + 9)^{-1/2} (2x) = x(x^2 + 9)^{-1/2} = \\frac{x}{\\sqrt{x^2 + 9}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EK",
+    "question": "Si $y = \\frac{\\sin x}{\\cos x}$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\sec^2(x)$", "correct": true },
+      { "text": "$\\frac{\\cos^2 x - \\sin^2 x}{\\cos^2 x}$", "correct": false },
+      { "text": "$\\frac{1}{\\cos^2 x}$", "correct": false },
+      { "text": "$\\tan(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La función es $y = \\tan x$. Usa la identidad pitagórica $\\sin^2 x + \\cos^2 x = 1$ para simplificar el numerador si usas la regla del cociente.",
+    "explanation": "Usando la regla del cociente: $\\frac{dy}{dx} = \\frac{(\\cos x)(\\cos x) - (\\sin x)(-\\sin x)}{\\cos^2 x} = \\frac{\\cos^2 x + \\sin^2 x}{\\cos^2 x} = \\frac{1}{\\cos^2 x} = \\sec^2(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EL",
+    "question": "Deriva la función $f(x) = (x^3 + 2)^4$.",
+    "image": null,
+    "options": [
+      { "text": "$12x^2 (x^3 + 2)^3$", "correct": true },
+      { "text": "$4x^2 (x^3 + 2)^3$", "correct": false },
+      { "text": "$4(x^3 + 2)^3$", "correct": false },
+      { "text": "$12x^3 (x^3 + 2)^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena. Derivada interna $u'=3x^2$. Multiplica $4 \\cdot 3x^2$.",
+    "explanation": "$f'(x) = 4(x^3 + 2)^3 \\cdot (3x^2) = 12x^2 (x^3 + 2)^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EM",
+    "question": "Calcula la derivada de $y = 3x^2 \\tan(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$6x \\tan(x) + 3x^2 \\sec^2(x)$", "correct": true },
+      { "text": "$6x \\sec^2(x)$", "correct": false },
+      { "text": "$3x^2 \\sec^2(x)$", "correct": false },
+      { "text": "$6x \\tan(x) - 3x^2 \\sec^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del producto. $u=3x^2 \\implies u'=6x$. $v=\\tan x \\implies v'=\\sec^2 x$.",
+    "explanation": "$\\frac{dy}{dx} = (6x)(\\tan x) + (3x^2)(\\sec^2 x) = 6x \\tan(x) + 3x^2 \\sec^2(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EN",
+    "question": "Si $f(x) = \\frac{2x + 1}{x - 4}$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -\\frac{9}{(x - 4)^2}$", "correct": true },
+      { "text": "$f'(x) = \\frac{2x - 9}{(x - 4)^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{9}{(x - 4)^2}$", "correct": false },
+      { "text": "$f'(x) = 2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del cociente. $u=2x+1 \\implies u'=2$. $v=x-4 \\implies v'=1$. $u'v - uv' = 2(x-4) - (2x+1)(1)$.",
+    "explanation": "$f'(x) = \\frac{2(x-4) - (2x+1)(1)}{(x-4)^2} = \\frac{2x - 8 - 2x - 1}{(x-4)^2} = -\\frac{9}{(x - 4)^2$}.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EO",
+    "question": "Deriva la función $y = 5 \\sqrt[3]{x^4}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{20}{3} x^{1/3}$", "correct": true },
+      { "text": "$5x^{1/3}$", "correct": false },
+      { "text": "$\\frac{20}{3} x^{4/3}$", "correct": false },
+      { "text": "$20x^{1/3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $5 \\sqrt[3]{x^4}$ como $5x^{4/3}$. Multiplica $5 \\cdot \\frac{4}{3} = \\frac{20}{3}$.",
+    "explanation": "$\\frac{dy}{dx} = 5(\\frac{4}{3})x^{4/3 - 1} = \\frac{20}{3} x^{1/3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EP",
+    "question": "Si $h(x) = (x^2 - 3x + 5)^2$, ¿cuál es $h'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$2(2x - 3)(x^2 - 3x + 5)$", "correct": true },
+      { "text": "$2(x^2 - 3x + 5)$", "correct": false },
+      { "text": "$(4x - 6)(x^2 - 3x + 5)^2$", "correct": false },
+      { "text": "$2(2x - 3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena. Derivada interna $u'=2x-3$. Multiplica $2 u u'$.",
+    "explanation": "$h'(x) = 2(x^2 - 3x + 5)^1 \\cdot (2x - 3) = 2(2x - 3)(x^2 - 3x + 5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EQ",
+    "question": "Calcula la derivada de $y = x^4 - 2x^2 + 7x$.",
+    "image": null,
+    "options": [
+      { "text": "$4x^3 - 4x + 7$", "correct": true },
+      { "text": "$4x^3 - 4x$", "correct": false },
+      { "text": "$x^3 - 4x + 7$", "correct": false },
+      { "text": "$4x^4 - 4x^2 + 7x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva término por término.",
+    "explanation": "$\\frac{dy}{dx} = 4x^3 - 4x + 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09ER",
+    "question": "Si $f(x) = 4 \\sin(3x) + 1$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$12 \\cos(3x)$", "correct": true },
+      { "text": "$4 \\cos(3x)$", "correct": false },
+      { "text": "$-12 \\sin(3x)$", "correct": false },
+      { "text": "$4 \\sin(3x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena: $4 \\cos(u) u'$. Derivada interna $u'=3$.",
+    "explanation": "$f'(x) = 4 \\cos(3x) \\cdot (3) = 12 \\cos(3x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09ES",
+    "question": "Deriva la función $g(x) = \\frac{x^2}{x - 3}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = \\frac{x^2 - 6x}{(x - 3)^2}$", "correct": true },
+      { "text": "$g'(x) = \\frac{2x}{x - 3}$", "correct": false },
+      { "text": "$g'(x) = \\frac{3x^2 - 6x}{(x - 3)^2}$", "correct": false },
+      { "text": "$g'(x) = \\frac{x^2 + 6x}{(x - 3)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del cociente: $u=x^2 \\implies u'=2x$. $v=x-3 \\implies v'=1$. $u'v - uv' = 2x(x-3) - x^2(1)$.",
+    "explanation": "$g'(x) = \\frac{2x(x-3) - x^2(1)}{(x-3)^2} = \\frac{2x^2 - 6x - x^2}{(x-3)^2} = \\frac{x^2 - 6x}{(x - 3)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09ET",
+    "question": "Calcula la derivada de $y = x \\sqrt{x^2 + 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{2x^2 + 1}{\\sqrt{x^2 + 1}}$", "correct": true },
+      { "text": "$\\sqrt{x^2 + 1} + x^2 (x^2 + 1)^{-1/2}$", "correct": false },
+      { "text": "$\\frac{x^2}{\\sqrt{x^2 + 1}}$", "correct": false },
+      { "text": "$\\sqrt{x^2 + 1} + \\frac{x}{\\sqrt{x^2 + 1}}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del producto. $u=x \\implies u'=1$. $v=(x^2+1)^{1/2} \\implies v'=\\frac{x}{\\sqrt{x^2+1}}$.",
+    "explanation": "$\\frac{dy}{dx} = 1\\cdot\\sqrt{x^2 + 1} + x \\cdot \\frac{1}{2}(x^2+1)^{-1/2}(2x) = \\sqrt{x^2 + 1} + \\frac{x^2}{\\sqrt{x^2 + 1}} = \\frac{x^2+1 + x^2}{\\sqrt{x^2 + 1}} = \\frac{2x^2 + 1}{\\sqrt{x^2 + 1}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EU",
+    "question": "Deriva la función $f(x) = \\frac{x + 2}{x - 5}$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -\\frac{7}{(x - 5)^2}$", "correct": true },
+      { "text": "$f'(x) = -\\frac{3}{(x - 5)^2}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{(x - 5)^2}$", "correct": false },
+      { "text": "$f'(x) = -7(x - 5)^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del cociente. $u'v - uv' = 1(x-5) - (x+2)(1)$.",
+    "explanation": "$f'(x) = \\frac{(1)(x-5) - (x+2)(1)}{(x-5)^2} = \\frac{x - 5 - x - 2}{(x-5)^2} = -\\frac{7}{(x - 5)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EV",
+    "question": "Calcula la derivada de $y = 3 \\cos(4x)$.",
+    "image": null,
+    "options": [
+      { "text": "$-12 \\sin(4x)$", "correct": true },
+      { "text": "$-3 \\sin(4x)$", "correct": false },
+      { "text": "$12 \\sin(4x)$", "correct": false },
+      { "text": "$12 \\cos(4x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena. Derivada de $3 \\cos(u)$ es $3(-\\sin u) u'$. Derivada interna $u'=4$.",
+    "explanation": "$\\frac{dy}{dx} = 3[-\\sin(4x)] \\cdot (4) = -12 \\sin(4x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EW",
+    "question": "Si $f(x) = 2x^2 - \\frac{3}{x^2} + 5$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$4x + 6x^{-3}$", "correct": true },
+      { "text": "$4x - 6x^{-3}$", "correct": false },
+      { "text": "$4x + 3x^{-3}$", "correct": false },
+      { "text": "$4x + 6x^{-1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $-\\frac{3}{x^2}$ como $-3x^{-2}$. Su derivada es $(-3)(-2)x^{-3}$.",
+    "explanation": "$f'(x) = 4x - 3(-2)x^{-3} + 0 = 4x + 6x^{-3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EX",
+    "question": "Deriva la función $g(x) = (2x - 5)^3 (x + 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$(2x - 5)^2 (8x - 13)$", "correct": true },
+      { "text": "$6(2x - 5)^2 (x + 1) + (2x - 5)^3$", "correct": false },
+      { "text": "$3(2x - 5)^2 (x + 1)$", "correct": false },
+      { "text": "$(2x - 5)^2 (12x + 6)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del producto: $u=(2x-5)^3 \\implies u'=6(2x-5)^2$. $v=x+1 \\implies v'=1$. $u'v + uv' = 6(2x-5)^2(x+1) + (2x-5)^3(1)$. Factoriza $(2x-5)^2$.",
+    "explanation": "$g'(x) = 6(2x-5)^2(x+1) + (2x-5)^3 = (2x-5)^2 [6(x+1) + (2x-5)] = (2x-5)^2 [6x+6 + 2x-5] = (2x - 5)^2 (8x - 13)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EY",
+    "question": "Calcula la derivada de $y = 10x^{1/5}$.",
+    "image": null,
+    "options": [
+      { "text": "$2x^{-4/5}$", "correct": true },
+      { "text": "$10x^{-4/5}$", "correct": false },
+      { "text": "$2x^{1/5}$", "correct": false },
+      { "text": "$x^{-4/5}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica $10 \\cdot \\frac{1}{5} = 2$.",
+    "explanation": "$\\frac{dy}{dx} = 10(\\frac{1}{5})x^{1/5 - 1} = 2x^{-4/5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09EZ",
+    "question": "Si $f(x) = \\frac{3}{x} + 6x^2$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$12x - 3x^{-2}$", "correct": true },
+      { "text": "$12x + 3x^{-2}$", "correct": false },
+      { "text": "$12x - \\frac{3}{x}$", "correct": false },
+      { "text": "$3x^2 - 3x^{-2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\frac{3}{x}$ como $3x^{-1}$.",
+    "explanation": "$f'(x) = 3(-1)x^{-2} + 12x = 12x - 3x^{-2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FA",
+    "question": "Deriva la función $y = 4x^3 - 9x^2 + 12$.",
+    "image": null,
+    "options": [
+      { "text": "$12x^2 - 18x$", "correct": true },
+      { "text": "$12x^2 - 18x + 12$", "correct": false },
+      { "text": "$4x^2 - 9x$", "correct": false },
+      { "text": "$12x^3 - 18x^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada de $4x^3$ es $12x^2$. Derivada de $-9x^2$ es $-18x$.",
+    "explanation": "$\\frac{dy}{dx} = 12x^2 - 18x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FB",
+    "question": "Si $f(x) = \\cos(x^3)$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -3x^2 \\sin(x^3)$", "correct": true },
+      { "text": "$f'(x) = -\\sin(x^3)$", "correct": false },
+      { "text": "$f'(x) = 3x^2 \\sin(x^3)$", "correct": false },
+      { "text": "$f'(x) = -3x^3 \\sin(x^3)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena. Derivada de $\\cos(u)$ es $-\\sin(u) u'$. Derivada interna $u'=3x^2$.",
+    "explanation": "$f'(x) = -\\sin(x^3) \\cdot (3x^2) = -3x^2 \\sin(x^3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FC",
+    "question": "Calcula la derivada de $y = 5 \\sqrt{x} - 2 \\sqrt[3]{x}$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{2} x^{-1/2} - \\frac{2}{3} x^{-2/3}$", "correct": true },
+      { "text": "$5x^{-1/2} - 2x^{-2/3}$", "correct": false },
+      { "text": "$5x^{1/2} - 2x^{1/3}$", "correct": false },
+      { "text": "$\\frac{5}{2} x^{1/2} - \\frac{2}{3} x^{1/3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $5x^{1/2} - 2x^{1/3}$.",
+    "explanation": "$\\frac{dy}{dx} = 5(\\frac{1}{2})x^{-1/2} - 2(\\frac{1}{3})x^{-2/3} = \\frac{5}{2} x^{-1/2} - \\frac{2}{3} x^{-2/3$}.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FD",
+    "question": "Un profesor del CEPREDIX deja la derivada de $h(x) = \\frac{x^2}{x^2 - 4}$. ¿Cuál es $h'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = -\\frac{8x}{(x^2 - 4)^2}$", "correct": true },
+      { "text": "$h'(x) = \\frac{8x^3}{(x^2 - 4)^2}$", "correct": false },
+      { "text": "$h'(x) = \\frac{2x}{(x^2 - 4)^2}$", "correct": false },
+      { "text": "$h'(x) = -\\frac{4x^2}{(x^2 - 4)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del cociente. $u'v - uv' = 2x(x^2-4) - x^2(2x)$.",
+    "explanation": "$h'(x) = \\frac{2x(x^2 - 4) - x^2(2x)}{(x^2 - 4)^2} = \\frac{2x^3 - 8x - 2x^3}{(x^2 - 4)^2} = -\\frac{8x}{(x^2 - 4)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FE",
+    "question": "Si $y = 7 \\cot(x)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$-7 \\csc^2(x)$", "correct": true },
+      { "text": "$7 \\sec^2(x)$", "correct": false },
+      { "text": "$-7 \\cot^2(x)$", "correct": false },
+      { "text": "$7 \\csc^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\cot x$ es $-\\csc^2 x$.",
+    "explanation": "$\\frac{dy}{dx} = 7(-\\csc^2 x) = -7 \\csc^2(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FF",
+    "question": "Deriva la función $f(x) = 5 \\sec(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\sec(x) \\tan(x)$", "correct": true },
+      { "text": "$5 \\tan^2(x)$", "correct": false },
+      { "text": "$5 \\sec^2(x)$", "correct": false },
+      { "text": "$5 \\csc(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\sec x$ es $\\sec x \\tan x$.",
+    "explanation": "$f'(x) = 5 \\sec(x) \\tan(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FG",
+    "question": "Calcula la derivada de $y = (5x + 1) \\cos(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\cos(x) - (5x + 1) \\sin(x)$", "correct": true },
+      { "text": "$5 \\sin(x) - (5x + 1) \\cos(x)$", "correct": false },
+      { "text": "$5 \\cos(x) + (5x + 1) \\sin(x)$", "correct": false },
+      { "text": "$-\\sin(x) \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del producto. $u=5x+1 \\implies u'=5$. $v=\\cos x \\implies v'=-\\sin x$.",
+    "explanation": "$\\frac{dy}{dx} = (5)(\\cos x) + (5x + 1)(-\\sin x) = 5 \\cos(x) - (5x + 1) \\sin(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FH",
+    "question": "Deriva la función $f(x) = 2x - 3 \\csc(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$2 + 3 \\csc(x) \\cot(x)$", "correct": true },
+      { "text": "$2 - 3 \\csc(x) \\cot(x)$", "correct": false },
+      { "text": "$2 + 3 \\sec(x) \\tan(x)$", "correct": false },
+      { "text": "$2x - 3 \\cot^2(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\csc x$ es $-\\csc x \\cot x$.",
+    "explanation": "$f'(x) = 2 - 3(-\\csc x \\cot x) = 2 + 3 \\csc(x) \\cot(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FI",
+    "question": "Calcula la derivada de $y = \\sqrt[5]{x^3} + 2x^4$.",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{3}{5} x^{-2/5} + 8x^3$", "correct": true },
+      { "text": "$3x^{-2/5} + 8x^3$", "correct": false },
+      { "text": "$\\frac{3}{5} x^{2/5} + 8x^3$", "correct": false },
+      { "text": "$x^{-2/5} + 8x^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\sqrt[5]{x^3}$ como $x^{3/5}$.",
+    "explanation": "$\\frac{dy}{dx} = \\frac{3}{5} x^{3/5 - 1} + 8x^3 = \\frac{3}{5} x^{-2/5} + 8x^3$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FJ",
+    "question": "Si $f(x) = (x^2 - 1) (x^3 + 2x)$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$5x^4 + 3x^2 - 2$", "correct": true },
+      { "text": "$5x^4 + 6x^2 - 2$", "correct": false },
+      { "text": "$2x(x^3 + 2x) + (x^2 - 1)(3x^2 + 2)$", "correct": false },
+      { "text": "$x^5 + x^3 - 2x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica primero: $f(x) = x^5 + 2x^3 - x^3 - 2x = x^5 + x^3 - 2x$.",
+    "explanation": "Derivando la forma simplificada: $f'(x) = 5x^4 + 3x^2 - 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FK",
+    "question": "Deriva la función $g(x) = \\frac{1}{x^3 - 1}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = -\\frac{3x^2}{(x^3 - 1)^2}$", "correct": true },
+      { "text": "$g'(x) = -3x^2 (x^3 - 1)^{-2}$", "correct": false },
+      { "text": "$g'(x) = 3x^2 (x^3 - 1)^{-2}$", "correct": false },
+      { "text": "$g'(x) = -\\frac{1}{(x^3 - 1)^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $g(x) = (x^3 - 1)^{-1}$. Derivada interna $u'=3x^2$.",
+    "explanation": "$g'(x) = -1(x^3 - 1)^{-2} (3x^2) = -\\frac{3x^2}{(x^3 - 1)^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FL",
+    "question": "Calcula la derivada de $y = 5 \\sin(x) - 10 \\cos(x) + 2$.",
+    "image": null,
+    "options": [
+      { "text": "$5 \\cos(x) + 10 \\sin(x)$", "correct": true },
+      { "text": "$5 \\cos(x) - 10 \\sin(x)$", "correct": false },
+      { "text": "$10 \\sin(x) - 5 \\cos(x)$", "correct": false },
+      { "text": "$5 \\sin(x) + 10 \\cos(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada de $-10 \\cos x$ es $-10(-\\sin x) = 10 \\sin x$.",
+    "explanation": "$\\frac{dy}{dx} = 5 \\cos(x) - 10(-\\sin x) + 0 = 5 \\cos(x) + 10 \\sin(x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FM",
+    "question": "Si $f(x) = \\frac{1}{2} x^{-2} + 3x^2$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$6x - x^{-3}$", "correct": true },
+      { "text": "$3x - x^{-3}$", "correct": false },
+      { "text": "$3x - x^{-2}$", "correct": false },
+      { "text": "$x^{-3} + 6x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica $\\frac{1}{2} \\cdot (-2) = -1$. Derivada de $3x^2$ es $6x$.",
+    "explanation": "$f'(x) = \\frac{1}{2}(-2)x^{-3} + 6x = -x^{-3} + 6x = 6x - x^{-3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FN",
+    "question": "Un estudiante del CEPREDIX debe derivar $h(x) = 5x^{1/4} + x^2 - 1$. ¿Cuál es $h'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{5}{4} x^{-3/4} + 2x$", "correct": true },
+      { "text": "$\\frac{5}{4} x^{3/4} + 2x$", "correct": false },
+      { "text": "$5x^{-3/4} + 2x$", "correct": false },
+      { "text": "$5x^{-3/4} + 2x - 1$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica $5 \\cdot \\frac{1}{4} = \\frac{5}{4}$.",
+    "explanation": "$h'(x) = 5(\\frac{1}{4})x^{1/4 - 1} + 2x = \\frac{5}{4} x^{-3/4} + 2x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FO",
+    "question": "Si $y = 3 \\sqrt{x} (x^3)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{21}{2} x^{5/2}$", "correct": true },
+      { "text": "$21 x^{5/2}$", "correct": false },
+      { "text": "$3x^{3/2} + 9x^2 \\sqrt{x}$", "correct": false },
+      { "text": "$\\frac{7}{2} x^{5/2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma los exponentes primero: $3x^{1/2} x^3 = 3x^{7/2}$.",
+    "explanation": "Simplificando: $y = 3x^{7/2}$. Derivando: $\\frac{dy}{dx} = 3(\\frac{7}{2})x^{7/2 - 1} = \\frac{21}{2} x^{5/2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FP",
+    "question": "Calcula la derivada de $f(x) = x^2 - 8x + 16$.",
+    "image": null,
+    "options": [
+      { "text": "$2x - 8$", "correct": true },
+      { "text": "$x - 8$", "correct": false },
+      { "text": "$2x^2 - 8x$", "correct": false },
+      { "text": "$2x + 8$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $x^2$ es $2x$.",
+    "explanation": "$f'(x) = 2x - 8 + 0 = 2x - 8$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FQ",
+    "question": "Si $y = 4 \\cos(x) + \\sin(x^2)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$2x \\cos(x^2) - 4 \\sin(x)$", "correct": true },
+      { "text": "$4 \\sin(x) + 2x \\cos(x^2)$", "correct": false },
+      { "text": "$2x \\sin(x) - 4 \\cos(x^2)$", "correct": false },
+      { "text": "$4 \\cos(x) - 2x \\sin(x^2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla de la cadena en el segundo término: $\\cos(x^2) \\cdot 2x$.",
+    "explanation": "Derivando: $\\frac{dy}{dx} = 4(-\\sin x) + \\cos(x^2) \\cdot (2x) = -4 \\sin(x) + 2x \\cos(x^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FR",
+    "question": "Deriva la función $h(x) = 3x^2 (x^2 + 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$12x^3 + 6x$", "correct": true },
+      { "text": "$6x(x^2 + 1) + 6x^3$", "correct": false },
+      { "text": "$6x^3 + 6x$", "correct": false },
+      { "text": "$12x^2 + 6$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica primero: $h(x) = 3x^4 + 3x^2$.",
+    "explanation": "Derivando: $h'(x) = 12x^3 + 6x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FS",
+    "question": "Si $f(x) = \\frac{1}{\\sqrt{3x - 1}}$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -\\frac{3}{2} (3x - 1)^{-3/2}$", "correct": true },
+      { "text": "$f'(x) = -\\frac{1}{2} (3x - 1)^{-3/2}$", "correct": false },
+      { "text": "$f'(x) = 3(3x - 1)^{-1/2}$", "correct": false },
+      { "text": "$f'(x) = -\\frac{3}{2\\sqrt{3x - 1}}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe como $f(x) = (3x - 1)^{-1/2}$. Derivada interna $u'=3$. Multiplica $-\\frac{1}{2} \\cdot 3$.",
+    "explanation": "$f'(x) = -\\frac{1}{2}(3x - 1)^{-1/2 - 1} \\cdot (3) = -\\frac{3}{2} (3x - 1)^{-3/2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FT",
+    "question": "Calcula la derivada de $y = 8x^3 + 2x^2 - 5x + 1$.",
+    "image": null,
+    "options": [
+      { "text": "$24x^2 + 4x - 5$", "correct": true },
+      { "text": "$24x^2 + 4x$", "correct": false },
+      { "text": "$8x^2 + 2x - 5$", "correct": false },
+      { "text": "$3x^2 + 2x - 5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada de $8x^3$ es $24x^2$.",
+    "explanation": "$\\frac{dy}{dx} = 24x^2 + 4x - 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FU",
+    "question": "Un aspirante del CEPREDIX debe derivar $f(x) = \\frac{1}{x^5}$. ¿Cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -\\frac{5}{x^6}$", "correct": true },
+      { "text": "$f'(x) = 5x^{-6}$", "correct": false },
+      { "text": "$f'(x) = -5x^{-4}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{5x^4}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Reescribe $\\frac{1}{x^5}$ como $x^{-5}$.",
+    "explanation": "$f'(x) = -5x^{-5 - 1} = -5x^{-6} = -\\frac{5}{x^6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FV",
+    "question": "Si $y = \\tan(x/4)$, ¿cuál es $\\frac{dy}{dx}$?",
+    "image": null,
+    "options": [
+      { "text": "$\\frac{1}{4} \\sec^2(x/4)$", "correct": true },
+      { "text": "$4 \\sec^2(x/4)$", "correct": false },
+      { "text": "$\\sec^2(x/4)$", "correct": false },
+      { "text": "$\\frac{1}{4} \\tan^2(x/4)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada interna $u'=1/4$.",
+    "explanation": "$\\frac{dy}{dx} = \\sec^2(x/4) \\cdot \\frac{1}{4} = \\frac{1}{4} \\sec^2(x/4)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  }
+]

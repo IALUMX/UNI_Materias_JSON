@@ -3772,5 +3772,668 @@
     "explanation": "A) $y = \\sin(x/5) \\implies \\frac{dy}{dx} = \\cos(x/5) \\cdot (1/5) = \\frac{1}{5} \\cos(x/5)$ (II). B) $y = (x^3 + 2)^4 \\implies \\frac{dy}{dx} = 4(x^3 + 2)^3 \\cdot (3x^2) = 12x^2(x^3 + 2)^3$ (III). C) $y = \\tan(2x) \\implies \\frac{dy}{dx} = \\sec^2(2x) \\cdot (2) = 2 \\sec^2(2x)$ (I).",
     "explanative_video": null,
     "collapsible_text": "I: $2 \\sec^2(2x)$; II: $\\frac{1}{5} \\cos(x/5)$; III: $12x^2(x^3 + 2)^3$"
+  },
+  {
+    "id": "CAL09IP",
+    "question": "Deriva implícitamente para encontrar $\\frac{dy}{dx}$ si $x^2 + y^2 = 25$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = -\\frac{x}{y}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{x}{y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = -\\frac{y}{x}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 2x + 2y$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva ambos lados respecto a $x$, recordando que $y$ es función de $x$. $\\frac{d}{dx}(y^2) = 2y\\frac{dy}{dx}$.",
+    "explanation": "Derivando: $2x + 2y\\frac{dy}{dx} = 0$. Despejando: $2y\\frac{dy}{dx} = -2x$, entonces $\\frac{dy}{dx} = -\\frac{x}{y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IQ",
+    "question": "Encuentra $\\frac{dy}{dx}$ por derivación implícita si $x^3 + y^3 = 8$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = -\\frac{x^2}{y^2}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{x^2}{y^2}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = -\\frac{3x^2}{3y^2}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 3x^2 + 3y^2$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva término a término. Para $y^3$, usa regla de la cadena: $3y^2\\frac{dy}{dx}$.",
+    "explanation": "Derivando: $3x^2 + 3y^2\\frac{dy}{dx} = 0$. Despejando: $3y^2\\frac{dy}{dx} = -3x^2$, simplificando: $\\frac{dy}{dx} = -\\frac{x^2}{y^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IR",
+    "question": "Usa derivación implícita para hallar $\\frac{dy}{dx}$ en $x^2y + xy^2 = 6$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = -\\frac{2xy + y^2}{x^2 + 2xy}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{2xy + y^2}{x^2 + 2xy}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = -\\frac{x^2 + 2xy}{2xy + y^2}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 2xy + x^2 + y^2 + 2xy$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica regla del producto en ambos términos. Para $x^2y$, derivada es $2x\\cdot y + x^2\\cdot\\frac{dy}{dx}$.",
+    "explanation": "Derivando: $(2xy + x^2\\frac{dy}{dx}) + (y^2 + x\\cdot 2y\\frac{dy}{dx}) = 0$. Agrupando: $(x^2 + 2xy)\\frac{dy}{dx} = -(2xy + y^2)$, luego $\\frac{dy}{dx} = -\\frac{2xy + y^2}{x^2 + 2xy}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IS",
+    "question": "Deriva implícitamente para encontrar $\\frac{dy}{dx}$ si $\\sqrt{x} + \\sqrt{y} = 4$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = -\\frac{\\sqrt{y}}{\\sqrt{x}}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{\\sqrt{y}}{\\sqrt{x}}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = -\\sqrt{\\frac{y}{x}}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{1}{2\\sqrt{x}} + \\frac{1}{2\\sqrt{y}}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Escribe como $x^{1/2} + y^{1/2} = 4$. Deriva usando $\\frac{d}{dx}(y^{1/2}) = \\frac{1}{2}y^{-1/2}\\frac{dy}{dx}$.",
+    "explanation": "Derivando: $\\frac{1}{2}x^{-1/2} + \\frac{1}{2}y^{-1/2}\\frac{dy}{dx} = 0$. Multiplicando por 2: $\\frac{1}{\\sqrt{x}} + \\frac{1}{\\sqrt{y}}\\frac{dy}{dx} = 0$. Despejando: $\\frac{dy}{dx} = -\\frac{\\sqrt{y}}{\\sqrt{x}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IT",
+    "question": "Encuentra $\\frac{dy}{dx}$ por derivación implícita si $x^2 - 2xy + y^2 = 9$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{y - x}{y - x}$ o $\\frac{dy}{dx} = 1$ cuando $y \\neq x$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{x - y}{x - y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{2x - 2y}{2x - 2y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{2x - 2y}{2y - 2x}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva cada término. Para $-2xy$, usa regla del producto: $-2[x\\frac{dy}{dx} + y\\cdot1]$.",
+    "explanation": "Derivando: $2x - 2[x\\frac{dy}{dx} + y] + 2y\\frac{dy}{dx} = 0$. Simplificando: $2x - 2x\\frac{dy}{dx} - 2y + 2y\\frac{dy}{dx} = 0$. Agrupando: $(2y - 2x)\\frac{dy}{dx} = 2y - 2x$, luego $\\frac{dy}{dx} = 1$ (cuando $y \\neq x$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IU",
+    "question": "Calcula $\\frac{dy}{dx}$ implícitamente si $x^3y^2 + x^2y^3 = 10$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = -\\frac{3x^2y^2 + 2xy^3}{2x^3y + 3x^2y^2}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{3x^2y^2 + 2xy^3}{2x^3y + 3x^2y^2}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = -\\frac{2x^3y + 3x^2y^2}{3x^2y^2 + 2xy^3}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 3x^2y^2 + 2x^3y + 2xy^3 + 3x^2y^2$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica regla del producto en ambos términos. Para $x^3y^2$, derivada es $3x^2\\cdot y^2 + x^3\\cdot 2y\\frac{dy}{dx}$.",
+    "explanation": "Derivando: $(3x^2y^2 + x^3\\cdot 2y\\frac{dy}{dx}) + (2xy^3 + x^2\\cdot 3y^2\\frac{dy}{dx}) = 0$. Agrupando: $(2x^3y + 3x^2y^2)\\frac{dy}{dx} = -(3x^2y^2 + 2xy^3)$, luego $\\frac{dy}{dx} = -\\frac{3x^2y^2 + 2xy^3}{2x^3y + 3x^2y^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IV",
+    "question": "Usa derivación implícita para hallar $\\frac{dy}{dx}$ en $\\frac{x}{y} + \\frac{y}{x} = 2$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{y}{x}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = -\\frac{y}{x}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{x}{y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{y^2 - x^2}{x^2 - y^2}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Escribe como $xy^{-1} + yx^{-1} = 2$. Deriva usando regla del producto o cociente.",
+    "explanation": "Derivando: $\\frac{y - x\\frac{dy}{dx}}{y^2} + \\frac{x\\frac{dy}{dx} - y}{x^2} = 0$. Multiplicando por $x^2y^2$: $x^2y - x^3\\frac{dy}{dx} + y^2x\\frac{dy}{dx} - xy^2 = 0$. Factorizando: $(y^2x - x^3)\\frac{dy}{dx} = xy^2 - x^2y$. Simplificando: $x(y^2 - x^2)\\frac{dy}{dx} = xy(y - x)$, luego $\\frac{dy}{dx} = \\frac{y}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IW",
+    "question": "Deriva implícitamente para encontrar $\\frac{dy}{dx}$ si $e^{x+y} = x^2 + y$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{2x - e^{x+y}}{e^{x+y} - 1}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{e^{x+y} - 2x}{1 - e^{x+y}}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{2x + e^{x+y}}{e^{x+y} + 1}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 2x + e^{x+y}(1 + \\frac{dy}{dx})$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Para $e^{x+y}$, usa regla de la cadena: $e^{x+y}\\frac{d}{dx}(x+y) = e^{x+y}(1 + \\frac{dy}{dx})$.",
+    "explanation": "Derivando: $e^{x+y}(1 + \\frac{dy}{dx}) = 2x + \\frac{dy}{dx}$. Expandiendo: $e^{x+y} + e^{x+y}\\frac{dy}{dx} = 2x + \\frac{dy}{dx}$. Agrupando: $(e^{x+y} - 1)\\frac{dy}{dx} = 2x - e^{x+y}$, luego $\\frac{dy}{dx} = \\frac{2x - e^{x+y}}{e^{x+y} - 1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IX",
+    "question": "Encuentra $\\frac{dy}{dx}$ por derivación implícita si $\\ln(x^2 + y^2) = 2x$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{2x(x^2 + y^2) - 2x}{2y}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{2 - 2x}{2y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{2x(x^2 + y^2 - 1)}{2y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{2x^3 + 2xy^2 - 2x}{2y}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva usando $\\frac{d}{dx}\\ln(u) = \\frac{1}{u}\\frac{du}{dx}$. Aquí $u = x^2 + y^2$.",
+    "explanation": "Derivando: $\\frac{1}{x^2 + y^2}(2x + 2y\\frac{dy}{dx}) = 2$. Multiplicando por $(x^2 + y^2)$: $2x + 2y\\frac{dy}{dx} = 2(x^2 + y^2)$. Despejando: $2y\\frac{dy}{dx} = 2x^2 + 2y^2 - 2x$, luego $\\frac{dy}{dx} = \\frac{x^2 + y^2 - x}{y} = \\frac{2x(x^2 + y^2) - 2x}{2y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IY",
+    "question": "Calcula $\\frac{dy}{dx}$ implícitamente si $x\\cos y + y\\cos x = 1$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{y\\sin x - \\cos y}{\\cos x - x\\sin y}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{\\cos y - y\\sin x}{x\\sin y - \\cos x}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{\\cos y + y\\sin x}{\\cos x + x\\sin y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{-y\\sin x - \\cos y}{-x\\sin y - \\cos x}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica regla del producto en ambos términos. Para $x\\cos y$, derivada es $\\cos y + x(-\\sin y)\\frac{dy}{dx}$.",
+    "explanation": "Derivando: $[\\cos y + x(-\\sin y)\\frac{dy}{dx}] + [\\frac{dy}{dx}\\cos x + y(-\\sin x)] = 0$. Simplificando: $\\cos y - x\\sin y\\frac{dy}{dx} + \\cos x\\frac{dy}{dx} - y\\sin x = 0$. Agrupando: $(\\cos x - x\\sin y)\\frac{dy}{dx} = y\\sin x - \\cos y$, luego $\\frac{dy}{dx} = \\frac{y\\sin x - \\cos y}{\\cos x - x\\sin y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09IZ",
+    "question": "Deriva implícitamente para encontrar $\\frac{dy}{dx}$ si $y^2 = 4x$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{2}{y}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{4}{2y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 2y$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 4$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva ambos lados: $2y\\frac{dy}{dx} = 4$.",
+    "explanation": "Derivando: $2y\\frac{dy}{dx} = 4$. Despejando: $\\frac{dy}{dx} = \\frac{4}{2y} = \\frac{2}{y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JA",
+    "question": "Encuentra $\\frac{dy}{dx}$ por derivación implícita si $x^2 + 3xy - y^2 = 7$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{2x + 3y}{2y - 3x}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{2x + 3y}{3x - 2y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{2x - 3y}{2y + 3x}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 2x + 3y + 2y\\frac{dy}{dx}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Para $3xy$, usa regla del producto: $3[x\\frac{dy}{dx} + y\\cdot1]$.",
+    "explanation": "Derivando: $2x + 3[x\\frac{dy}{dx} + y] - 2y\\frac{dy}{dx} = 0$. Expandiendo: $2x + 3x\\frac{dy}{dx} + 3y - 2y\\frac{dy}{dx} = 0$. Agrupando: $(3x - 2y)\\frac{dy}{dx} = -2x - 3y$, luego $\\frac{dy}{dx} = \\frac{2x + 3y}{2y - 3x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JB",
+    "question": "Calcula $\\frac{dy}{dx}$ implícitamente si $\\sin(xy) = x + y$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{1 - y\\cos(xy)}{x\\cos(xy) - 1}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{1 + y\\cos(xy)}{1 - x\\cos(xy)}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{y\\cos(xy) - 1}{1 - x\\cos(xy)}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\cos(xy)(y + x\\frac{dy}{dx})$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Para $\\sin(xy)$, usa regla de la cadena: $\\cos(xy)\\frac{d}{dx}(xy) = \\cos(xy)(x\\frac{dy}{dx} + y)$.",
+    "explanation": "Derivando: $\\cos(xy)(x\\frac{dy}{dx} + y) = 1 + \\frac{dy}{dx}$. Expandiendo: $x\\cos(xy)\\frac{dy}{dx} + y\\cos(xy) = 1 + \\frac{dy}{dx}$. Agrupando: $(x\\cos(xy) - 1)\\frac{dy}{dx} = 1 - y\\cos(xy)$, luego $\\frac{dy}{dx} = \\frac{1 - y\\cos(xy)}{x\\cos(xy) - 1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JC",
+    "question": "Usa derivación implícita para hallar $\\frac{dy}{dx}$ en $x^4 + y^4 = 16$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = -\\frac{x^3}{y^3}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{x^3}{y^3}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = -\\frac{4x^3}{4y^3}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 4x^3 + 4y^3\\frac{dy}{dx}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva término a término: $4x^3 + 4y^3\\frac{dy}{dx} = 0$.",
+    "explanation": "Derivando: $4x^3 + 4y^3\\frac{dy}{dx} = 0$. Despejando: $4y^3\\frac{dy}{dx} = -4x^3$, simplificando: $\\frac{dy}{dx} = -\\frac{x^3}{y^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JD",
+    "question": "Deriva implícitamente para encontrar $\\frac{dy}{dx}$ si $e^y = x^2 + 3$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{2x}{e^y}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = 2x e^y$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{e^y}{2x}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = 2x + e^y\\frac{dy}{dx}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva $e^y$ usando regla de la cadena: $e^y\\frac{dy}{dx}$.",
+    "explanation": "Derivando: $e^y\\frac{dy}{dx} = 2x$. Despejando: $\\frac{dy}{dx} = \\frac{2x}{e^y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JE",
+    "question": "Encuentra $\\frac{dy}{dx}$ por derivación implícita si $\\frac{x^2}{4} + \\frac{y^2}{9} = 1$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = -\\frac{9x}{4y}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{9x}{4y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = -\\frac{4x}{9y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{x}{2} + \\frac{2y}{9}\\frac{dy}{dx}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva término a término: $\\frac{2x}{4} + \\frac{2y}{9}\\frac{dy}{dx} = 0$.",
+    "explanation": "Derivando: $\\frac{x}{2} + \\frac{2y}{9}\\frac{dy}{dx} = 0$. Despejando: $\\frac{2y}{9}\\frac{dy}{dx} = -\\frac{x}{2}$, luego $\\frac{dy}{dx} = -\\frac{9x}{4y}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JF",
+    "question": "Calcula $\\frac{dy}{dx}$ implícitamente si $\\tan(x+y) = x$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = \\frac{1 - \\sec^2(x+y)}{\\sec^2(x+y)}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{\\sec^2(x+y) - 1}{\\sec^2(x+y)}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{1}{\\sec^2(x+y)} - 1$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\sec^2(x+y)(1 + \\frac{dy}{dx})$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Para $\\tan(x+y)$, derivada es $\\sec^2(x+y)\\frac{d}{dx}(x+y) = \\sec^2(x+y)(1 + \\frac{dy}{dx})$.",
+    "explanation": "Derivando: $\\sec^2(x+y)(1 + \\frac{dy}{dx}) = 1$. Expandiendo: $\\sec^2(x+y) + \\sec^2(x+y)\\frac{dy}{dx} = 1$. Despejando: $\\sec^2(x+y)\\frac{dy}{dx} = 1 - \\sec^2(x+y)$, luego $\\frac{dy}{dx} = \\frac{1 - \\sec^2(x+y)}{\\sec^2(x+y)}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JG",
+    "question": "Usa derivación implícita para hallar $\\frac{dy}{dx}$ en $x^2y^3 = 8$.",
+    "image": null,
+    "options": [
+      {"text": "$\\frac{dy}{dx} = -\\frac{2y}{3x}$", "correct": true},
+      {"text": "$\\frac{dy}{dx} = \\frac{2y}{3x}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = -\\frac{3x}{2y}$", "correct": false},
+      {"text": "$\\frac{dy}{dx} = \\frac{8}{3x^2y^2}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica regla del producto: derivada de $x^2y^3$ es $2x\\cdot y^3 + x^2\\cdot 3y^2\\frac{dy}{dx}$.",
+    "explanation": "Derivando: $2xy^3 + 3x^2y^2\\frac{dy}{dx} = 0$. Despejando: $3x^2y^2\\frac{dy}{dx} = -2xy^3$, simplificando: $\\frac{dy}{dx} = -\\frac{2y}{3x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JH",
+    "question": "Encuentra la segunda derivada $f''(x)$ si $f(x) = 3x^4 - 5x^2 + 2x - 7$.",
+    "image": null,
+    "options": [
+      {"text": "$f''(x) = 36x^2 - 10$", "correct": true},
+      {"text": "$f''(x) = 12x^3 - 10x + 2$", "correct": false},
+      {"text": "$f''(x) = 36x^2$", "correct": false},
+      {"text": "$f''(x) = 12x^2 - 10$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primero encuentra $f'(x)$, luego deriva nuevamente para obtener $f''(x)$.",
+    "explanation": "$f'(x) = 12x^3 - 10x + 2$. Derivando nuevamente: $f''(x) = 36x^2 - 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JI",
+    "question": "Calcula la segunda derivada $y''$ si $y = \\sin(2x)$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = -4\\sin(2x)$", "correct": true},
+      {"text": "$y'' = -2\\sin(2x)$", "correct": false},
+      {"text": "$y'' = 4\\cos(2x)$", "correct": false},
+      {"text": "$y'' = -4\\cos(2x)$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $y' = 2\\cos(2x)$. Segunda derivada: deriva $2\\cos(2x)$.",
+    "explanation": "$y' = 2\\cos(2x)$. $y'' = 2\\cdot (-\\sin(2x)\\cdot 2) = -4\\sin(2x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JJ",
+    "question": "Encuentra $f''(x)$ si $f(x) = e^{3x}$.",
+    "image": null,
+    "options": [
+      {"text": "$f''(x) = 9e^{3x}$", "correct": true},
+      {"text": "$f''(x) = 3e^{3x}$", "correct": false},
+      {"text": "$f''(x) = e^{3x}$", "correct": false},
+      {"text": "$f''(x) = 6e^{3x}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $f'(x) = 3e^{3x}$. Segunda derivada: deriva $3e^{3x}$.",
+    "explanation": "$f'(x) = 3e^{3x}$. $f''(x) = 3\\cdot 3e^{3x} = 9e^{3x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JK",
+    "question": "Determina la segunda derivada $y''$ si $y = \\ln(2x)$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = -\\frac{1}{x^2}$", "correct": true},
+      {"text": "$y'' = \\frac{1}{x^2}$", "correct": false},
+      {"text": "$y'' = -\\frac{2}{x^2}$", "correct": false},
+      {"text": "$y'' = \\frac{2}{x^2}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $y' = \\frac{1}{x}$. Segunda derivada: deriva $\\frac{1}{x} = x^{-1}$.",
+    "explanation": "$y' = \\frac{1}{x} = x^{-1}$. $y'' = -x^{-2} = -\\frac{1}{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JL",
+    "question": "Calcula la tercera derivada $f'''(x)$ si $f(x) = x^5 - 4x^3 + 2x$.",
+    "image": null,
+    "options": [
+      {"text": "$f'''(x) = 60x^2 - 24$", "correct": true},
+      {"text": "$f'''(x) = 20x^3 - 24x$", "correct": false},
+      {"text": "$f'''(x) = 60x^2$", "correct": false},
+      {"text": "$f'''(x) = 5x^4 - 12x^2 + 2$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva tres veces: $f'(x) = 5x^4 - 12x^2 + 2$, $f''(x) = 20x^3 - 24x$, $f'''(x) = 60x^2 - 24$.",
+    "explanation": "$f'(x) = 5x^4 - 12x^2 + 2$. $f''(x) = 20x^3 - 24x$. $f'''(x) = 60x^2 - 24$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JM",
+    "question": "Encuentra $y''$ si $y = \\cos(5x)$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = -25\\cos(5x)$", "correct": true},
+      {"text": "$y'' = -5\\sin(5x)$", "correct": false},
+      {"text": "$y'' = 25\\cos(5x)$", "correct": false},
+      {"text": "$y'' = -25\\sin(5x)$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $y' = -5\\sin(5x)$. Segunda derivada: deriva $-5\\sin(5x)$.",
+    "explanation": "$y' = -5\\sin(5x)$. $y'' = -5\\cdot 5\\cos(5x) = -25\\cos(5x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JN",
+    "question": "Calcula la segunda derivada $f''(x)$ si $f(x) = \\sqrt{x}$.",
+    "image": null,
+    "options": [
+      {"text": "$f''(x) = -\\frac{1}{4x^{3/2}}$", "correct": true},
+      {"text": "$f''(x) = \\frac{1}{2\\sqrt{x}}$", "correct": false},
+      {"text": "$f''(x) = -\\frac{1}{2x^{3/2}}$", "correct": false},
+      {"text": "$f''(x) = \\frac{1}{4x^{3/2}}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Escribe $f(x) = x^{1/2}$. Primera derivada: $f'(x) = \\frac{1}{2}x^{-1/2}$. Segunda derivada: deriva $\\frac{1}{2}x^{-1/2}$.",
+    "explanation": "$f(x) = x^{1/2}$. $f'(x) = \\frac{1}{2}x^{-1/2}$. $f''(x) = \\frac{1}{2}\\cdot(-\\frac{1}{2})x^{-3/2} = -\\frac{1}{4}x^{-3/2} = -\\frac{1}{4x^{3/2}}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JO",
+    "question": "Encuentra la tercera derivada $f'''(x)$ si $f(x) = e^{-2x}$.",
+    "image": null,
+    "options": [
+      {"text": "$f'''(x) = -8e^{-2x}$", "correct": true},
+      {"text": "$f'''(x) = 8e^{-2x}$", "correct": false},
+      {"text": "$f'''(x) = -4e^{-2x}$", "correct": false},
+      {"text": "$f'''(x) = 4e^{-2x}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva tres veces: $f'(x) = -2e^{-2x}$, $f''(x) = 4e^{-2x}$, $f'''(x) = -8e^{-2x}$.",
+    "explanation": "$f'(x) = -2e^{-2x}$. $f''(x) = 4e^{-2x}$. $f'''(x) = -8e^{-2x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JP",
+    "question": "Determina $y''$ si $y = x^3 \\ln x$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = 6x\\ln x + 5x$", "correct": true},
+      {"text": "$y'' = 3x^2\\ln x + x^2$", "correct": false},
+      {"text": "$y'' = 6x\\ln x + 6x$", "correct": false},
+      {"text": "$y'' = 3x^2\\frac{1}{x} + 2x\\ln x$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa regla del producto para primera derivada: $y' = 3x^2\\ln x + x^3\\cdot\\frac{1}{x} = 3x^2\\ln x + x^2$. Luego deriva nuevamente.",
+    "explanation": "$y' = 3x^2\\ln x + x^2$. $y'' = 6x\\ln x + 3x^2\\cdot\\frac{1}{x} + 2x = 6x\\ln x + 3x + 2x = 6x\\ln x + 5x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JQ",
+    "question": "Calcula $f''(x)$ si $f(x) = \\frac{1}{x}$.",
+    "image": null,
+    "options": [
+      {"text": "$f''(x) = \\frac{2}{x^3}$", "correct": true},
+      {"text": "$f''(x) = -\\frac{1}{x^2}$", "correct": false},
+      {"text": "$f''(x) = -\\frac{2}{x^3}$", "correct": false},
+      {"text": "$f''(x) = \\frac{1}{x^2}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Escribe $f(x) = x^{-1}$. Primera derivada: $f'(x) = -x^{-2}$. Segunda derivada: deriva $-x^{-2}$.",
+    "explanation": "$f(x) = x^{-1}$. $f'(x) = -x^{-2}$. $f''(x) = 2x^{-3} = \\frac{2}{x^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JR",
+    "question": "Encuentra la segunda derivada $y''$ si $y = \\tan x$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = 2\\sec^2 x \\tan x$", "correct": true},
+      {"text": "$y'' = \\sec^2 x$", "correct": false},
+      {"text": "$y'' = 2\\sec x \\tan x$", "correct": false},
+      {"text": "$y'' = \\sec^4 x$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $y' = \\sec^2 x$. Segunda derivada: deriva $\\sec^2 x$ usando regla de la cadena.",
+    "explanation": "$y' = \\sec^2 x$. $y'' = 2\\sec x \\cdot \\sec x \\tan x = 2\\sec^2 x \\tan x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JS",
+    "question": "Calcula la tercera derivada $f'''(x)$ si $f(x) = \\sin(3x)$.",
+    "image": null,
+    "options": [
+      {"text": "$f'''(x) = -27\\cos(3x)$", "correct": true},
+      {"text": "$f'''(x) = 27\\sin(3x)$", "correct": false},
+      {"text": "$f'''(x) = -9\\cos(3x)$", "correct": false},
+      {"text": "$f'''(x) = -27\\sin(3x)$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva tres veces: $f'(x) = 3\\cos(3x)$, $f''(x) = -9\\sin(3x)$, $f'''(x) = -27\\cos(3x)$.",
+    "explanation": "$f'(x) = 3\\cos(3x)$. $f''(x) = -9\\sin(3x)$. $f'''(x) = -27\\cos(3x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JT",
+    "question": "Determina $y''$ si $y = e^{x^2}$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = 2e^{x^2}(1 + 2x^2)$", "correct": true},
+      {"text": "$y'' = 4x^2 e^{x^2}$", "correct": false},
+      {"text": "$y'' = 2e^{x^2}$", "correct": false},
+      {"text": "$y'' = e^{x^2}(4x^2 + 2)$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $y' = 2x e^{x^2}$. Segunda derivada: usa regla del producto en $2x e^{x^2}$.",
+    "explanation": "$y' = 2x e^{x^2}$. $y'' = 2e^{x^2} + 2x\\cdot 2x e^{x^2} = 2e^{x^2} + 4x^2 e^{x^2} = 2e^{x^2}(1 + 2x^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JU",
+    "question": "Encuentra $f''(x)$ si $f(x) = (2x+1)^4$.",
+    "image": null,
+    "options": [
+      {"text": "$f''(x) = 48(2x+1)^2$", "correct": true},
+      {"text": "$f''(x) = 8(2x+1)^3$", "correct": false},
+      {"text": "$f''(x) = 24(2x+1)^2$", "correct": false},
+      {"text": "$f''(x) = 96(2x+1)^2$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $f'(x) = 8(2x+1)^3$. Segunda derivada: deriva usando regla de la cadena.",
+    "explanation": "$f'(x) = 8(2x+1)^3$. $f''(x) = 24(2x+1)^2\\cdot 2 = 48(2x+1)^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JV",
+    "question": "Calcula $y''$ si $y = \\frac{1}{x^2}$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = \\frac{6}{x^4}$", "correct": true},
+      {"text": "$y'' = -\\frac{2}{x^3}$", "correct": false},
+      {"text": "$y'' = \\frac{2}{x^3}$", "correct": false},
+      {"text": "$y'' = \\frac{12}{x^5}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Escribe $y = x^{-2}$. Primera derivada: $y' = -2x^{-3}$. Segunda derivada: deriva $-2x^{-3}$.",
+    "explanation": "$y = x^{-2}$. $y' = -2x^{-3}$. $y'' = 6x^{-4} = \\frac{6}{x^4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JW",
+    "question": "Determina la tercera derivada $f'''(x)$ si $f(x) = x^4 - 3x^2 + 5$.",
+    "image": null,
+    "options": [
+      {"text": "$f'''(x) = 24x$", "correct": true},
+      {"text": "$f'''(x) = 12x^2 - 6$", "correct": false},
+      {"text": "$f'''(x) = 4x^3 - 6x$", "correct": false},
+      {"text": "$f'''(x) = 24x - 6$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva tres veces: $f'(x) = 4x^3 - 6x$, $f''(x) = 12x^2 - 6$, $f'''(x) = 24x$.",
+    "explanation": "$f'(x) = 4x^3 - 6x$. $f''(x) = 12x^2 - 6$. $f'''(x) = 24x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JX",
+    "question": "Encuentra $y''$ si $y = \\cos(x^2)$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = -2\\sin(x^2) - 4x^2\\cos(x^2)$", "correct": true},
+      {"text": "$y'' = -4x^2\\cos(x^2)$", "correct": false},
+      {"text": "$y'' = -2\\cos(x^2) + 4x^2\\sin(x^2)$", "correct": false},
+      {"text": "$y'' = -\\sin(x^2)\\cdot 2x$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $y' = -2x\\sin(x^2)$. Segunda derivada: usa regla del producto.",
+    "explanation": "$y' = -2x\\sin(x^2)$. $y'' = -2\\sin(x^2) - 2x\\cdot 2x\\cos(x^2) = -2\\sin(x^2) - 4x^2\\cos(x^2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JY",
+    "question": "Calcula $f''(x)$ si $f(x) = \\ln(3x)$.",
+    "image": null,
+    "options": [
+      {"text": "$f''(x) = -\\frac{1}{x^2}$", "correct": true},
+      {"text": "$f''(x) = \\frac{1}{x^2}$", "correct": false},
+      {"text": "$f''(x) = \\frac{1}{3x^2}$", "correct": false},
+      {"text": "$f''(x) = -\\frac{1}{3x^2}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $f'(x) = \\frac{1}{x}$. Segunda derivada: deriva $\\frac{1}{x} = x^{-1}$.",
+    "explanation": "$f'(x) = \\frac{1}{x} = x^{-1}$. $f''(x) = -x^{-2} = -\\frac{1}{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09JZ",
+    "question": "Determina la tercera derivada $f'''(x)$ si $f(x) = \\frac{1}{x^3}$.",
+    "image": null,
+    "options": [
+      {"text": "$f'''(x) = -\\frac{60}{x^6}$", "correct": true},
+      {"text": "$f'''(x) = \\frac{6}{x^4}$", "correct": false},
+      {"text": "$f'''(x) = -\\frac{24}{x^5}$", "correct": false},
+      {"text": "$f'''(x) = \\frac{60}{x^6}$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Escribe $f(x) = x^{-3}$. Deriva tres veces: $f'(x) = -3x^{-4}$, $f''(x) = 12x^{-5}$, $f'''(x) = -60x^{-6}$.",
+    "explanation": "$f(x) = x^{-3}$. $f'(x) = -3x^{-4}$. $f''(x) = 12x^{-5}$. $f'''(x) = -60x^{-6} = -\\frac{60}{x^6}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09KA",
+    "question": "Encuentra $y''$ si $y = x e^{2x}$.",
+    "image": null,
+    "options": [
+      {"text": "$y'' = 4e^{2x}(x + 1)$", "correct": true},
+      {"text": "$y'' = 4x e^{2x}$", "correct": false},
+      {"text": "$y'' = e^{2x}(4x + 4)$", "correct": false},
+      {"text": "$y'' = 2e^{2x}(2x + 1)$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Primera derivada: $y' = e^{2x} + 2x e^{2x} = e^{2x}(1 + 2x)$. Segunda derivada: deriva usando regla del producto.",
+    "explanation": "$y' = e^{2x}(1 + 2x)$. $y'' = 2e^{2x}(1 + 2x) + e^{2x}\\cdot 2 = 2e^{2x}(1 + 2x + 1) = 2e^{2x}(2x + 2) = 4e^{2x}(x + 1)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09KB",
+    "question": "Calcula $f''(x)$ si $f(x) = \\sin x \\cos x$.",
+    "image": null,
+    "options": [
+      {"text": "$f''(x) = -4\\sin x \\cos x$", "correct": true},
+      {"text": "$f''(x) = \\cos^2 x - \\sin^2 x$", "correct": false},
+      {"text": "$f''(x) = -2\\sin 2x$", "correct": false},
+      {"text": "$f''(x) = -\\sin^2 x + \\cos^2 x$", "correct": false}
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa identidad: $f(x) = \\frac{1}{2}\\sin 2x$. Luego deriva dos veces.",
+    "explanation": "$f(x) = \\frac{1}{2}\\sin 2x$. $f'(x) = \\cos 2x$. $f''(x) = -2\\sin 2x = -4\\sin x \\cos x$.",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]

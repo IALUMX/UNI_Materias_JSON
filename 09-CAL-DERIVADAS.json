@@ -2582,5 +2582,617 @@
     "explanation": "$\\frac{dy}{dx} = \\sec^2(x/4) \\cdot \\frac{1}{4} = \\frac{1}{4} \\sec^2(x/4)$.",
     "explanative_video": null,
     "collapsible_text": null
+  },
+  {
+    "id": "CAL09FW",
+    "question": "Calcula la derivada de la función $y = e^{3x}$.",
+    "image": null,
+    "options": [
+      { "text": "$3e^{3x}$", "correct": true },
+      { "text": "$e^{3x}$", "correct": false },
+      { "text": "$\\frac{1}{3x} e^{3x}$", "correct": false },
+      { "text": "$e^{3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la cadena: $\\frac{d}{dx}[e^u] = e^u \\cdot u'$. La derivada de $3x$ es 3.",
+    "explanation": "La derivada de $e^{3x}$ es $e^{3x}$ multiplicada por la derivada del exponente ($3x$), resultando en $3e^{3x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FX",
+    "question": "Encuentra la derivada de la función $f(x) = \\ln(5x)$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{5x}$", "correct": false },
+      { "text": "$f'(x) = 5 \\ln(5x)$", "correct": false },
+      { "text": "$f'(x) = \\frac{5}{x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la propiedad del logaritmo de un producto: $\\ln(5x) = \\ln(5) + \\ln(x)$. Luego deriva.",
+    "explanation": "Aplicando la propiedad, $f(x) = \\ln(5) + \\ln(x)$. La derivada de la constante $\\ln(5)$ es 0, y la derivada de $\\ln(x)$ es $1/x$. Alternativamente, por regla de la cadena: $\\frac{1}{5x} \\cdot 5 = \\frac{1}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FY",
+    "question": "Calcula la derivada de la función $g(x) = 2^x$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = 2^x \\ln(2)$", "correct": true },
+      { "text": "$g'(x) = x \\cdot 2^{x-1}$", "correct": false },
+      { "text": "$g'(x) = 2^x$", "correct": false },
+      { "text": "$g'(x) = \\ln(2)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula para la derivada de una base constante elevada a una función: $\\frac{d}{dx}[a^u] = a^u \\ln(a) \\cdot u'$.",
+    "explanation": "Para $g(x) = 2^x$, $a=2$ y $u=x$ (donde $u'=1$). La derivada es $2^x \\ln(2) \\cdot 1 = 2^x \\ln(2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09FZ",
+    "question": "Deriva la función $h(x) = \\log_5(x)$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = \\frac{1}{x \\ln 5}$", "correct": true },
+      { "text": "$h'(x) = \\frac{\\ln 5}{x}$", "correct": false },
+      { "text": "$h'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$h'(x) = x \\cdot 5^x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la fórmula: $\\frac{d}{dx}[\\log_a(u)] = \\frac{1}{u \\ln(a)} \\cdot u'$.",
+    "explanation": "Para $h(x) = \\log_5(x)$, $a=5$ y $u=x$ (donde $u'=1$). El resultado es $\\frac{1}{x \\ln 5}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GA",
+    "question": "Calcula la derivada de $y = e^{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$2x e^{x^2}$", "correct": true },
+      { "text": "$e^{x^2}$", "correct": false },
+      { "text": "$x^2 e^{x^2}$", "correct": false },
+      { "text": "$2 e^{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la cadena: $\\frac{d}{dx}[e^u] = e^u \\cdot u'$. La derivada de $x^2$ es $2x$.",
+    "explanation": "La derivada es $e^{x^2}$ multiplicada por la derivada del exponente ($2x$), dando $2x e^{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GB",
+    "question": "Deriva la función $f(x) = \\ln(x^2 + 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\frac{2x}{x^2 + 1}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{x^2 + 1}$", "correct": false },
+      { "text": "$f'(x) = 2x \\ln(x^2 + 1)$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{2x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la cadena para logaritmos naturales: $\\frac{d}{dx}[\\ln(u)] = \\frac{u'}{u}$.",
+    "explanation": "La derivada es el recíproco del argumento $\\frac{1}{x^2 + 1}$ multiplicado por la derivada del argumento ($2x$), resultando en $\\frac{2x}{x^2 + 1}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GC",
+    "question": "Encuentra la derivada de la función $g(x) = 3^{2x}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = 2 \\cdot 3^{2x} \\ln(3)$", "correct": true },
+      { "text": "$g'(x) = 3^{2x} \\ln(3)$", "correct": false },
+      { "text": "$g'(x) = 2x \\cdot 3^{2x}$", "correct": false },
+      { "text": "$g'(x) = 3^{2x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $a^u$ es $a^u \\ln(a) u'$. Aquí $u'=2$.",
+    "explanation": "La derivada es $3^{2x} \\ln(3)$ multiplicada por la derivada del exponente ($2x$), que es 2. El resultado es $2 \\cdot 3^{2x} \\ln(3)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GD",
+    "question": "Calcula la derivada de $h(x) = \\log_2(3x - 1)$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = \\frac{3}{(3x - 1) \\ln 2}$", "correct": true },
+      { "text": "$h'(x) = \\frac{1}{(3x - 1) \\ln 2}$", "correct": false },
+      { "text": "$h'(x) = \\frac{3}{3x - 1}$", "correct": false },
+      { "text": "$h'(x) = \\frac{1}{3x - 1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la regla de la cadena para $\\log_a(u)$: $\\frac{u'}{u \\ln(a)}$.",
+    "explanation": "La derivada es $\\frac{1}{(3x - 1) \\ln 2}$ multiplicada por la derivada del argumento ($3x - 1$), que es 3. El resultado es $\\frac{3}{(3x - 1) \\ln 2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GE",
+    "question": "Deriva la función $y = x e^x$.",
+    "image": null,
+    "options": [
+      { "text": "$y' = e^x(x + 1)$", "correct": true },
+      { "text": "$y' = x e^x$", "correct": false },
+      { "text": "$y' = e^x + x$", "correct": false },
+      { "text": "$y' = x^2 e^x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla del producto: $(u v)' = u'v + u v'$.",
+    "explanation": "Sea $u=x$ ($u'=1$) y $v=e^x$ ($v'=e^x$). $y' = (1)e^x + x(e^x) = e^x + x e^x = e^x(1 + x)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GF",
+    "question": "Calcula la derivada de $f(x) = x \\ln x$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = \\ln x + 1$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = x \\ln x$", "correct": false },
+      { "text": "$f'(x) = \\ln x + \\frac{1}{x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla del producto: $(u v)' = u'v + u v'$.",
+    "explanation": "Sea $u=x$ ($u'=1$) y $v=\\ln x$ ($v'=1/x$). $f'(x) = (1)\\ln x + x(\\frac{1}{x}) = \\ln x + 1$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GG",
+    "question": "Encuentra la derivada de la función $g(x) = e^{-x}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = -e^{-x}$", "correct": true },
+      { "text": "$g'(x) = e^{-x}$", "correct": false },
+      { "text": "$g'(x) = -x e^{-x}$", "correct": false },
+      { "text": "$g'(x) = \\frac{1}{e^x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la cadena. La derivada de $-x$ es $-1$.",
+    "explanation": "La derivada es $e^{-x}$ multiplicada por la derivada del exponente ($-1$), dando $-e^{-x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GH",
+    "question": "Deriva la expresión $h(x) = \\ln(x) + x^3$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = \\frac{1}{x} + 3x^2$", "correct": true },
+      { "text": "$h'(x) = x + 3x^2$", "correct": false },
+      { "text": "$h'(x) = \\frac{1}{x} + x^2$", "correct": false },
+      { "text": "$h'(x) = 3x^2 \\ln(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la suma. Deriva cada término por separado.",
+    "explanation": "La derivada de $\\ln(x)$ es $\\frac{1}{x}$ y la derivada de $x^3$ es $3x^2$. El resultado es $\\frac{1}{x} + 3x^2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GI",
+    "question": "Calcula la derivada de $y = 5^{x^2}$.",
+    "image": null,
+    "options": [
+      { "text": "$y' = 2x \\cdot 5^{x^2} \\ln(5)$", "correct": true },
+      { "text": "$y' = 5^{x^2} \\ln(5)$", "correct": false },
+      { "text": "$y' = x^2 \\cdot 5^{x^2} \\ln(5)$", "correct": false },
+      { "text": "$y' = 2x \\cdot 5^{x^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $a^u$ es $a^u \\ln(a) u'$. Aquí $u'=2x$.",
+    "explanation": "La derivada es $5^{x^2} \\ln(5)$ multiplicada por la derivada del exponente ($2x$), dando $2x \\cdot 5^{x^2} \\ln(5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GJ",
+    "question": "Deriva la función $f(x) = \\ln(\\frac{1}{x})$.",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = -\\frac{1}{x}$", "correct": true },
+      { "text": "$f'(x) = \\frac{1}{x}$", "correct": false },
+      { "text": "$f'(x) = \\frac{1}{x^2}$", "correct": false },
+      { "text": "$f'(x) = x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la propiedad del logaritmo de un cociente: $\\ln(\\frac{1}{x}) = \\ln(1) - \\ln(x)$.",
+    "explanation": "Simplificando: $f(x) = 0 - \\ln(x)$. La derivada es $f'(x) = -\\frac{1}{x}$. Alternativamente, por regla de la cadena: $\\frac{1}{1/x} \\cdot \\frac{d}{dx}(x^{-1}) = x \\cdot (-x^{-2}) = -x^{-1} = -\\frac{1}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GK",
+    "question": "Encuentra la derivada de la función $g(x) = e^{5x^3}$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = 15x^2 e^{5x^3}$", "correct": true },
+      { "text": "$g'(x) = 5x^3 e^{5x^3}$", "correct": false },
+      { "text": "$g'(x) = e^{5x^3}$", "correct": false },
+      { "text": "$g'(x) = 5 e^{5x^3}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla de la cadena. La derivada de $5x^3$ es $15x^2$.",
+    "explanation": "La derivada es $e^{5x^3}$ multiplicada por la derivada del exponente ($15x^2$), dando $15x^2 e^{5x^3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GL",
+    "question": "Calcula la derivada de $h(x) = \\ln(3x) + \\cos x$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = \\frac{1}{x} - \\sin x$", "correct": true },
+      { "text": "$h'(x) = \\frac{3}{x} - \\sin x$", "correct": false },
+      { "text": "$h'(x) = \\frac{1}{3x} + \\sin x$", "correct": false },
+      { "text": "$h'(x) = \\ln(3x) - \\sin x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $\\ln(3x)$ es $\\frac{1}{x}$. La derivada de $\\cos x$ es $-\\sin x$.",
+    "explanation": "La derivada es la suma de las derivadas de $\\ln(3x)$ ($1/x$) y $\\cos x$ ($-\\sin x$). El resultado es $\\frac{1}{x} - \\sin x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GM",
+    "question": "Deriva la función $y = \\frac{e^x}{x}$.",
+    "image": null,
+    "options": [
+      { "text": "$y' = \\frac{e^x(x - 1)}{x^2}$", "correct": true },
+      { "text": "$y' = e^x$", "correct": false },
+      { "text": "$y' = \\frac{x e^x - e^x}{x^2}$", "correct": false },
+      { "text": "$y' = e^x \\ln x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Aplica la regla del cociente: $(\\frac{u}{v})' = \\frac{u'v - uv'}{v^2}$.",
+    "explanation": "Sea $u=e^x$ ($u'=e^x$) y $v=x$ ($v'=1$). $y' = \\frac{e^x(x) - e^x(1)}{x^2} = \\frac{e^x(x - 1)}{x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GN",
+    "question": "Si $f(x) = 10 \\cdot 7^x$, ¿cuál es $f'(x)$?",
+    "image": null,
+    "options": [
+      { "text": "$f'(x) = 10 \\cdot 7^x \\ln(7)$", "correct": true },
+      { "text": "$f'(x) = 7^x \\ln(7)$", "correct": false },
+      { "text": "$f'(x) = 70^x \\ln(7)$", "correct": false },
+      { "text": "$f'(x) = 10x \\cdot 7^{x-1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La constante $10$ se mantiene multiplicando el resultado de la derivada de $7^x$.",
+    "explanation": "La derivada de $7^x$ es $7^x \\ln(7)$. Multiplicando por la constante 10: $f'(x) = 10 \\cdot 7^x \\ln(7)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GO",
+    "question": "Encuentra la derivada de la función $g(x) = \\log_3(x^2)$.",
+    "image": null,
+    "options": [
+      { "text": "$g'(x) = \\frac{2}{x \\ln 3}$", "correct": true },
+      { "text": "$g'(x) = \\frac{1}{x^2 \\ln 3}$", "correct": false },
+      { "text": "$g'(x) = \\frac{2x}{x^2 \\ln 3}$", "correct": false },
+      { "text": "$g'(x) = \\frac{2}{x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Usa la propiedad de los logaritmos: $\\log_3(x^2) = 2 \\log_3(x)$.",
+    "explanation": "Simplificando: $g(x) = 2 \\log_3(x)$. Derivando: $g'(x) = 2 \\cdot \\frac{1}{x \\ln 3} = \\frac{2}{x \\ln 3}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GP",
+    "question": "Deriva la función $h(x) = e^{x^3 + 2x}$.",
+    "image": null,
+    "options": [
+      { "text": "$h'(x) = (3x^2 + 2) e^{x^3 + 2x}$", "correct": true },
+      { "text": "$h'(x) = e^{x^3 + 2x}$", "correct": false },
+      { "text": "$h'(x) = (3x^2 + 2) e^{x^2 + 2}$", "correct": false },
+      { "text": "$h'(x) = 6x e^{x^3 + 2x}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Deriva el exponente $u = x^3 + 2x$, donde $u' = 3x^2 + 2$.",
+    "explanation": "Regla de la cadena: $h'(x) = e^{x^3 + 2x} \\cdot (3x^2 + 2)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GQ",
+    "question": "Calcula la derivada de $y = \\frac{\\ln x}{2x}$.",
+    "image": null,
+    "options": [
+      { "text": "$y' = \\frac{1 - \\ln x}{2x^2}$", "correct": true },
+      { "text": "$y' = \\frac{1}{2x^2}$", "correct": false },
+      { "text": "$y' = \\frac{2 - \\ln x}{4x^2}$", "correct": false },
+      { "text": "$y' = \\frac{x - \\ln x}{2x^2}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Regla del cociente. $u=\\ln x \\implies u'=1/x$. $v=2x \\implies v'=2$. $u'v - uv' = \\frac{1}{x}(2x) - \\ln x(2)$.",
+    "explanation": "$y' = \\frac{(\\frac{1}{x})(2x) - (\\ln x)(2)}{(2x)^2} = \\frac{2 - 2 \\ln x}{4x^2}$. Simplificando el 2 del numerador y el 4 del denominador: $\\frac{1 - \\ln x}{2x^2}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GR",
+    "question": "Son funciones exponenciales (base constante $a > 0, a \\neq 1$, exponente variable):",
+    "image": null,
+    "options": [
+      { "text": "$y = 2^x$, $y = e^{-x}$, $y = 3^{x^2+1}$", "correct": true },
+      { "text": "$y = x^2$, $y = x^e$, $y = x^{\\pi}$", "correct": false },
+      { "text": "$y = \\ln(x)$, $y = \\log_2(x)$, $y = 10 \\cdot x$", "correct": false },
+      { "text": "$y = 5x^3$, $y = e$, $y = 4^{\\pi}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "En estas funciones, la variable $x$ se encuentra en el exponente.",
+    "explanation": "Las funciones exponenciales tienen la forma $f(x)=a^{g(x)}$ donde $a$ es una base constante ($e \\approx 2.718$). Las otras opciones contienen funciones potencias ($x^n$) o logarítmicas.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GS",
+    "question": "Son funciones logarítmicas con base natural $e$ (logaritmo natural $\\ln$):",
+    "image": null,
+    "options": [
+      { "text": "$y = \\ln(x)$, $y = 3\\ln(x^2)$, $y = \\frac{1}{\\ln x}$", "correct": true },
+      { "text": "$y = \\log_{10}(x)$, $y = \\log_2(x)$, $y = 5 \\log(x)$", "correct": false },
+      { "text": "$y = e^{x}$, $y = e^{-2x}$, $y = e^{\\pi}$", "correct": false },
+      { "text": "$y = \\ln(1)$, $y = 5$, $y = x^{-1}$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El logaritmo natural se denota como $\\ln x$ o $\\log_e x$.",
+    "explanation": "Todas las funciones listadas en la opción correcta contienen el logaritmo natural ($\\ln$), que es el logaritmo con base $e$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GT",
+    "question": "Son derivadas que requieren la regla de la cadena para logaritmos naturales $\\ln(u)$: (Donde $u$ es una función de $x$ diferente a $x$)",
+    "image": null,
+    "options": [
+      { "text": "$y = \\ln(3x)$, $y = \\ln(x^2+x)$, $y = \\ln(\\sqrt{x})$", "correct": true },
+      { "text": "$y = \\ln(x)$, $y = x^2 \\ln(x)$, $y = \\ln(e)$", "correct": false },
+      { "text": "$y = \\log_{10}(x)$, $y = \\log_2(x^2)$, $y = \\ln(x)+x$", "correct": false },
+      { "text": "$y = \\frac{1}{x}$, $y = e^x \\ln x$, $y = \\ln(x)/x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La regla de la cadena se aplica cuando el argumento del logaritmo es una función compuesta (no simplemente $x$).",
+    "explanation": "En las funciones $\\ln(3x)$, $\\ln(x^2+x)$ y $\\ln(\\sqrt{x})$, el argumento ($u$) es una función interna distinta de $x$, por lo que $\\frac{d}{dx}[\\ln(u)] = \\frac{u'}{u}$ debe usarse. $\\ln(x)$ solo requiere $1/x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GU",
+    "question": "La derivada de una función exponencial $f(x)=a^x$ es igual a la misma función multiplicada por el ______ de la base $a$. Por otro lado, la derivada de $f(x)=\\ln(x)$ es igual al ______ de $x$.",
+    "image": null,
+    "options": [
+      { "text": "logaritmo natural, recíproco", "correct": true },
+      { "text": "exponente, cuadrado", "correct": false },
+      { "text": "argumento, doble", "correct": false },
+      { "text": "recíproco, logaritmo", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Las derivadas son $a^x \\ln(a)$ y $1/x$.",
+    "explanation": "La derivada de $a^x$ es $a^x \\ln(a)$ (logaritmo natural de la base). La derivada de $\\ln(x)$ es $1/x$ (recíproco de $x$).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GV",
+    "question": "Para derivar una función compuesta $y=e^{g(x)}$, aplicamos la regla de la cadena, resultando en $y' = e^{g(x)} \\cdot g'(x)$. Si $g(x)=4x^2$, la derivada es $y' = e^{4x^2} \\cdot ______$.",
+    "image": null,
+    "options": [
+      { "text": "$8x$", "correct": true },
+      { "text": "$4x$", "correct": false },
+      { "text": "$e^{4x^2}$", "correct": false },
+      { "text": "$2x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula la derivada de $g(x)=4x^2$.",
+    "explanation": "La derivada de la función interna $g(x)=4x^2$ es $g'(x) = 8x$. Por lo tanto, $y' = e^{4x^2} \\cdot 8x$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GW",
+    "question": "Un estudiante del CEPREDIX aplica la regla del producto a $y=e^{2x} \\cdot x$. La derivada $y'$ es la suma de la derivada de $e^{2x}$ por $x$, más $e^{2x}$ por la derivada de $x$. Si la derivada de $e^{2x}$ es $2e^{2x}$, el resultado final es $e^{2x} (2x + ______)$.",
+    "image": null,
+    "options": [
+      { "text": "$1$", "correct": true },
+      { "text": "$2x$", "correct": false },
+      { "text": "$x$", "correct": false },
+      { "text": "$e^x$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $x$ es 1. La expresión factorizada es $e^{2x}[(2x) + (1)]$.",
+    "explanation": "Regla del producto: $y' = (2e^{2x})(x) + (e^{2x})(1) = e^{2x}(2x + 1)$. El valor faltante es 1.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GX",
+    "question": "Si la función de un proceso es $f(x) = \\ln(x^4)$, antes de derivar se puede simplificar usando la propiedad del logaritmo de una potencia, resultando en $f(x) = 4 \\cdot \\ln(x)$. Al derivar, $f'(x)$ es igual a ______.",
+    "image": null,
+    "options": [
+      { "text": "$4/x$", "correct": true },
+      { "text": "$1/(x^4)$", "correct": false },
+      { "text": "$4 \\ln(x)$", "correct": false },
+      { "text": "$x^3$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $4 \\ln(x)$ es $4$ veces la derivada de $\\ln(x)$.",
+    "explanation": "Derivando la forma simplificada: $f'(x) = \\frac{d}{dx}[4 \\ln(x)] = 4 \\cdot \\frac{1}{x} = \\frac{4}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GY",
+    "question": "La derivada de la función $y = \\log_a(x)$ es igual al recíproco de $x$ multiplicado por el recíproco del ______ de la base $a$, es decir, $\\frac{1}{x \\cdot \\ln(a)}$. Si la base es $a=10$, la derivada de $y=\\log_{10}(x)$ es $\\frac{1}{x \\cdot ______}$.",
+    "image": null,
+    "options": [
+      { "text": "logaritmo natural, $\\ln(10)$", "correct": true },
+      { "text": "logaritmo decimal, $10$", "correct": false },
+      { "text": "recíproco, $\\frac{1}{10}$", "correct": false },
+      { "text": "argumento, $\\log(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "El logaritmo natural se utiliza en la fórmula de cambio de base y en la derivada de $\\log_a(x)$.",
+    "explanation": "La derivada de $\\log_{10}(x)$ es $\\frac{1}{x \\ln(10)}$, donde $\\ln(10)$ es el logaritmo natural de 10.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09GZ",
+    "question": "El CEPREDIX está modelando un crecimiento exponencial. Si la función es $f(t) = 1000 e^{0.02t}$, su tasa de cambio $f'(t)$ resulta de multiplicar el coeficiente 1000 por la derivada del exponente, $0.02$, y por la función original, dando como resultado $f'(t) = ______ e^{0.02t}$.",
+    "image": null,
+    "options": [
+      { "text": "$20$", "correct": true },
+      { "text": "$20000$", "correct": false },
+      { "text": "$0.02$", "correct": false },
+      { "text": "$1000$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada es $f'(t) = 1000 \\cdot \\frac{d}{dt}(e^{0.02t}) = 1000 \\cdot e^{0.02t} \\cdot 0.02$. Multiplica $1000 \\cdot 0.02$.",
+    "explanation": "La derivada es $f'(t) = 1000 \\cdot e^{0.02t} \\cdot 0.02 = 20 e^{0.02t}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09HA",
+    "question": "Para la función $f(x) = \\ln(x^3 - 4)$, se aplica la regla de la cadena: $\\frac{1}{x^3 - 4}$ por la derivada de $x^3 - 4$. El resultado final es $f'(x) = \\frac{______}{x^3 - 4}$.",
+    "image": null,
+    "options": [
+      { "text": "$3x^2$", "correct": true },
+      { "text": "$x^3$", "correct": false },
+      { "text": "$3x^2 - 4$", "correct": false },
+      { "text": "$x^2$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada del argumento $u=x^3 - 4$ es $3x^2$.",
+    "explanation": "La derivada de $f(x) = \\ln(u)$ es $f'(x) = \\frac{u'}{u}$. Si $u=x^3 - 4$, $u'=3x^2$. Entonces $f'(x) = \\frac{3x^2}{x^3 - 4}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09HB",
+    "question": "La derivada de la función $y = 5^{3x}$ es $5^{3x}$ multiplicada por el logaritmo natural de la base y por la derivada interna $3$, es decir, $y' = 3 \\cdot 5^{3x} \\cdot ______$.",
+    "image": null,
+    "options": [
+      { "text": "$\\ln(5)$", "correct": true },
+      { "text": "$3$", "correct": false },
+      { "text": "$e$", "correct": false },
+      { "text": "$5$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $a^u$ siempre incluye el factor $\\ln(a)$.",
+    "explanation": "La fórmula completa es $y' = a^u \\ln(a) u'$. Sustituyendo $a=5$ y $u'=3$, falta el factor $\\ln(5)$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09HC",
+    "question": "La derivada de la suma de funciones es la suma de sus derivadas. Si $y = e^{3x} + 4 \\ln(x)$, entonces $y' = 3e^{3x} + ______$.",
+    "image": null,
+    "options": [
+      { "text": "$4/x$", "correct": true },
+      { "text": "$1/x$", "correct": false },
+      { "text": "$4x$", "correct": false },
+      { "text": "$3 \\ln(x)$", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La derivada de $4 \\ln(x)$ es $4 \\cdot \\frac{1}{x}$.",
+    "explanation": "La derivada del primer término es $\\frac{d}{dx}(e^{3x}) = 3e^{3x}$. La derivada del segundo término es $\\frac{d}{dx}(4 \\ln x) = 4 \\cdot \\frac{1}{x} = \\frac{4}{x}$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09HD",
+    "question": "Relaciona la función exponencial o logarítmica con su derivada: A) $y = \\ln(2x)$, B) $y = 2^{x}$, C) $y = e^{2x}$; I) $2e^{2x}$, II) $\\frac{1}{x}$, III) $2^x \\ln(2)$",
+    "image": null,
+    "options": [
+      { "text": "A-II; B-III; C-I", "correct": true },
+      { "text": "A-I; B-II; C-III", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Derivada de $\\ln(ax)$ es $1/x$. Derivada de $a^x$ es $a^x \\ln a$. Derivada de $e^{ax}$ es $a e^{ax}$.",
+    "explanation": "A) $y = \\ln(2x) \\implies y' = 1/x$ (II). B) $y = 2^{x} \\implies y' = 2^x \\ln(2)$ (III). C) $y = e^{2x} \\implies y' = 2e^{2x}$ (I).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09HE",
+    "question": "Relaciona la función con la regla principal utilizada para derivarla: A) $f(x)=x \\cdot e^x$, B) $g(x)=e^{x^5}$, C) $h(x)=\\ln(3x - 1)$; I) Regla del Producto, II) Regla de la Cadena (Exponencial), III) Regla de la Cadena (Logaritmo)",
+    "image": null,
+    "options": [
+      { "text": "A-I; B-II; C-III", "correct": true },
+      { "text": "A-II; B-I; C-III", "correct": false },
+      { "text": "A-I; B-III; C-II", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La multiplicación $x \\cdot e^x$ requiere la regla del producto. Los exponentes y argumentos internos compuestos requieren la regla de la cadena.",
+    "explanation": "A) $f(x)=x \\cdot e^x$ es un producto (I). B) $g(x)=e^{x^5}$ tiene exponente compuesto (II). C) $h(x)=\\ln(3x - 1)$ tiene argumento compuesto (III).",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CAL09HF",
+    "question": "Relaciona la expresión de la derivada con el resultado simplificado: A) $\\frac{d}{dx}(\\ln(x^5))$, B) $\\frac{d}{dx}(\\log_2(x))$, C) $\\frac{d}{dx}(\\frac{e^x}{e^3})$; I) $\\frac{1}{x \\ln 2}$, II) $e^{x-3}$, III) $\\frac{5}{x}$",
+    "image": null,
+    "options": [
+      { "text": "A-III; B-I; C-II", "correct": true },
+      { "text": "A-I; B-III; C-II", "correct": false },
+      { "text": "A-III; B-II; C-I", "correct": false },
+      { "text": "A-II; B-I; C-III", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "A) $\\ln(x^5) = 5 \\ln x$. C) $\\frac{e^x}{e^3} = e^{x-3}$.",
+    "explanation": "A) $\\frac{d}{dx}[5 \\ln x] = 5/x$ (III). B) $\\frac{d}{dx}[\\log_2(x)] = \\frac{1}{x \\ln 2}$ (I). C) $\\frac{d}{dx}[e^{x-3}] = 1 \\cdot e^{x-3}$ (II).",
+    "explanative_video": null,
+    "collapsible_text": null
   }
 ]

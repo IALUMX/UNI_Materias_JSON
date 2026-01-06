@@ -1,364 +1,585 @@
 [
   {
     "id": "CEP00AA",
-    "question": "¿Cuál es el resultado de $5 + 3 \\times 2$?",
+    "question": "Resuelve la siguiente operación aritmética: $8 + 5 \\times 3 - 2$",
     "image": null,
     "options": [
-      { "text": "11", "correct": true },
-      { "text": "16", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "13", "correct": false }
+      { "text": "21", "correct": true },
+      { "text": "37", "correct": false },
+      { "text": "13", "correct": false },
+      { "text": "11", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Recuerda que la multiplicación se realiza antes que la suma.",
-    "explanation": "Primero multiplicamos $3 \\times 2 = 6$. Luego sumamos $5 + 6 = 11$.",
+    "hint": "Primero realiza la multiplicación y luego las sumas y restas de izquierda a derecha.",
+    "explanation": "Siguiendo la jerarquía: $8 + (5 \\times 3) - 2 = 8 + 15 - 2 = 23 - 2 = 21$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AB",
-    "question": "Calcula: $10 - 4 \\div 2$.",
+    "question": "¿Cuál es el resultado de $10 - 2^3 + 4$?",
     "image": null,
     "options": [
-      { "text": "8", "correct": true },
-      { "text": "3", "correct": false },
-      { "text": "6", "correct": false },
-      { "text": "5", "correct": false }
+      { "text": "6", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "68", "correct": false },
+      { "text": "2", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "La división tiene prioridad sobre la resta.",
-    "explanation": "Primero dividimos $4 \\div 2 = 2$. Luego restamos $10 - 2 = 8$.",
+    "hint": "Calcula primero la potencia.",
+    "explanation": "Primero la potencia: $2^3 = 8$. Luego restas y sumas: $10 - 8 + 4 = 2 + 4 = 6$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AC",
-    "question": "Resuelve: $(5 + 3) \\times 2$.",
+    "question": "Calcula: $(6 + 4) \\div 2 \\times 3$",
     "image": null,
     "options": [
-      { "text": "16", "correct": true },
-      { "text": "11", "correct": false },
-      { "text": "13", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "15", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "1.66", "correct": false },
+      { "text": "12", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Los paréntesis indican qué operación se hace primero.",
-    "explanation": "Primero resolvemos el paréntesis: $5 + 3 = 8$. Luego multiplicamos: $8 \\times 2 = 16$.",
+    "hint": "Resuelve el paréntesis primero. La división y multiplicación tienen la misma jerarquía, resuélvelas de izquierda a derecha.",
+    "explanation": "Paréntesis: $6+4=10$. Operación: $10 \\div 2 \\times 3$. De izquierda a derecha: $10 \\div 2 = 5$, luego $5 \\times 3 = 15$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AD",
-    "question": "¿Cuál es el valor de $2^3 + 4$?",
+    "question": "Resultado de: $15 + 18 \\div 3 - 5$",
     "image": null,
     "options": [
-      { "text": "12", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "16", "correct": false }
+      { "text": "16", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "11", "correct": false },
+      { "text": "20", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Calcula la potencia antes de sumar.",
-    "explanation": "$2^3 = 8$. Luego $8 + 4 = 12$.",
+    "hint": "La división tiene prioridad sobre la suma y la resta.",
+    "explanation": "Primero dividir: $18 \\div 3 = 6$. Luego sumar y restar: $15 + 6 - 5 = 21 - 5 = 16$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AE",
-    "question": "Calcula: $20 \\div (2 + 3)$.",
+    "question": "Evalúa: $4 \\times 5 + 6 \\div 2$",
     "image": null,
     "options": [
-      { "text": "4", "correct": true },
+      { "text": "23", "correct": true },
       { "text": "13", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "14", "correct": false },
+      { "text": "22", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Suma los números dentro del paréntesis antes de dividir.",
-    "explanation": "Paréntesis: $2 + 3 = 5$. División: $20 \\div 5 = 4$.",
+    "hint": "Realiza la multiplicación y la división antes de sumar.",
+    "explanation": "$4 \\times 5 = 20$ y $6 \\div 2 = 3$. Finalmente sumamos: $20 + 3 = 23$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AF",
-    "question": "Resultado de: $6 \\times 2 - 3 \\times 3$.",
+    "question": "Resuelve: $20 - (5 + 3) \\times 2$",
     "image": null,
     "options": [
-      { "text": "3", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "27", "correct": false },
-      { "text": "0", "correct": false }
+      { "text": "4", "correct": true },
+      { "text": "24", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "34", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Realiza ambas multiplicaciones antes de restar.",
-    "explanation": "$6 \\times 2 = 12$ y $3 \\times 3 = 9$. Resta: $12 - 9 = 3$.",
+    "hint": "Primero el paréntesis, luego la multiplicación, al final la resta.",
+    "explanation": "Paréntesis: $5+3=8$. Multiplicación: $8 \\times 2 = 16$. Resta: $20 - 16 = 4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AG",
-    "question": "¿Qué operación se hace primero en $5 + 10 \\times 2$?",
+    "question": "¿Cuánto es $3^2 + 4^2 - 10$?",
     "image": null,
     "options": [
-      { "text": "La multiplicación", "correct": true },
-      { "text": "La suma", "correct": false },
-      { "text": "Cualquiera", "correct": false },
-      { "text": "Ninguna", "correct": false }
+      { "text": "15", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "14", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Recuerda la jerarquía: PEMDAS (Paréntesis, Exponentes, Multiplicación/División, Suma/Resta).",
-    "explanation": "La multiplicación tiene mayor jerarquía que la suma.",
+    "hint": "Calcula las potencias primero.",
+    "explanation": "$3^2=9$ y $4^2=16$. La operación queda: $9 + 16 - 10 = 25 - 10 = 15$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AH",
-    "question": "Calcula: $\\sqrt{16} + 5$.",
+    "question": "Calcula: $100 \\div 10 \\div 2$",
     "image": null,
     "options": [
-      { "text": "9", "correct": true },
-      { "text": "13", "correct": false },
-      { "text": "21", "correct": false },
-      { "text": "4", "correct": false }
+      { "text": "5", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "10", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Encuentra la raíz cuadrada primero.",
-    "explanation": "$\\sqrt{16} = 4$. Luego $4 + 5 = 9$.",
+    "hint": "Las divisiones sucesivas se resuelven estrictamente de izquierda a derecha.",
+    "explanation": "Primero: $100 \\div 10 = 10$. Luego: $10 \\div 2 = 5$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AI",
-    "question": "Resuelve: $15 - 3 + 2$.",
+    "question": "Resultado de: $5 \\times (10 - 6) + 3$",
     "image": null,
     "options": [
-      { "text": "14", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "20", "correct": false }
+      { "text": "23", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "53", "correct": false },
+      { "text": "35", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Las sumas y restas se resuelven de izquierda a derecha.",
-    "explanation": "$15 - 3 = 12$. Luego $12 + 2 = 14$.",
+    "hint": "Resuelve lo que está dentro del paréntesis antes de multiplicar.",
+    "explanation": "$10 - 6 = 4$. Luego: $5 \\times 4 = 20$. Finalmente: $20 + 3 = 23$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AJ",
-    "question": "Valor de: $3^2 - 2^3$.",
+    "question": "Evalúa: $7 + 3 \\times (8 - 2 \\times 3)$",
     "image": null,
     "options": [
-      { "text": "1", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "-1", "correct": false },
-      { "text": "2", "correct": false }
+      { "text": "13", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "60", "correct": false },
+      { "text": "25", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Calcula cada potencia por separado.",
-    "explanation": "$3^2 = 9$. $2^3 = 8$. Resta: $9 - 8 = 1$.",
+    "hint": "Dentro del paréntesis, la multiplicación va primero.",
+    "explanation": "Dentro del paréntesis: $2 \\times 3 = 6$, luego $8 - 6 = 2$. La expresión queda: $7 + 3 \\times 2$. Multiplicamos $3 \\times 2 = 6$. Sumamos $7 + 6 = 13$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AK",
-    "question": "Calcula: $10 + 10 \\div 10$.",
+    "question": "Calcula el valor de: $2[3 + 5(4 - 2)]$",
     "image": null,
     "options": [
-      { "text": "11", "correct": true },
-      { "text": "2", "correct": false },
-      { "text": "20", "correct": false },
-      { "text": "1", "correct": false }
+      { "text": "26", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "22", "correct": false },
+      { "text": "32", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Divide antes de sumar.",
-    "explanation": "$10 \\div 10 = 1$. Luego $10 + 1 = 11$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Empieza por el paréntesis más interno y ve hacia afuera.",
+    "explanation": "Paréntesis interno: $4-2=2$. Corchete: $3 + 5(2) = 3 + 10 = 13$. Final: $2[13] = 26$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AL",
-    "question": "Resuelve: $2 \\times (5 + 1) - 4$.",
+    "question": "Resuelve: $-3^2 + (-3)^2 + 3$",
     "image": null,
     "options": [
-      { "text": "8", "correct": true },
-      { "text": "6", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "3", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "-15", "correct": false },
+      { "text": "0", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Paréntesis primero, luego multiplicación, al final resta.",
-    "explanation": "$5 + 1 = 6$. $2 \\times 6 = 12$. $12 - 4 = 8$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cuidado con los signos: $-3^2$ significa $-(3 \\times 3)$, mientras que $(-3)^2$ significa $(-3)\\times(-3)$.",
+    "explanation": "$-3^2 = -9$. $(-3)^2 = 9$. La operación es: $-9 + 9 + 3 = 0 + 3 = 3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AM",
-    "question": "¿Cuál es el resultado de $0 \\div 5 + 3$?",
+    "question": "Evalúa: $\\frac{12 + 4 \\times 3}{6 - 2}$",
     "image": null,
     "options": [
-      { "text": "3", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "8", "correct": false }
+      { "text": "6", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "4", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Cero dividido entre cualquier número es cero.",
-    "explanation": "$0 \\div 5 = 0$. Luego $0 + 3 = 3$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "El numerador y el denominador actúan como paréntesis invisibles. Resuélvelos por separado antes de dividir.",
+    "explanation": "Numerador: $12 + 12 = 24$. Denominador: $6 - 2 = 4$. División: $24 \\div 4 = 6$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AN",
-    "question": "Calcula: $4 \\times 5 \\div 2$.",
+    "question": "Calcula: $\\sqrt{25} \\times 2^3 - (10 \\div 2)$",
     "image": null,
     "options": [
-      { "text": "10", "correct": true },
-      { "text": "40", "correct": false },
-      { "text": "2.5", "correct": false },
+      { "text": "35", "correct": true },
+      { "text": "45", "correct": false },
+      { "text": "15", "correct": false },
       { "text": "20", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Multiplicación y división tienen la misma jerarquía; resuelve de izquierda a derecha.",
-    "explanation": "$4 \\times 5 = 20$. $20 \\div 2 = 10$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve raíz y potencia primero.",
+    "explanation": "$\\sqrt{25}=5$, $2^3=8$, $10 \\div 2 = 5$. Sustituyendo: $5 \\times 8 - 5 = 40 - 5 = 35$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AO",
-    "question": "Resuelve: $7 + 3 \\times 0$.",
+    "question": "Resultado de: $5 - [6 - 2(3 - 8)] + 1$",
     "image": null,
     "options": [
-      { "text": "7", "correct": true },
+      { "text": "-10", "correct": true },
+      { "text": "12", "correct": false },
       { "text": "0", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "3", "correct": false }
+      { "text": "-5", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Cualquier número multiplicado por cero es cero.",
-    "explanation": "$3 \\times 0 = 0$. Luego $7 + 0 = 7$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Cuidado con los signos negativos dentro del paréntesis.",
+    "explanation": "Paréntesis: $3-8 = -5$. Multiplicación: $2(-5) = -10$. Corchete: $6 - (-10) = 6 + 10 = 16$. Final: $5 - 16 + 1 = -11 + 1 = -10$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AP",
-    "question": "Si $a=2$ y $b=3$, calcula $a + b \\times 2$.",
+    "question": "Resuelve: $\\frac{3}{4} \\times 8 - 2 + \\frac{10}{2}$",
     "image": null,
     "options": [
-      { "text": "8", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "7", "correct": false },
-      { "text": "12", "correct": false }
+      { "text": "9", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "10", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Sustituye y sigue la jerarquía: $2 + 3 \\times 2$.",
-    "explanation": "$3 \\times 2 = 6$. Luego $2 + 6 = 8$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Trata las fracciones como divisiones o multiplicaciones.",
+    "explanation": "$\\frac{3}{4} \\times 8 = 3 \\times 2 = 6$. $\\frac{10}{2} = 5$. Operación: $6 - 2 + 5 = 4 + 5 = 9$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AQ",
-    "question": "Calcula: $100 - 10^2$.",
+    "question": "Evalúa: $4(2 + 1)^2 - 5(4 - 2)^2$",
     "image": null,
     "options": [
-      { "text": "0", "correct": true },
-      { "text": "90", "correct": false },
-      { "text": "110", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "16", "correct": true },
+      { "text": "26", "correct": false },
+      { "text": "-4", "correct": false },
+      { "text": "6", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Eleva al cuadrado antes de restar.",
-    "explanation": "$10^2 = 100$. Luego $100 - 100 = 0$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Eleva al cuadrado los resultados de los paréntesis antes de multiplicar.",
+    "explanation": "$(2+1)^2 = 3^2 = 9$. $(4-2)^2 = 2^2 = 4$. Sustituyendo: $4(9) - 5(4) = 36 - 20 = 16$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AR",
-    "question": "Resultado de: $\\frac{8+2}{5}$.",
+    "question": "Calcula: $15 - 3 \\times [ 2^3 - (10 - 6) ]$",
     "image": null,
     "options": [
-      { "text": "2", "correct": true },
-      { "text": "8.4", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "5", "correct": false }
+      { "text": "3", "correct": true },
+      { "text": "27", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "-9", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "El numerador funciona como un paréntesis implícito.",
-    "explanation": "$8 + 2 = 10$. Luego $10 \\div 5 = 2$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve paréntesis, luego potencia, luego resta dentro del corchete.",
+    "explanation": "$10-6=4$. $2^3=8$. Corchete: $8-4=4$. Operación final: $15 - 3 \\times 4 = 15 - 12 = 3$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AS",
-    "question": "Calcula: $1 + 2 + 3 \\times 4$.",
+    "question": "Resultado de: $-2(-3) + 4(-5) - (-10)$",
     "image": null,
     "options": [
-      { "text": "15", "correct": true },
-      { "text": "24", "correct": false },
-      { "text": "20", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "-4", "correct": true },
+      { "text": "-24", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "-6", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Multiplica primero.",
-    "explanation": "$3 \\times 4 = 12$. Luego $1 + 2 + 12 = 15$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Ley de los signos: menos por menos es más, más por menos es menos.",
+    "explanation": "$-2(-3) = 6$. $4(-5) = -20$. $-(-10) = +10$. Operación: $6 - 20 + 10 = -14 + 10 = -4$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AT",
-    "question": "Resuelve: $(10 - 2) \\div 2$.",
+    "question": "Evalúa: $\\sqrt{64} \\div 4 + 3^2 \\times 2 - 5$",
     "image": null,
     "options": [
-      { "text": "4", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "6", "correct": false }
+      { "text": "15", "correct": true },
+      { "text": "11", "correct": false },
+      { "text": "17", "correct": false },
+      { "text": "20", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Resta primero debido al paréntesis.",
-    "explanation": "$10 - 2 = 8$. Luego $8 \\div 2 = 4$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Raíz y potencia primero.",
+    "explanation": "$8 \\div 4 + 9 \\times 2 - 5 = 2 + 18 - 5 = 20 - 5 = 15$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AU",
-    "question": "¿Cuánto es $3 \\times 3 \\times 3 - 3$?",
+    "question": "Resuelve la operación combinada: $2 - \\{ 3 - [ 4 - (1 - 5) + 3 ] - 8 \\}$",
     "image": null,
     "options": [
-      { "text": "24", "correct": true },
-      { "text": "18", "correct": false },
-      { "text": "0", "correct": false },
-      { "text": "6", "correct": false }
+      { "text": "18", "correct": true },
+      { "text": "-14", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "5", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Realiza las multiplicaciones de izquierda a derecha.",
-    "explanation": "$3 \\times 3 = 9$. $9 \\times 3 = 27$. $27 - 3 = 24$.",
+    "level_tag": ["AVANZADO"],
+    "hint": "Ve resolviendo de adentro hacia afuera: paréntesis, corchetes, llaves. Cuidado con el signo menos antes de los signos de agrupación.",
+    "explanation": "Paréntesis: $1-5 = -4$. Corchete: $4 - (-4) + 3 = 4+4+3 = 11$. Llave: $3 - 11 - 8 = -16$. Final: $2 - (-16) = 2 + 16 = 18$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00AV",
-    "question": "Calcula: $50 - 5 \\times 5$.",
+    "question": "Calcula: $\\frac{2^4 - 4^2}{3} + \\sqrt{144} \\times (5 - 3)^3$",
+    "image": null,
+    "options": [
+      { "text": "96", "correct": true },
+      { "text": "100", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "32", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Evalúa el numerador de la fracción primero. $2^4$ y $4^2$ son iguales.",
+    "explanation": "$2^4=16, 4^2=16$, entonces el numerador es $0$, la fracción es $0$. $\\sqrt{144}=12$. $(5-3)^3 = 2^3 = 8$. Resultado: $0 + 12 \\times 8 = 96$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AW",
+    "question": "Evalúa: $-5^2 + \\{ (-2)^3 - [ \\sqrt{16} - 2(3^2 - 7) ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "-33", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "-15", "correct": false },
+      { "text": "-25", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Recuerda que $-5^2$ es $-25$, no $25$.",
+    "explanation": "$-5^2 = -25$. $(-2)^3 = -8$. Paréntesis: $3^2-7 = 9-7=2$. Corchete: $4 - 2(2) = 4-4=0$. Llave: $-8 - 0 = -8$. Final: $-25 + (-8) = -33$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AX",
+    "question": "Resuelve: $\\frac{6 \\times 4 - 2 \\times 9}{3} + \\frac{1}{2} \\times \\sqrt{10^2 - 8^2}$",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve primero el numerador de la primera fracción y el radicando de la segunda.",
+    "explanation": "Fracción 1: $(24 - 18)/3 = 6/3 = 2$. Raíz: $100 - 64 = 36$, $\\sqrt{36}=6$. Término 2: $0.5 \\times 6 = 3$. Final: $2 + 3 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AY",
+    "question": "Evalúa: $2 - 2 \\times \\{ 2 - 2 [ 2 - 2(2 - 4) ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "22", "correct": true },
+      { "text": "-18", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Ten mucho cuidado con la profundidad de los anidamientos. No restes los primeros dos al principio.",
+    "explanation": "Paréntesis: $2-4=-2$. Corchete interno: $2 - 2(-2) = 2+4=6$. Llave: $2 - 2(6) = 2-12=-10$. Final: $2 - 2(-10) = 2 + 20 = 22$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00AZ",
+    "question": "Calcula: $\\frac{(3+2)^2 - 5}{4} + \\sqrt{4 \\times 9} - 3^2$",
+    "image": null,
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "11", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "La raíz cubre la multiplicación $4 \\times 9$.",
+    "explanation": "Fracción: $(25-5)/4 = 20/4 = 5$. Raíz: $\\sqrt{36}=6$. Potencia: $9$. Operación: $5 + 6 - 9 = 2$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BA",
+    "question": "Resultado de: $100 - \\{ 60 \\div [ 5 + (7 - 2) ] \\times 4 \\}$",
+    "image": null,
+    "options": [
+      { "text": "76", "correct": true },
+      { "text": "98", "correct": false },
+      { "text": "24", "correct": false },
+      { "text": "85", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Dentro del corchete resuelve la suma antes de dividir al 60.",
+    "explanation": "Paréntesis: $5$. Corchete: $5+5=10$. División/Multiplicación dentro de llaves: $60 \\div 10 = 6$, luego $6 \\times 4 = 24$. Final: $100 - 24 = 76$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BB",
+    "question": "Evalúa: $5^2 - \\sqrt{100 - 64} \\times 2 + (-3)^3 \\div 9$",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Resuelve la resta dentro de la raíz antes de calcular la raíz.",
+    "explanation": "$5^2=25$. Raíz: $\\sqrt{36}=6$. Potencia: $(-3)^3 = -27$. Operación: $25 - 6 \\times 2 + (-27) \\div 9 = 25 - 12 - 3 = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BC",
+    "question": "Resuelve: $\\frac{40}{2^3 + 2} - \\{ 5 - [ 3 \\times (4-2) ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "7", "correct": false },
+      { "text": "4", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Denominador de la fracción: $8+2$. Corchete: $3 \\times 2$.",
+    "explanation": "Fracción: $40 / 10 = 4$. Corchete: $3 \\times 2 = 6$. Llave: $5 - 6 = -1$. Final: $4 - (-1) = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BD",
+    "question": "Calcula el valor de: $-(3-5)^2 + 3 \\times \\sqrt{49} - \\frac{12}{3} + (-1)^5$",
+    "image": null,
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "8", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "El signo menos está fuera de la potencia al principio.",
+    "explanation": "$-( -2 )^2 = -(4) = -4$. $3 \\times 7 = 21$. $12/3 = 4$. $(-1)^5 = -1$. Suma: $-4 + 21 - 4 - 1 = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BE",
+    "question": "Resuelve: $12 + 8 \\div 4$",
+    "image": null,
+    "options": [
+      { "text": "14", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "La división tiene prioridad sobre la suma.",
+    "explanation": "Primero divides: $8 \\div 4 = 2$. Luego sumas: $12 + 2 = 14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BF",
+    "question": "Calcula: $5 \\times 6 - 10$",
+    "image": null,
+    "options": [
+      { "text": "20", "correct": true },
+      { "text": "-20", "correct": false },
+      { "text": "40", "correct": false },
+      { "text": "30", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica antes de restar.",
+    "explanation": "$5 \\times 6 = 30$. Resta: $30 - 10 = 20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BG",
+    "question": "Resultado de: $(20 - 5) \\div 3$",
+    "image": null,
+    "options": [
+      { "text": "5", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve el paréntesis primero.",
+    "explanation": "$20 - 5 = 15$. Luego divides: $15 \\div 3 = 5$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BH",
+    "question": "Evalúa: $2^3 + 3^2$",
+    "image": null,
+    "options": [
+      { "text": "17", "correct": true },
+      { "text": "12", "correct": false },
+      { "text": "36", "correct": false },
+      { "text": "14", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula las potencias por separado y luego suma.",
+    "explanation": "$2^3 = 8$ y $3^2 = 9$. Suma: $8 + 9 = 17$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00BI",
+    "question": "Resuelve: $50 - 5 \\times 5$",
     "image": null,
     "options": [
       { "text": "25", "correct": true },
@@ -368,655 +589,945 @@
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["BÁSICO"],
-    "hint": "Multiplica antes de restar.",
-    "explanation": "$5 \\times 5 = 25$. $50 - 25 = 25$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AW",
-    "question": "Resuelve: $2 + 2 - 2 + 2$.",
-    "image": null,
-    "options": [
-      { "text": "4", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "2", "correct": false },
-      { "text": "8", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "Misma jerarquía, resuelve de izquierda a derecha.",
-    "explanation": "$2+2=4$. $4-2=2$. $2+2=4$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AX",
-    "question": "Calcula: $2 \\times 10^2$.",
-    "image": null,
-    "options": [
-      { "text": "200", "correct": true },
-      { "text": "400", "correct": false },
-      { "text": "20", "correct": false },
-      { "text": "100", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["BÁSICO"],
-    "hint": "El exponente solo afecta al 10.",
-    "explanation": "$10^2 = 100$. Luego $2 \\times 100 = 200$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AY",
-    "question": "Resuelve: $3 \\times [ 10 + (6 - 4) ]$.",
-    "image": null,
-    "options": [
-      { "text": "36", "correct": true },
-      { "text": "42", "correct": false },
-      { "text": "24", "correct": false },
-      { "text": "30", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Resuelve primero el paréntesis interno.",
-    "explanation": "$6 - 4 = 2$. Luego $10 + 2 = 12$. Finalmente $3 \\times 12 = 36$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00AZ",
-    "question": "Calcula: $\\frac{4^2 + 4}{5} - 1$.",
-    "image": null,
-    "options": [
-      { "text": "3", "correct": true },
-      { "text": "4", "correct": false },
-      { "text": "2", "correct": false },
-      { "text": "1", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Simplifica el numerador primero.",
-    "explanation": "$4^2 = 16$. $16 + 4 = 20$. $20 \\div 5 = 4$. $4 - 1 = 3$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BA",
-    "question": "Resuelve: $-3 + 2 \\times (-4)$.",
-    "image": null,
-    "options": [
-      { "text": "-11", "correct": true },
-      { "text": "-5", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "4", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Multiplica primero respetando los signos.",
-    "explanation": "$2 \\times (-4) = -8$. $-3 - 8 = -11$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BB",
-    "question": "Valor de: $(2+3)^2 - 2^2 - 3^2$.",
-    "image": null,
-    "options": [
-      { "text": "12", "correct": true },
-      { "text": "0", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "20", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Desarrolla el binomio al cuadrado o resuélvelo numéricamente.",
-    "explanation": "$(5)^2 = 25$. $2^2 = 4$, $3^2 = 9$. $25 - 4 - 9 = 12$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BC",
-    "question": "Calcula: $10 \\div 2 + 5 \\times 3 - 4$.",
-    "image": null,
-    "options": [
-      { "text": "16", "correct": true },
-      { "text": "15", "correct": false },
-      { "text": "20", "correct": false },
-      { "text": "11", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Divide y multiplica antes de sumar y restar.",
-    "explanation": "$10 \\div 2 = 5$. $5 \\times 3 = 15$. $5 + 15 - 4 = 16$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BD",
-    "question": "Resuelve: $\\sqrt{36} \\div 2 \\times 3$.",
-    "image": null,
-    "options": [
-      { "text": "9", "correct": true },
-      { "text": "1", "correct": false },
-      { "text": "6", "correct": false },
-      { "text": "3", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "División y multiplicación se resuelven de izquierda a derecha.",
-    "explanation": "$6 \\div 2 = 3$. $3 \\times 3 = 9$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BE",
-    "question": "Calcula: $4 \\times (3 + 2) - 10 \\div 2$.",
-    "image": null,
-    "options": [
-      { "text": "15", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "20", "correct": false },
-      { "text": "5", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Resuelve el paréntesis y la división antes de restar.",
-    "explanation": "$4 \\times 5 = 20$. $10 \\div 2 = 5$. $20 - 5 = 15$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BF",
-    "question": "Si $x=4$, calcula: $x^2 - 2(x+1)$.",
-    "image": null,
-    "options": [
-      { "text": "6", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "14", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Sustituye el valor de x.",
-    "explanation": "$4^2 - 2(5) = 16 - 10 = 6$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BG",
-    "question": "Resuelve: $\\{ 5 + [ 3 \\times (4-2) ] \\} - 1$.",
-    "image": null,
-    "options": [
-      { "text": "10", "correct": true },
-      { "text": "12", "correct": false },
-      { "text": "8", "correct": false },
-      { "text": "15", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Empieza por el paréntesis más interno.",
-    "explanation": "$4-2=2$. $3 \\times 2 = 6$. $5 + 6 = 11$. $11 - 1 = 10$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BH",
-    "question": "Calcula: $10 - |-5| + 3$.",
-    "image": null,
-    "options": [
-      { "text": "8", "correct": true },
-      { "text": "18", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "2", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "El valor absoluto convierte el negativo a positivo.",
-    "explanation": "$|-5| = 5$. $10 - 5 + 3 = 8$.",
-    "explanative_video": null,
-    "collapsible_text": null
-  },
-  {
-    "id": "CEP00BI",
-    "question": "Resuelve: $2^4 \\div 4 + \\sqrt{9} \\times 2$.",
-    "image": null,
-    "options": [
-      { "text": "10", "correct": true },
-      { "text": "8", "correct": false },
-      { "text": "12", "correct": false },
-      { "text": "14", "correct": false }
-    ],
-    "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Calcula potencias y raíces primero.",
-    "explanation": "$16 \\div 4 + 3 \\times 2 = 4 + 6 = 10$.",
+    "hint": "No restes antes de multiplicar.",
+    "explanation": "$5 \\times 5 = 25$. Luego: $50 - 25 = 25$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BJ",
-    "question": "Calcula: $\\frac{1}{2} \\times 8 + \\frac{1}{3} \\times 9$.",
+    "question": "Calcula: $4 \\times (2 + 3)$",
     "image": null,
     "options": [
-      { "text": "7", "correct": true },
-      { "text": "6", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "17", "correct": false }
+      { "text": "20", "correct": true },
+      { "text": "11", "correct": false },
+      { "text": "14", "correct": false },
+      { "text": "24", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Multiplicar por una fracción es como dividir.",
-    "explanation": "$4 + 3 = 7$.",
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma lo que está en el paréntesis antes de multiplicar.",
+    "explanation": "$2 + 3 = 5$. Luego: $4 \\times 5 = 20$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BK",
-    "question": "Resuelve: $20 - 2 \\times 3^2$.",
+    "question": "Resultado de: $18 \\div 2 + 7$",
     "image": null,
     "options": [
-      { "text": "2", "correct": true },
-      { "text": "162", "correct": false },
-      { "text": "14", "correct": false },
-      { "text": "12", "correct": false }
+      { "text": "16", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "13", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "La potencia afecta solo al 3.",
-    "explanation": "$3^2 = 9$. $2 \\times 9 = 18$. $20 - 18 = 2$.",
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide primero, suma después.",
+    "explanation": "$18 \\div 2 = 9$. Luego: $9 + 7 = 16$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BL",
-    "question": "Calcula: $(-2)^3 + (-2)^2$.",
+    "question": "Evalúa: $10 + 10 \\div 10$",
     "image": null,
     "options": [
-      { "text": "-4", "correct": true },
-      { "text": "12", "correct": false },
-      { "text": "-12", "correct": false },
-      { "text": "4", "correct": false }
+      { "text": "11", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "20", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Potencia impar de negativo es negativo; par es positivo.",
-    "explanation": "$-8 + 4 = -4$.",
+    "level_tag": ["BÁSICO"],
+    "hint": "La división tiene preferencia sobre la suma.",
+    "explanation": "$10 \\div 10 = 1$. Luego: $10 + 1 = 11$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BM",
-    "question": "Resuelve: $100 \\div (10 - 5) \\times 2$.",
+    "question": "Resuelve: $3 \\times 3 - 3 \\div 3$",
     "image": null,
     "options": [
-      { "text": "40", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "20", "correct": false },
-      { "text": "25", "correct": false }
+      { "text": "8", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "6", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Paréntesis primero, luego de izquierda a derecha.",
-    "explanation": "$100 \\div 5 \\times 2 = 20 \\times 2 = 40$.",
+    "level_tag": ["BÁSICO"],
+    "hint": "Realiza la multiplicación y la división antes de la resta.",
+    "explanation": "$3 \\times 3 = 9$. $3 \\div 3 = 1$. Resta: $9 - 1 = 8$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BN",
-    "question": "Calcula: $5 + (4 \\times 2 + 10) \\div 2$.",
+    "question": "Calcula: $(100 - 50) \\times 2$",
     "image": null,
     "options": [
-      { "text": "14", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "15", "correct": false },
-      { "text": "19", "correct": false }
+      { "text": "100", "correct": true },
+      { "text": "0", "correct": false },
+      { "text": "150", "correct": false },
+      { "text": "50", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["INTERMEDIO"],
-    "hint": "Resuelve todo el paréntesis antes de dividir.",
-    "explanation": "$8 + 10 = 18$. $18 \\div 2 = 9$. $5 + 9 = 14$.",
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve primero el paréntesis.",
+    "explanation": "$100 - 50 = 50$. Luego: $50 \\times 2 = 100$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BO",
-    "question": "Resuelve: $0.5 \\times 10 + 3^2$.",
+    "question": "Evalúa: $3 \\times [ 15 - (4 + 2) ]$",
     "image": null,
     "options": [
-      { "text": "14", "correct": true },
-      { "text": "11.5", "correct": false },
-      { "text": "9.5", "correct": false },
-      { "text": "34", "correct": false }
+      { "text": "27", "correct": true },
+      { "text": "39", "correct": false },
+      { "text": "21", "correct": false },
+      { "text": "43", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Convierte decimal a fracción si ayuda o multiplica directo.",
-    "explanation": "$5 + 9 = 14$.",
+    "hint": "Primero el paréntesis interno, luego el corchete, finalmente multiplica.",
+    "explanation": "$4 + 2 = 6$. Corchete: $15 - 6 = 9$. Final: $3 \\times 9 = 27$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BP",
-    "question": "Calcula: $\\frac{10 - 2^3}{2}$.",
+    "question": "Resuelve: $20 \\div (12 - 2 \\times 5)^2$",
     "image": null,
     "options": [
-      { "text": "1", "correct": true },
+      { "text": "5", "correct": true },
+      { "text": "2", "correct": false },
       { "text": "4", "correct": false },
-      { "text": "0", "correct": false },
-      { "text": "2", "correct": false }
+      { "text": "1", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Numerador primero: resta la potencia.",
-    "explanation": "$10 - 8 = 2$. $2 \\div 2 = 1$.",
+    "hint": "Dentro del paréntesis, primero multiplica. Luego eleva al cuadrado.",
+    "explanation": "Paréntesis: $12 - 10 = 2$. Potencia: $2^2 = 4$. Final: $20 \\div 4 = 5$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BQ",
-    "question": "Resuelve: $3(5 - 2) + 2(3 + 1)$.",
+    "question": "Calcula: $\\sqrt{36} + 2(5 - 1)$",
     "image": null,
     "options": [
-      { "text": "17", "correct": true },
-      { "text": "15", "correct": false },
-      { "text": "20", "correct": false },
+      { "text": "14", "correct": true },
+      { "text": "32", "correct": false },
+      { "text": "10", "correct": false },
       { "text": "12", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Multiplica los resultados de los paréntesis.",
-    "explanation": "$3(3) + 2(4) = 9 + 8 = 17$.",
+    "hint": "Calcula la raíz y el paréntesis antes de multiplicar y sumar.",
+    "explanation": "$\\sqrt{36} = 6$. $5 - 1 = 4$. Operación: $6 + 2(4) = 6 + 8 = 14$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BR",
-    "question": "Calcula: $12 - 2 \\times [5 - (2+1)]$.",
+    "question": "Resultado de: $10 - (-2) \\times 3 + 4$",
     "image": null,
     "options": [
-      { "text": "8", "correct": true },
-      { "text": "20", "correct": false },
-      { "text": "6", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "20", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "16", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Paréntesis, luego corchete, luego multiplicación, al final resta.",
-    "explanation": "$5 - 3 = 2$. $2 \\times 2 = 4$. $12 - 4 = 8$.",
+    "hint": "Recuerda que restar un número negativo es sumar.",
+    "explanation": "$(-2) \\times 3 = -6$. Resta: $10 - (-6) = 10 + 6 = 16$. Suma final: $16 + 4 = 20$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BS",
-    "question": "Valor de: $5^2 - 4!$.",
+    "question": "Evalúa: $\\frac{30}{6} + 5 \\times 2 - 3$",
     "image": null,
     "options": [
-      { "text": "1", "correct": true },
-      { "text": "5", "correct": false },
-      { "text": "21", "correct": false },
-      { "text": "9", "correct": false }
+      { "text": "12", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "17", "correct": false },
+      { "text": "10", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Recuerda que $4! = 4 \\times 3 \\times 2 \\times 1$.",
-    "explanation": "$25 - 24 = 1$.",
+    "hint": "Realiza división y multiplicación de izquierda a derecha.",
+    "explanation": "$30 \\div 6 = 5$. $5 \\times 2 = 10$. Operación: $5 + 10 - 3 = 15 - 3 = 12$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BT",
-    "question": "Calcula: $\\frac{6 \\times 2}{3} + 4$.",
+    "question": "Resuelve: $2^4 \\div 4 + \\sqrt{9}$",
     "image": null,
     "options": [
-      { "text": "8", "correct": true },
-      { "text": "6", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "7", "correct": true },
+      { "text": "13", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "19", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Multiplica, divide y luego suma.",
-    "explanation": "$12 \\div 3 = 4$. $4 + 4 = 8$.",
+    "hint": "Calcula potencia y raíz primero.",
+    "explanation": "$2^4 = 16$. $\\sqrt{9} = 3$. Operación: $16 \\div 4 + 3 = 4 + 3 = 7$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BU",
-    "question": "Resuelve: $5 - |3 - 7|$.",
+    "question": "Calcula: $5 \\times [ 6 - (10 \\div 2) ]$",
     "image": null,
     "options": [
-      { "text": "1", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "-1", "correct": false },
-      { "text": "5", "correct": false }
+      { "text": "5", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "0", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Calcula la resta dentro del valor absoluto primero.",
-    "explanation": "$|-4| = 4$. $5 - 4 = 1$.",
+    "hint": "Primero la división dentro del paréntesis.",
+    "explanation": "$10 \\div 2 = 5$. Corchete: $6 - 5 = 1$. Final: $5 \\times 1 = 5$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BV",
-    "question": "Calcula: $2 \\times 3^2 - (4+1)$.",
+    "question": "Resultado de: $8 + 2 \\times (3^2 - 5)$",
     "image": null,
     "options": [
-      { "text": "13", "correct": true },
-      { "text": "31", "correct": false },
-      { "text": "11", "correct": false },
-      { "text": "7", "correct": false }
+      { "text": "16", "correct": true },
+      { "text": "40", "correct": false },
+      { "text": "14", "correct": false },
+      { "text": "20", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["INTERMEDIO"],
-    "hint": "Potencia primero, luego multiplicación, al final resta el paréntesis.",
-    "explanation": "$2 \\times 9 - 5 = 18 - 5 = 13$.",
+    "hint": "Potencia dentro del paréntesis va primero.",
+    "explanation": "$3^2 = 9$. Paréntesis: $9 - 5 = 4$. Operación: $8 + 2 \\times 4 = 8 + 8 = 16$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BW",
-    "question": "Resuelve: $\\frac{\\sqrt{100} - 2^3}{2}$.",
+    "question": "Evalúa: $(15 - 5) \\div 2 + 3^2$",
     "image": null,
     "options": [
-      { "text": "1", "correct": true },
-      { "text": "2", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "0", "correct": false }
+      { "text": "14", "correct": true },
+      { "text": "11", "correct": false },
+      { "text": "19", "correct": false },
+      { "text": "50", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["AVANZADO"],
-    "hint": "Evalúa raíz y potencia en el numerador.",
-    "explanation": "$10 - 8 = 2$. $2 \\div 2 = 1$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Paréntesis y potencia primero.",
+    "explanation": "$15 - 5 = 10$. $3^2 = 9$. Operación: $10 \\div 2 + 9 = 5 + 9 = 14$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BX",
-    "question": "Calcula: $(2^{-1} + 2^{-1})^{-1}$.",
+    "question": "Resuelve: $4 \\times \\sqrt{25} - (10 - 2)$",
     "image": null,
     "options": [
-      { "text": "1", "correct": true },
-      { "text": "4", "correct": false },
-      { "text": "0.5", "correct": false },
-      { "text": "0.25", "correct": false }
+      { "text": "12", "correct": true },
+      { "text": "28", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "92", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
-    "level_tag": ["AVANZADO"],
-    "hint": "Recuerda que $x^{-1} = 1/x$.",
-    "explanation": "$1/2 + 1/2 = 1$. $1^{-1} = 1$.",
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Raíz y paréntesis.",
+    "explanation": "$\\sqrt{25} = 5$. $10 - 2 = 8$. Operación: $4 \\times 5 - 8 = 20 - 8 = 12$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BY",
-    "question": "Resuelve: $1 + \\frac{1}{1 + \\frac{1}{2}}$.",
+    "question": "Evalúa: $100 - \\{ 2 \\times [ 20 + (10 - 4) ] \\}$",
     "image": null,
     "options": [
-      { "text": "$5/3$", "correct": true },
-      { "text": "$3/2$", "correct": false },
-      { "text": "$2/3$", "correct": false },
-      { "text": "$4/3$", "correct": false }
+      { "text": "48", "correct": true },
+      { "text": "52", "correct": false },
+      { "text": "24", "correct": false },
+      { "text": "88", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Resuelve la fracción de abajo hacia arriba.",
-    "explanation": "$1 + 1/2 = 3/2$. $1 \\div (3/2) = 2/3$. $1 + 2/3 = 5/3$.",
+    "hint": "Paréntesis, luego corchete, luego llave.",
+    "explanation": "$10 - 4 = 6$. Corchete: $20 + 6 = 26$. Llave: $2 \\times 26 = 52$. Final: $100 - 52 = 48$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00BZ",
-    "question": "Calcula: $\\sqrt{ (3^2 + 4^2) } - \\sqrt[3]{8}$.",
+    "question": "Calcula: $\\frac{5^2 - 1}{4} + [ 3 \\times (2 + 4) ]$",
     "image": null,
     "options": [
-      { "text": "3", "correct": true },
-      { "text": "5", "correct": false },
-      { "text": "2", "correct": false },
-      { "text": "7", "correct": false }
+      { "text": "24", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "18", "correct": false },
+      { "text": "30", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Suma dentro de la raíz cuadrada primero.",
-    "explanation": "$\\sqrt{9+16} = \\sqrt{25} = 5$. $5 - 2 = 3$.",
+    "hint": "Resuelve la fracción y el corchete por separado antes de sumar.",
+    "explanation": "Numerador: $25 - 1 = 24$. Fracción: $24 \\div 4 = 6$. Corchete: $3 \\times 6 = 18$. Final: $6 + 18 = 24$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CA",
-    "question": "Valor de: $2 \\times [ 10 - 3(2 - 4) ]$.",
+    "question": "Resuelve: $-(-3)^2 - \\{ 5 - [ 6 - 2(3) ] \\}$",
     "image": null,
     "options": [
-      { "text": "32", "correct": true },
-      { "text": "8", "correct": false },
-      { "text": "20", "correct": false },
-      { "text": "16", "correct": false }
+      { "text": "-14", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "-4", "correct": false },
+      { "text": "-10", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Cuidado con los signos negativos al multiplicar.",
-    "explanation": "$2-4 = -2$. $3(-2) = -6$. $10 - (-6) = 16$. $2 \\times 16 = 32$.",
+    "hint": "El primer término es menos nueve, no nueve positivo. $2(3)$ es multiplicación.",
+    "explanation": "$-(-3)^2 = -(9) = -9$. Corchete: $6 - 6 = 0$. Llave: $5 - 0 = 5$. Final: $-9 - 5 = -14$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CB",
-    "question": "Resuelve: $\\frac{(-2)^3 - (-2)^2}{-2}$.",
+    "question": "Evalúa: $2 \\times \\{ 10 + [ \\sqrt{64} \\div (4 - 2) ] \\}$",
     "image": null,
     "options": [
-      { "text": "6", "correct": true },
-      { "text": "-6", "correct": false },
-      { "text": "2", "correct": false },
-      { "text": "-2", "correct": false }
+      { "text": "28", "correct": true },
+      { "text": "36", "correct": false },
+      { "text": "24", "correct": false },
+      { "text": "12", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Calcula numerador primero.",
-    "explanation": "$-8 - 4 = -12$. $-12 \\div -2 = 6$.",
+    "hint": "Paréntesis en el denominador primero.",
+    "explanation": "$4 - 2 = 2$. Corchete: $8 \\div 2 = 4$. Llave: $10 + 4 = 14$. Final: $2 \\times 14 = 28$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CC",
-    "question": "Calcula: $(3 \\times 2^3 - 4) \\div \\sqrt{16}$.",
+    "question": "Resultado de: $(4 + 2)^2 \\div 9 - \\{ 5 - [ 10 - 2^3 ] \\}$",
     "image": null,
     "options": [
-      { "text": "5", "correct": true },
-      { "text": "10", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "2", "correct": false }
+      { "text": "1", "correct": true },
+      { "text": "7", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "0", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Resuelve el paréntesis: potencia, luego producto, luego resta.",
-    "explanation": "$3 \\times 8 = 24$. $24 - 4 = 20$. $20 \\div 4 = 5$.",
+    "hint": "Resuelve potencia y paréntesis por separado.",
+    "explanation": "$(6)^2 = 36$. Primera parte: $36 \\div 9 = 4$. Corchete: $10 - 8 = 2$. Llave: $5 - 2 = 3$. Final: $4 - 3 = 1$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CD",
-    "question": "Si $x=2$ y $y=-3$, halla $x^2 - y^2 + 2xy$.",
+    "question": "Calcula: $40 \\div [ 2 + 3(4 - 2) ] \\times 2$",
     "image": null,
     "options": [
-      { "text": "-17", "correct": true },
-      { "text": "7", "correct": false },
-      { "text": "-7", "correct": false },
-      { "text": "17", "correct": false }
+      { "text": "10", "correct": true },
+      { "text": "2.5", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "20", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Sustituye con paréntesis.",
-    "explanation": "$4 - 9 + 2(2)(-3) = -5 - 12 = -17$.",
+    "hint": "Cuidado al final: la multiplicación y división tienen la misma jerarquía (izquierda a derecha).",
+    "explanation": "$4 - 2 = 2$. Corchete: $2 + 3(2) = 2 + 6 = 8$. Operación: $40 \\div 8 \\times 2$. Izquierda a derecha: $5 \\times 2 = 10$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CE",
-    "question": "Resuelve: $\\sqrt{144} \\div (3^2 - 5) + 2^3$.",
+    "question": "Evalúa: $\\sqrt{10^2 - 6^2} + \\{ 20 - [ 3 \\times (5 - 1) ] \\}$",
     "image": null,
     "options": [
-      { "text": "11", "correct": true },
-      { "text": "6", "correct": false },
-      { "text": "14", "correct": false },
-      { "text": "10", "correct": false }
+      { "text": "16", "correct": true },
+      { "text": "24", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "8", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Paréntesis primero.",
-    "explanation": "$9-5=4$. $12 \\div 4 = 3$. $3 + 8 = 11$.",
+    "hint": "Calcula el radicando primero ($100 - 36$).",
+    "explanation": "Raíz: $\\sqrt{100 - 36} = \\sqrt{64} = 8$. Paréntesis: $4$. Corchete: $3 \\times 4 = 12$. Llave: $20 - 12 = 8$. Final: $8 + 8 = 16$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CF",
-    "question": "Calcula: $10 - [ 2^3 - (5 - 2)^2 ]$.",
+    "question": "Resuelve: $10 \\times [ (3^2 + 1) \\div 5 ] - 2^3$",
     "image": null,
     "options": [
-      { "text": "11", "correct": true },
-      { "text": "1", "correct": false },
-      { "text": "19", "correct": false },
-      { "text": "9", "correct": false }
+      { "text": "12", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "4", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Resuelve el paréntesis interno y su potencia.",
-    "explanation": "$3^2 = 9$. $8 - 9 = -1$. $10 - (-1) = 11$.",
+    "hint": "Resuelve el paréntesis interno antes de dividir.",
+    "explanation": "Paréntesis: $9 + 1 = 10$. Corchete: $10 \\div 5 = 2$. Operación: $10 \\times 2 - 8 = 20 - 8 = 12$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CG",
-    "question": "Resuelve: $\\frac{2^5 \\div 2^2}{2} + \\sqrt[3]{-8}$.",
+    "question": "Calcula: $- [ 10 - (5 - 2)^2 ] + \\sqrt{16} \\times 3$",
     "image": null,
     "options": [
-      { "text": "2", "correct": true },
-      { "text": "6", "correct": false },
-      { "text": "0", "correct": false },
-      { "text": "4", "correct": false }
+      { "text": "11", "correct": true },
+      { "text": "13", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "5", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Leyes de exponentes y raíz negativa.",
-    "explanation": "$2^3 / 2 = 2^2 = 4$. $4 + (-2) = 2$.",
+    "hint": "Cuidado con el signo menos delante del corchete.",
+    "explanation": "Paréntesis: $3^2 = 9$. Corchete: $10 - 9 = 1$. Primer término: $-1$. Segundo término: $4 \\times 3 = 12$. Final: $-1 + 12 = 11$.",
     "explanative_video": null,
     "collapsible_text": null
   },
   {
     "id": "CEP00CH",
-    "question": "Valor de: $-(3-5)^2 + 3 \\times |-2|$.",
+    "question": "Evalúa: $2 + 3 \\times \\{ 4 + 5 [ 6 - (7 - 1) ] \\}$",
     "image": null,
     "options": [
-      { "text": "2", "correct": true },
-      { "text": "-10", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "-2", "correct": false }
+      { "text": "14", "correct": true },
+      { "text": "22", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "17", "correct": false }
     ],
     "uni_tags": ["GENERAL"],
     "level_tag": ["AVANZADO"],
-    "hint": "Resuelve el paréntesis, eleva, luego aplica signo menos.",
-    "explanation": "$(-2)^2 = 4$. $-4 + 3(2) = -4 + 6 = 2$.",
+    "hint": "El corchete se vuelve cero.",
+    "explanation": "Paréntesis: $6$. Corchete: $6 - 6 = 0$. Llave: $4 + 5(0) = 4$. Final: $2 + 3 \\times 4 = 2 + 12 = 14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CI",
+    "question": "Resuelve: $15 + 5 \\times 3$",
+    "image": null,
+    "options": [
+      { "text": "30", "correct": true },
+      { "text": "60", "correct": false },
+      { "text": "23", "correct": false },
+      { "text": "45", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica antes de sumar.",
+    "explanation": "$5 \\times 3 = 15$. Suma: $15 + 15 = 30$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CJ",
+    "question": "Calcula: $20 - 4 \\div 2$",
+    "image": null,
+    "options": [
+      { "text": "18", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Divide antes de restar.",
+    "explanation": "$4 \\div 2 = 2$. Resta: $20 - 2 = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CK",
+    "question": "Resultado de: $(8 + 2) \\times 5$",
+    "image": null,
+    "options": [
+      { "text": "50", "correct": true },
+      { "text": "18", "correct": false },
+      { "text": "42", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Resuelve el paréntesis primero.",
+    "explanation": "$8 + 2 = 10$. Multiplicación: $10 \\times 5 = 50$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CL",
+    "question": "Evalúa: $6^2 - 10$",
+    "image": null,
+    "options": [
+      { "text": "26", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "36", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula la potencia primero.",
+    "explanation": "$6^2 = 36$. Resta: $36 - 10 = 26$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CM",
+    "question": "Resuelve: $4 \\times 4 + 4$",
+    "image": null,
+    "options": [
+      { "text": "20", "correct": true },
+      { "text": "32", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplica antes de sumar.",
+    "explanation": "$4 \\times 4 = 16$. Suma: $16 + 4 = 20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CN",
+    "question": "Calcula: $50 \\div (2 + 3)$",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "28", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Suma dentro del paréntesis primero.",
+    "explanation": "$2 + 3 = 5$. División: $50 \\div 5 = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CO",
+    "question": "Resultado de: $9 \\div 3 \\times 4$",
+    "image": null,
+    "options": [
+      { "text": "12", "correct": true },
+      { "text": "0.75", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "27", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Misma jerarquía, resuelve de izquierda a derecha.",
+    "explanation": "$9 \\div 3 = 3$. Luego: $3 \\times 4 = 12$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CP",
+    "question": "Evalúa: $2 + 2 \\times 2 - 2$",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Multiplicación primero.",
+    "explanation": "$2 \\times 2 = 4$. Operación: $2 + 4 - 2 = 6 - 2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CQ",
+    "question": "Resuelve: $100 - 10^2$",
+    "image": null,
+    "options": [
+      { "text": "0", "correct": true },
+      { "text": "90", "correct": false },
+      { "text": "80", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Calcula la potencia primero.",
+    "explanation": "$10^2 = 100$. Resta: $100 - 100 = 0$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CR",
+    "question": "Calcula: $(3 + 5) \\div 2$",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "5.5", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["BÁSICO"],
+    "hint": "Paréntesis primero.",
+    "explanation": "$3 + 5 = 8$. División: $8 \\div 2 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CS",
+    "question": "Evalúa: $4 \\times [ 12 - (5 + 3) ]$",
+    "image": null,
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "28", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "32", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Paréntesis interno primero.",
+    "explanation": "$5 + 3 = 8$. Corchete: $12 - 8 = 4$. Final: $4 \\times 4 = 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CT",
+    "question": "Resuelve: $(10 - 2)^2 \\div 16$",
+    "image": null,
+    "options": [
+      { "text": "4", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "64", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Resuelve el paréntesis y eleva al cuadrado.",
+    "explanation": "$10 - 2 = 8$. Potencia: $8^2 = 64$. División: $64 \\div 16 = 4$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CU",
+    "question": "Calcula: $\\sqrt{49} + 3(4 - 2)$",
+    "image": null,
+    "options": [
+      { "text": "13", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Raíz y paréntesis antes de multiplicar.",
+    "explanation": "$\\sqrt{49} = 7$. $4 - 2 = 2$. Operación: $7 + 3(2) = 7 + 6 = 13$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CV",
+    "question": "Resultado de: $15 - (-3) \\times 2 + 5$",
+    "image": null,
+    "options": [
+      { "text": "26", "correct": true },
+      { "text": "14", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Multiplicación de negativos.",
+    "explanation": "$(-3) \\times 2 = -6$. Resta: $15 - (-6) = 15 + 6 = 21$. Final: $21 + 5 = 26$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CW",
+    "question": "Evalúa: $\\frac{45}{9} + 6 \\times 3 - 4$",
+    "image": null,
+    "options": [
+      { "text": "19", "correct": true },
+      { "text": "29", "correct": false },
+      { "text": "11", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "División y multiplicación antes de sumar y restar.",
+    "explanation": "$45 \\div 9 = 5$. $6 \\times 3 = 18$. Operación: $5 + 18 - 4 = 23 - 4 = 19$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CX",
+    "question": "Resuelve: $3^3 \\div 9 + \\sqrt{16}$",
+    "image": null,
+    "options": [
+      { "text": "7", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "13", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Potencia y raíz primero.",
+    "explanation": "$3^3 = 27$. $\\sqrt{16} = 4$. División: $27 \\div 9 = 3$. Final: $3 + 4 = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CY",
+    "question": "Calcula: $2 \\times [ 8 - (12 \\div 4) ]$",
+    "image": null,
+    "options": [
+      { "text": "10", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "División dentro del paréntesis.",
+    "explanation": "$12 \\div 4 = 3$. Corchete: $8 - 3 = 5$. Final: $2 \\times 5 = 10$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00CZ",
+    "question": "Resultado de: $12 + 3 \\times (2^3 - 6)$",
+    "image": null,
+    "options": [
+      { "text": "18", "correct": true },
+      { "text": "30", "correct": false },
+      { "text": "24", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Potencia dentro del paréntesis.",
+    "explanation": "$2^3 = 8$. Paréntesis: $8 - 6 = 2$. Operación: $12 + 3 \\times 2 = 12 + 6 = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DA",
+    "question": "Evalúa: $(20 - 4) \\div 4 + 5^2$",
+    "image": null,
+    "options": [
+      { "text": "29", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "14", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Paréntesis y potencia.",
+    "explanation": "$20 - 4 = 16$. $5^2 = 25$. División: $16 \\div 4 = 4$. Final: $4 + 25 = 29$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DB",
+    "question": "Resuelve: $5 \\times \\sqrt{36} - (15 - 5)$",
+    "image": null,
+    "options": [
+      { "text": "20", "correct": true },
+      { "text": "40", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["INTERMEDIO"],
+    "hint": "Raíz y paréntesis.",
+    "explanation": "$\\sqrt{36} = 6$. $15 - 5 = 10$. Operación: $5 \\times 6 - 10 = 30 - 10 = 20$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DC",
+    "question": "Evalúa: $50 - \\{ 3 \\times [ 10 + (8 - 6) ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "14", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "38", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Paréntesis, corchete, llave.",
+    "explanation": "$8 - 6 = 2$. Corchete: $10 + 2 = 12$. Llave: $3 \\times 12 = 36$. Final: $50 - 36 = 14$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DD",
+    "question": "Calcula: $\\frac{6^2 - 4}{4} + [ 2 \\times (3 + 5) ]$",
+    "image": null,
+    "options": [
+      { "text": "24", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "20", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Fracción y corchete por separado.",
+    "explanation": "Numerador: $36 - 4 = 32$. Fracción: $32 \\div 4 = 8$. Corchete: $2 \\times 8 = 16$. Final: $8 + 16 = 24$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DE",
+    "question": "Resuelve: $-(-2)^3 - \\{ 4 - [ 8 - 3(2) ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "6", "correct": true },
+      { "text": "-6", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "-10", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "$(-2)^3$ es -8. El signo menos afuera lo cambia a positivo.",
+    "explanation": "$-(-8) = 8$. Corchete: $8 - 6 = 2$. Llave: $4 - 2 = 2$. Final: $8 - 2 = 6$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DF",
+    "question": "Evalúa: $3 \\times \\{ 5 + [ \\sqrt{100} \\div (7 - 2) ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "21", "correct": true },
+      { "text": "27", "correct": false },
+      { "text": "15", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Paréntesis denominador primero.",
+    "explanation": "$7 - 2 = 5$. Corchete: $10 \\div 5 = 2$. Llave: $5 + 2 = 7$. Final: $3 \\times 7 = 21$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DG",
+    "question": "Resultado de: $(3 + 3)^2 \\div 4 - \\{ 6 - [ 12 - 2^3 ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "7", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Potencia y paréntesis.",
+    "explanation": "$6^2 = 36$. Primera parte: $36 \\div 4 = 9$. Corchete: $12 - 8 = 4$. Llave: $6 - 4 = 2$. Final: $9 - 2 = 7$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DH",
+    "question": "Calcula: $60 \\div [ 2 + 4(3 - 1) ] \\times 3$",
+    "image": null,
+    "options": [
+      { "text": "18", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "12", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Izquierda a derecha al final.",
+    "explanation": "$3 - 1 = 2$. Corchete: $2 + 4(2) = 2 + 8 = 10$. Operación: $60 \\div 10 \\times 3$. $6 \\times 3 = 18$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DI",
+    "question": "Evalúa: $\\sqrt{8^2 + 6^2} + \\{ 15 - [ 2 \\times (4 + 1) ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "15", "correct": true },
+      { "text": "20", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Radicando: $64 + 36 = 100$.",
+    "explanation": "Raíz: $\\sqrt{100} = 10$. Paréntesis: $5$. Corchete: $2 \\times 5 = 10$. Llave: $15 - 10 = 5$. Final: $10 + 5 = 15$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DJ",
+    "question": "Resuelve: $5 \\times [ (4^2 - 6) \\div 2 ] - 3^2$",
+    "image": null,
+    "options": [
+      { "text": "16", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "14", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Paréntesis interno primero.",
+    "explanation": "$16 - 6 = 10$. Corchete: $10 \\div 2 = 5$. Operación: $5 \\times 5 - 9 = 25 - 9 = 16$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DK",
+    "question": "Calcula: $- [ 15 - (6 - 2)^2 ] + \\sqrt{25} \\times 2$",
+    "image": null,
+    "options": [
+      { "text": "11", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "19", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Signo menos cambia el corchete.",
+    "explanation": "$4^2 = 16$. Corchete: $15 - 16 = -1$. Primer término: $-(-1) = 1$. Segundo término: $5 \\times 2 = 10$. Final: $1 + 10 = 11$.",
+    "explanative_video": null,
+    "collapsible_text": null
+  },
+  {
+    "id": "CEP00DL",
+    "question": "Evalúa: $5 + 2 \\times \\{ 3 + 4 [ 5 - (6 - 2) ] \\}$",
+    "image": null,
+    "options": [
+      { "text": "19", "correct": true },
+      { "text": "35", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "uni_tags": ["GENERAL"],
+    "level_tag": ["AVANZADO"],
+    "hint": "Corchete se vuelve simple.",
+    "explanation": "$6 - 2 = 4$. Corchete: $5 - 4 = 1$. Llave: $3 + 4(1) = 7$. Final: $5 + 2 \\times 7 = 5 + 14 = 19$.",
     "explanative_video": null,
     "collapsible_text": null
   }
+]
 ]
